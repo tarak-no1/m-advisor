@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="http://madvisor.marlabsai.com/static/assets/images/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>mAdvisor - Measure Analysis Bot</title>
+        <script type="text/javascript" async="" src="/m-advisor-measure/client-plugin/bot.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body ng-controller="homeController">
+        <div class="container">
+            <div class="row justify-content-center" style="margin-top: 15%;">
+                <div class="col-8" style="border:1px solid #9b9b9b;padding:10px">
+                    <center><h4><u>Signal Details</u></h4></center>
+                    <form class="form" ng-submit="updateSignalDetails()" style="margin-top:20px">
+                       <div class="form-group row">
+                           <label class="col-sm-4 col-form-label" for="username">Username :</label>
+                           <div class="col-sm-8">
+                               <input type="text" class="form-control" id="username" ng-model='username' placeholder="Enter user token" required>
+                           </div>
+                       </div>
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label" for="password">Password :</label>
+                            <div class="col-sm-8">
+                                <input type="password" class="form-control" id="password" ng-model='password' placeholder="Enter user token" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label" for="signal_name">Signal Name (use signal-slug name): </label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="signal_name" ng-model='signal_name' placeholder="Enter signal name" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <center><button type="submit" class="btn btn-primary">Submit</button></center>
+                        </div>
+                        <div ng-if="update_result.status==true" class="alert alert-success" role="alert">
+                            {{update_result.message}}
+                        </div>
+                        <div ng-if="update_result.status==false" class="alert alert-danger" role="alert">
+                            {{update_result.message}}
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script>
+            var app = angular.module('myApp', []);
+            app.controller('homeController', function($scope, $http) {
+                $scope.signal_details = JSON.parse('<%- signal_details %>');
+                $scope.signal_name = $scope.signal_details['signal_name'];
+                $scope.username = $scope.signal_details['username'];
+                $scope.password = $scope.signal_details['password'];
+
+                $scope.updateSignalDetails = ()=>{
+                    $scope.update_result = {};
+                    let parameters = { "signal_name": $scope.signal_name, "username" : $scope.username, "password" : $scope.password };
+                    console.log(parameters);
+                    $http.post("/m-advisor-measure/dashboard/update-signal-details", JSON.stringify(parameters), { headers: {'Content-Type': 'application/json'} })
+                        .then(function (response) {
+                            $scope.update_result = response.data;
+                        });
+                };
+            });
+        </script>
+    </body>
+</html>

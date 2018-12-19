@@ -1,0 +1,34 @@
+SECTION,SAMPLE QUESTION,Question type,Sample answer,REMARKS
+Overview,Can you tell me how Customer Status is distributed?,TC distribution,Customer status dimention has 2 values active and churn and their distributions are so and so,
+,What are different values under Customer Status?,TC values list,,
+,What is the percentage of Churn?,TCV distribution,,
+,What is the total number of Churn observations?,TCV distribution,,
+,,,,
+Association,What are the attributes that affect Customer Status?,TC influencers list,,
+,How many factors have significant influence on Customer Status?,TC influencers list,,
+,Can you mention the top three factors that affect Customer Status?,TC influencers list,,We'll have to decide whether to accept top n influencers or not
+,Which factor has the highest influence on Customer Status?,TC influencers list,,
+,Can you measure the effect of influence of State on Customer Status?,C effect on TC,,State has 0.12 crammers-v effect on Status
+,What is the effect of Average Spend on Customer Status?,C effect on TC,,
+,How do you measure the effect of any variable on Customer Status?,Definition of effect section,,Technical definition
+,Which are the factors that do have any influence on Customer Status?,TC influencers list,,
+,,,,
+,Where is the most number of churn observations coming from?,CV with most TCV,"Virginia is the state with most number of churn customers 5,142","Followup on State, expects Virginia"
+,Which State has the largest number of total observations?,CV with most TC,,
+,Which State has the highest number of Churn observations?,CV with most % TCV,,
+,Which State has the highest percentage of Churn customers?,CV with most % TC,,
+,Why is Churn very high in Virginia?,Key factors TCV CV,,Followup on Virginia's high %
+,,,,
+Prediction,Can we predict the most likely customers that are going to churn?,TCV predictions list,,
+,Can we predict Customer Status by looking at the attributes?,TC predictions list,,
+,Which is the maximum occuring rule for Churn?,TCV best prediction,,
+,In what cases the customer is most likely to churn?,TCV predictions list,,
+,How likely a customer coming from New York can Churn?,TCV prediction with CV,,
+,"In how many cases a customer coming from New York, Churn?",TCV prediction with CV,,
+,,,,
+Trend,What is the maximum drop in Active customers over the entire period?,,,
+,What is the maximum increase in Churn customers over the entire period?,,,
+,,,,
+,,,,
+,,,,
+Glossary,,,,

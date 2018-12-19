@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4bb4f8bc-959b-43d3-bafe-1f405145bae4" name="m-advisor-measure-test-server" url="http://www.prodx.in">
+        <fileTransfer host="www.prodx.in" port="22" privateKey="D:\All Files\tarakesh.pem" rootFolder="/home/ubuntu/selekt/m-advisor-measure" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

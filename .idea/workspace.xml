@@ -1,0 +1,1587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="037ed7ac-2bf1-48b1-8d57-1aa591d3c075" name="Default" comment="">
+<<<<<<< Updated upstream
+=======
+      <change afterPath="$PROJECT_DIR$/helper/bot_input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/json/sales_analysis.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+>>>>>>> Stashed changes
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bots/bot_supporter.js" beforeDir="false" afterPath="$PROJECT_DIR$/bots/bot_supporter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bots/entity-bot.js" beforeDir="false" afterPath="$PROJECT_DIR$/bots/entity-bot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bots/m-advisor-bot.js" beforeDir="false" afterPath="$PROJECT_DIR$/bots/m-advisor-bot.js" afterDir="false" />
+<<<<<<< Updated upstream
+      <change beforePath="$PROJECT_DIR$/helper/bot_functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/helper/bot_functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/bot_messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/helper/bot_messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/sessions.js" beforeDir="false" afterPath="$PROJECT_DIR$/helper/sessions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/client-plugin/helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/client-plugin/helper.js" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/events/storing.js" beforeDir="false" afterPath="$PROJECT_DIR$/events/storing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/bot_functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/helper/bot_functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/bot_messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/helper/bot_messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/sessions.js" beforeDir="false" afterPath="$PROJECT_DIR$/helper/sessions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/client-plugin/bot.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/client-plugin/bot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/client-plugin/helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/client-plugin/helper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
+>>>>>>> Stashed changes
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="sessions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helper/sessions.js">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+            <state relative-caret-position="136">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="25" />
+=======
+            <state relative-caret-position="294">
+              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+              <folding>
+                <element signature="e#732#880#0" />
+                <element signature="e#933#993#0" />
+                <element signature="e#1026#1050#0" />
+                <element signature="e#1032#1120#0" />
+              </folding>
+>>>>>>> Stashed changes
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+            <state relative-caret-position="252">
+              <caret line="422" column="49" selection-start-line="422" selection-start-column="49" selection-end-line="422" selection-end-column="49" />
+              <folding>
+                <element signature="e#3046#4745#0" />
+                <element signature="e#5148#6649#0" />
+                <element signature="e#6892#9088#0" />
+                <element signature="e#9320#12126#0" />
+                <element signature="e#12316#12657#0" />
+                <element signature="e#12857#13721#0" />
+                <element signature="e#13911#17167#0" />
+                <element signature="e#14100#14832#0" />
+                <element signature="e#14959#16992#0" />
+              </folding>
+=======
+            <state relative-caret-position="68">
+              <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+>>>>>>> Stashed changes
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< Updated upstream
+      <file leaf-file-name="bot_supporter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bots/bot_supporter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="1729" column="17" lean-forward="true" selection-start-line="1729" selection-start-column="17" selection-end-line="1729" selection-end-column="17" />
+              <folding>
+                <element signature="e#685#2445#0" />
+                <element signature="e#2607#101154#0" />
+                <element signature="e#34869#37556#0" />
+=======
+      <file leaf-file-name="helper.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/client-plugin/helper.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+>>>>>>> Stashed changes
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< Updated upstream
+      <file leaf-file-name="bot_functions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helper/bot_functions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="389" column="9" selection-start-line="389" selection-start-column="9" selection-end-line="389" selection-end-column="9" />
+              <folding>
+                <element signature="e#15628#16410#0" />
+=======
+      <file leaf-file-name="entity-bot.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bots/entity-bot.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="232" column="16" selection-start-line="232" selection-start-column="16" selection-end-line="232" selection-end-column="16" />
+              <folding>
+                <element signature="e#9476#11914#0" />
+                <element signature="e#10349#11145#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messages.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/messages.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sales_analysis.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/json/sales_analysis.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="1538" column="19" selection-start-line="1538" selection-start-column="19" selection-end-line="1538" selection-end-column="19" />
+              <folding>
+                <element signature="e#167#6480#0" />
+                <element signature="e#13224#19788#0" />
+                <element signature="e#13392#19603#0" />
+                <element signature="e#19798#25867#0" />
+                <element signature="e#25877#31735#0" />
+                <element signature="e#31745#37137#0" />
+                <element signature="e#37147#42694#0" />
+                <element signature="e#42797#46806#0" />
+                <element signature="e#47016#93554#0" />
+                <element signature="e#47078#62022#0" />
+                <element signature="e#94589#96861#0" />
+>>>>>>> Stashed changes
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bot_supporter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bots/bot_supporter.js">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+            <state relative-caret-position="81">
+              <caret line="360" column="11" lean-forward="true" selection-start-line="360" selection-start-column="11" selection-end-line="360" selection-end-column="11" />
+              <folding>
+                <element signature="e#286#514#0" />
+=======
+            <state relative-caret-position="218">
+              <caret line="2112" column="46" lean-forward="true" selection-start-line="2112" selection-start-column="46" selection-end-line="2112" selection-end-column="46" />
+              <folding>
+                <element signature="e#685#2445#0" />
+                <element signature="e#2980#4052#0" />
+                <element signature="e#4121#5156#0" />
+                <element signature="e#5221#6639#0" />
+                <element signature="e#6701#7810#0" />
+                <element signature="e#7880#8813#0" />
+                <element signature="e#8884#9832#0" />
+                <element signature="e#20474#21519#0" />
+                <element signature="e#21596#22937#0" />
+                <element signature="e#23031#24518#0" />
+                <element signature="e#24597#25704#0" />
+                <element signature="e#26269#27638#0" />
+                <element signature="e#29851#32085#0" />
+                <element signature="e#32583#34817#0" />
+                <element signature="e#33264#34682#0" />
+                <element signature="e#28141#28474#0" />
+                <element signature="e#30868#33100#0" />
+                <element signature="e#38592#40328#0" />
+                <element signature="e#33403#34793#0" />
+                <element signature="e#47596#50210#0" />
+                <element signature="e#50177#50522#0" />
+                <element signature="e#50614#53106#0" />
+                <element signature="e#51200#53090#0" />
+                <element signature="e#41690#42035#0" />
+                <element signature="e#42127#44813#0" />
+                <element signature="e#56455#56817#0" />
+                <element signature="e#57517#59382#0" />
+                <element signature="e#44907#45257#0" />
+                <element signature="e#45354#47993#0" />
+                <element signature="e#48082#48431#0" />
+                <element signature="e#48527#51165#0" />
+                <element signature="e#51253#51602#0" />
+                <element signature="e#51699#54299#0" />
+                <element signature="e#54393#54742#0" />
+                <element signature="e#54839#57438#0" />
+                <element signature="e#57821#59922#0" />
+                <element signature="e#60023#62159#0" />
+                <element signature="e#77451#79316#0" />
+                <element signature="e#76981#77024#0" />
+                <element signature="e#79501#80847#0" />
+                <element signature="e#77127#79228#0" />
+                <element signature="e#79329#81465#0" />
+                <element signature="e#62550#64659#0" />
+                <element signature="e#64762#66906#0" />
+                <element signature="e#87532#89152#0" />
+                <element signature="e#89719#91863#0" />
+                <element signature="e#67002#70441#0" />
+                <element signature="e#70535#74025#0" />
+                <element signature="e#74568#76055#0" />
+                <element signature="e#100881#101125#0" />
+                <element signature="e#76150#78128#0" />
+                <element signature="e#102312#103681#0" />
+                <element signature="e#77155#77399#0" />
+                <element signature="e#78206#81804#0" />
+                <element signature="e#79586#80040#0" />
+                <element signature="e#80104#80549#0" />
+                <element signature="e#80583#81195#0" />
+                <element signature="e#108220#110733#0" />
+                <element signature="e#108754#109180#0" />
+                <element signature="e#109240#109657#0" />
+                <element signature="e#109687#110263#0" />
+                <element signature="e#81893#83299#0" />
+                <element signature="e#83378#83554#0" />
+                <element signature="e#83629#85058#0" />
+                <element signature="e#85144#86533#0" />
+                <element signature="e#86624#88789#0" />
+                <element signature="e#88885#90851#0" />
+                <element signature="e#90940#93080#0" />
+                <element signature="e#93181#94879#0" />
+                <element signature="e#94964#95007#0" />
+                <element signature="e#96154#96287#0" />
+                <element signature="e#96347#97933#0" />
+                <element signature="e#98021#99209#0" />
+                <element signature="e#99268#100352#0" />
+                <element signature="e#100417#101511#0" />
+                <element signature="e#101581#103249#0" />
+                <element signature="e#103316#103359#0" />
+                <element signature="e#103435#103478#0" />
+                <element signature="e#103552#103595#0" />
+                <element signature="e#103671#103714#0" />
+                <element signature="e#103788#103831#0" />
+                <element signature="e#103896#103939#0" />
+                <element signature="e#104011#104054#0" />
+                <element signature="e#104113#104156#0" />
+                <element signature="e#104235#104278#0" />
+                <element signature="e#104351#104394#0" />
+                <element signature="e#104462#104505#0" />
+                <element signature="e#104573#104616#0" />
+                <element signature="e#104684#104727#0" />
+                <element signature="e#104803#104846#0" />
+                <element signature="e#137621#138407#0" />
+                <element signature="e#134120#134163#0" />
+                <element signature="e#134754#135752#0" />
+                <element signature="e#135837#138011#0" />
+                <element signature="e#138096#140269#0" />
+                <element signature="e#140356#141899#0" />
+                <element signature="e#141983#143975#0" />
+>>>>>>> Stashed changes
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bot_input.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/helper/bot_input.js">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+            <state relative-caret-position="134">
+              <caret line="141" column="45" lean-forward="true" selection-start-line="141" selection-start-column="45" selection-end-line="141" selection-end-column="45" />
+=======
+            <state relative-caret-position="191">
+              <caret line="747" column="46" lean-forward="true" selection-start-line="747" selection-start-column="46" selection-end-line="747" selection-end-column="46" />
+>>>>>>> Stashed changes
+              <folding>
+                <element signature="e#286#514#0" />
+                <element signature="e#1037#2204#0" />
+                <element signature="e#2451#2987#0" />
+                <element signature="e#3025#3294#0" />
+                <element signature="e#3473#3995#0" />
+                <element signature="e#4846#5010#0" />
+                <element signature="e#5312#7749#0" />
+                <element signature="e#8664#8747#0" />
+                <element signature="e#9040#10246#0" />
+                <element signature="e#10501#12127#0" />
+                <element signature="e#12189#14255#0" />
+                <element signature="e#15935#17146#0" />
+                <element signature="e#17509#21064#0" />
+                <element signature="e#19999#20542#0" />
+                <element signature="e#20619#21182#0" />
+                <element signature="e#21666#23751#0" />
+                <element signature="e#23906#26435#0" />
+                <element signature="e#26493#29220#0" />
+                <element signature="e#29286#32057#0" />
+                <element signature="e#32136#34268#0" />
+                <element signature="e#34350#36695#0" />
+                <element signature="e#35439#36572#0" />
+                <element signature="e#36744#36768#0" />
+                <element signature="e#38488#40151#0" />
+                <element signature="e#41800#44778#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< Updated upstream
+      <file leaf-file-name="bot_messages.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helper/bot_messages.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="23" />
+              <folding>
+                <element signature="e#594#656#0" />
+              </folding>
+=======
+      <file leaf-file-name="bot_functions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helper/bot_functions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="352" column="27" lean-forward="true" selection-start-line="352" selection-start-column="27" selection-end-line="352" selection-end-column="27" />
+>>>>>>> Stashed changes
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< Updated upstream
+      <file leaf-file-name="helper.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/client-plugin/helper.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="489" column="1" lean-forward="true" selection-start-line="489" selection-start-column="1" selection-end-line="489" selection-end-column="1" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+=======
+      <file leaf-file-name="calls_analysis.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/json/calls_analysis.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="2072" column="26" selection-start-line="2072" selection-start-column="21" selection-end-line="2072" selection-end-column="26" />
+              <folding>
+                <element signature="e#1640#2584#0" />
+                <element signature="e#2612#3290#0" />
+                <element signature="e#6525#14031#0" />
+                <element signature="e#14128#25479#0" />
+                <element signature="e#25491#30874#0" />
+                <element signature="e#25925#30009#0" />
+                <element signature="e#26043#28825#0" />
+                <element signature="e#30969#46801#0" />
+                <element signature="e#46809#57178#0" />
+                <element signature="e#57186#67652#0" />
+                <element signature="e#67679#71596#0" />
+                <element signature="e#67759#71491#0" />
+                <element signature="e#71702#84592#0" />
+                <element signature="e#71758#84485#0" />
+                <element signature="e#84602#101134#0" />
+                <element signature="e#102282#105157#0" />
+                <element signature="e#106434#113584#0" />
+>>>>>>> Stashed changes
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< Updated upstream
+      <file leaf-file-name="m-advisor-bot.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bots/m-advisor-bot.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="57" column="68" selection-start-line="57" selection-start-column="68" selection-end-line="57" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bot.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/client-plugin/bot.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+=======
+>>>>>>> Stashed changes
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+<<<<<<< Updated upstream
+      <find>getOverviewOfTargetColumnInColumnValue</find>
+      <find>getMaximumValueInTargetColumn</find>
+      <find>target_column_va</find>
+      <find>target_column_value</find>
+      <find>getTotalObservationsInTargetColumnValue</find>
+      <find>getPercentageOfObservationsInTargetColumnValue</find>
+      <find>getColumnValuesWithMaximumTargetColumnValuePercentage</find>
+      <find>getOverView</find>
+      <find>getOverView(</find>
+      <find>&quot;must_need&quot;</find>
+      <find>getMeasuresThatEffectTargetColumn</find>
+      <find>top</find>
+      <find>getMostLikelyPredictionsOfTargetColumnValueObservations</find>
+      <find>getMostLikelyPredictionsOfTargetColumn</find>
+      <find>chat_ih</find>
+      <find>remove</find>
+      <find>chat_history</find>
+      <find>Strength of association between STATUS and other dimensions</find>
+      <find>getdist</find>
+      <find>getSignalData</find>
+      <find>INPUT_DATA</find>
+      <find>getTotalObservations</find>
+      <find>error in getting data</find>
+      <find>getOverAllSummary</find>
+      <find>getcolumnswith</find>
+      <find>disable</find>
+      <find>disablechat</find>
+      <find>textmessage</find>
+      <find>socket.on</find>
+      <find>getEntities</find>
+=======
+      <find>getStatisticalRelationshipOfTargetColumnWithOtherColumns</find>
+      <find>getStatisticalRelationshipOfTargetColumnWithOtherC</find>
+      <find>getStrengthBetweenColumnAndTargetColumn</find>
+      <find>getMaximumRelationshipColumnWithTargetColumn</find>
+      <find>getMinimumRelationshipColumnWithTargetColumn</find>
+      <find>Math.round</find>
+      <find>getColumnInfluenceOfTargetColumn</find>
+      <find>getTotalStatisticalRelationshipOfColumnsWithTargetColumn</find>
+      <find>getTotalColumnValues</find>
+      <find>getDataSet</find>
+      <find>getColumnValuesWithMaximumTargetColumnPercentage</find>
+      <find>getTopNColumnValuesWithMaximumObservationsInTargetColumn</find>
+      <find>_analy</find>
+      <find>getTopNColumnValuesWithMaximumObservationsInTargetColumnInMeasureAnalysis</find>
+      <find>getTopNColumnValuesWithMaximumObservationsInTargetColumnValueInMeasureAnalysis</find>
+      <find>getColumnValuesWithPercentageInRange</find>
+      <find>getColumnValuesWithMaximumObservations</find>
+      <find>getMainInsightsFromColumnAndTargetColumnAnalysis</find>
+      <find>getcolumnvaluesofl</find>
+      <find>getFastGrowingColumnValues</find>
+      <find>getLeadersClubColumnValues</find>
+      <find>getimpact</find>
+      <find>getAnalysisOfColumnsVsTargetColumn</find>
+      <find>Are there any measure that affect sales?</find>
+      <find>statistical</find>
+      <find>getMeasuresThatEffectTargetColumn</find>
+      <find>decision mat</find>
+      <find>getColumnEffectOnTargetColumnInMeasureAnalysis</find>
+      <find>getKeyInfluencersInMeasureAnalysis</find>
+      <find>getColumnEffectOnTargetColumn</find>
+>>>>>>> Stashed changes
+    </findStrings>
+    <replaceStrings>
+      <replace>const</replace>
+      <replace>column</replace>
+      <replace>../public/javascripts</replace>
+      <replace>079088</replace>
+      <replace>actionOfTargetColumnValue</replace>
+      <replace>actionOfTargetColumn</replace>
+      <replace>chat_content1</replace>
+      <replace>relationshipOfColumnWithTargetColumn</replace>
+      <replace>target_column_value1</replace>
+      <replace>chat_history2</replace>
+<<<<<<< Updated upstream
+      <replace>error in getting data from marlabs</replace>
+      <replace>error in getting data from mAdvisor</replace>
+=======
+      <replace>analyzed_data</replace>
+>>>>>>> Stashed changes
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="version1" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/public/dataset.json" />
+        <option value="$PROJECT_DIR$/wit-ai/conf.json.js" />
+        <option value="$PROJECT_DIR$/wit-ai/conf.json" />
+        <option value="$PROJECT_DIR$/routes/socketApi.js" />
+        <option value="$PROJECT_DIR$/node_modules/socket.io-client/lib/url.js" />
+        <option value="$PROJECT_DIR$/routes/users.js" />
+        <option value="$PROJECT_DIR$/helper/sockets-io.js" />
+        <option value="$PROJECT_DIR$/bots/bot_functions.js" />
+        <option value="$PROJECT_DIR$/public/documentation/wit-docs.txt" />
+        <option value="$PROJECT_DIR$/public/json/dataset.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/bin/www" />
+        <option value="$PROJECT_DIR$/client-plugin/bot-plugin.js" />
+        <option value="$PROJECT_DIR$/client-side/bot-plugin.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/bot-plugin.js" />
+        <option value="$PROJECT_DIR$/views/chat.html" />
+        <option value="$PROJECT_DIR$/public/javascripts/index_test.js" />
+        <option value="$PROJECT_DIR$/public/client-plugin/index_test.js" />
+        <option value="$PROJECT_DIR$/public/client-plugin/bot-plugin.js" />
+        <option value="$PROJECT_DIR$/public/client-plugin/chat.html" />
+        <option value="$PROJECT_DIR$/public/stylesheets/fab.css" />
+        <option value="$PROJECT_DIR$/client-side/test.js" />
+        <option value="$PROJECT_DIR$/public/documentation/template-slugs.txt" />
+        <option value="$PROJECT_DIR$/events/home.js" />
+        <option value="$PROJECT_DIR$/config/mysql-queries.js" />
+        <option value="$PROJECT_DIR$/events/logger.js" />
+        <option value="$PROJECT_DIR$/events/update_events_offline.js" />
+        <option value="$PROJECT_DIR$/events/helper.js" />
+        <option value="$PROJECT_DIR$/public/documentation/bot-functions.txt" />
+        <option value="$PROJECT_DIR$/views/home.html" />
+        <option value="$PROJECT_DIR$/helper/wit-ai.js" />
+        <option value="$PROJECT_DIR$/public/json/credit_churn_analysis.json" />
+<<<<<<< Updated upstream
+        <option value="$PROJECT_DIR$/views/index.html" />
+        <option value="$PROJECT_DIR$/helper/bot_input.js" />
+        <option value="$PROJECT_DIR$/helper/sessions.js" />
+        <option value="$PROJECT_DIR$/public/client-plugin/helper.js" />
+        <option value="$PROJECT_DIR$/helper/bot_messages.js" />
+        <option value="$PROJECT_DIR$/helper/bot_functions.js" />
+        <option value="$PROJECT_DIR$/bots/entity-bot.js" />
+        <option value="$PROJECT_DIR$/bots/bot_supporter.js" />
+        <option value="$PROJECT_DIR$/bots/m-advisor-bot.js" />
+=======
+        <option value="$PROJECT_DIR$/helper/bot_messages.js" />
+        <option value="$PROJECT_DIR$/views/index.html" />
+        <option value="$PROJECT_DIR$/public/client-plugin/bot.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/bin/www.js" />
+        <option value="$PROJECT_DIR$/events/storing.js" />
+        <option value="$PROJECT_DIR$/routes/messages.js" />
+        <option value="$PROJECT_DIR$/bots/m-advisor-bot.js" />
+        <option value="$PROJECT_DIR$/bots/entity-bot.js" />
+        <option value="$PROJECT_DIR$/public/json/calls_analysis.json" />
+        <option value="$PROJECT_DIR$/helper/bot_functions.js" />
+        <option value="$PROJECT_DIR$/public/json/sales_analysis.json" />
+        <option value="$PROJECT_DIR$/bots/bot_supporter.js" />
+        <option value="$PROJECT_DIR$/helper/sessions.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/public/client-plugin/helper.js" />
+        <option value="$PROJECT_DIR$/helper/bot_input.js" />
+>>>>>>> Stashed changes
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="506" />
+    <option name="y" value="207" />
+    <option name="width" value="862" />
+    <option name="height" value="590" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="m-advisor-measure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="m-advisor-measure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="m-advisor-measure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="m-advisor-measure" type="462c0819:PsiDirectoryNode" />
+              <item name="bots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="m-advisor-measure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="m-advisor-measure" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="m-advisor-measure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="m-advisor-measure" type="462c0819:PsiDirectoryNode" />
+              <item name="helper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="m-advisor-measure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="m-advisor-measure" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="m-advisor-measure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="m-advisor-measure" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="client-plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="m-advisor-measure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="m-advisor-measure" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="client-plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="m-advisor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="m-advisor" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="m-advisor-measure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="m-advisor-measure" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="m-advisor-measure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="m-advisor-measure" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="m-advisor-measure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="m-advisor-measure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="WebStorm Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="9.1.0" />
+<<<<<<< Updated upstream
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../m-advisor-measure" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> Stashed changes
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\nodejs-apps\m-advisor\views" />
+      <recent name="D:\nodejs-apps\m-advisor\public\json" />
+      <recent name="D:\nodejs-apps\m-advisor\public\client-plugin" />
+      <recent name="D:\nodejs-apps\m-advisor\public\javascripts" />
+      <recent name="D:\nodejs-apps\m-advisor\public\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\nodejs-apps\m-advisor\events" />
+      <recent name="D:\nodejs-apps\m-advisor\public\json" />
+      <recent name="D:\nodejs-apps\m-advisor\public\client-plugin" />
+      <recent name="D:\nodejs-apps\m-advisor\public\javascripts" />
+      <recent name="D:\nodejs-apps\m-advisor\bin" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.update_events_offline.js">
+    <configuration name="update_events_offline.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="update_events_offline.js" working-dir="$PROJECT_DIR$/events" />
+    <list>
+      <item itemvalue="Node.js.bin\www" />
+      <item itemvalue="Node.js.update_events_offline.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.update_events_offline.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="037ed7ac-2bf1-48b1-8d57-1aa591d3c075" name="Default" comment="" />
+      <created>1525781566559</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525781566559</updated>
+      <workItem from="1525781568451" duration="362000" />
+      <workItem from="1525781935050" duration="5000" />
+      <workItem from="1525782004725" duration="37076000" />
+      <workItem from="1525931832120" duration="10302000" />
+      <workItem from="1525948149146" duration="39123000" />
+      <workItem from="1526122973662" duration="23515000" />
+      <workItem from="1526371053145" duration="1037000" />
+      <workItem from="1526461160172" duration="1499000" />
+      <workItem from="1526540255211" duration="11579000" />
+      <workItem from="1526622351981" duration="597000" />
+      <workItem from="1526735056869" duration="23000" />
+      <workItem from="1526979350446" duration="6882000" />
+      <workItem from="1527055254154" duration="672000" />
+      <workItem from="1527830821102" duration="62575000" />
+<<<<<<< Updated upstream
+      <workItem from="1528089333729" duration="22494000" />
+      <workItem from="1528116953481" duration="3391000" />
+      <workItem from="1528122202061" duration="4694000" />
+    </task>
+    <task id="LOCAL-00001" summary="implementaion done upto measurement analysis question identification">
+      <created>1528115117159</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528115117159</updated>
+    </task>
+=======
+      <workItem from="1528089333729" duration="22376000" />
+      <workItem from="1528116747190" duration="1396000" />
+      <workItem from="1528120286804" duration="2511000" />
+      <workItem from="1528176046060" duration="8258000" />
+      <workItem from="1528185838180" duration="8013000" />
+      <workItem from="1528198840028" duration="126000" />
+      <workItem from="1528208019984" duration="1587000" />
+      <workItem from="1528264378995" duration="23990000" />
+    </task>
+    <task id="LOCAL-00001" summary="implementaion done upto measurement analysis question identification">
+      <created>1528115117159</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528115117159</updated>
+    </task>
+>>>>>>> Stashed changes
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
+    <option name="totallyTimeSpent" value="225826000" />
+=======
+    <option name="totallyTimeSpent" value="263504000" />
+>>>>>>> Stashed changes
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50226927" side_tool="true" weight="0.2542373" />
+<<<<<<< Updated upstream
+      <window_info anchor="bottom" id="File Transfer" order="11" sideWeight="0.4977307" visible="true" weight="0.2542373" />
+=======
+      <window_info anchor="bottom" id="File Transfer" order="11" sideWeight="0.4977307" visible="true" weight="0.18644068" />
+>>>>>>> Stashed changes
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20169492" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49924356" weight="0.32881355" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4977307" weight="0.32881355" />
+<<<<<<< Updated upstream
+      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.14447807" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17170954" />
+=======
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.23815462" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.113464445" />
+>>>>>>> Stashed changes
+      <window_info anchor="bottom" id="Docker" order="7" weight="0.32881355" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+<<<<<<< Updated upstream
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+=======
+>>>>>>> Stashed changes
+      <window_info active="true" anchor="bottom" id="Messages" order="7" sideWeight="0.49924356" visible="true" weight="0.32881355" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.07966102" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new questions are added in dimension analysis, template classification completed." />
+    <MESSAGE value="implementaion done upto measurement analysis question identification" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementaion done upto measurement analysis question identification" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/bots/entity-bot.js</url>
+          <line>69</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/bots/entity-bot.js</url>
+          <line>27</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/config/mysql-queries.js</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/helper/bot_input.js</url>
+<<<<<<< Updated upstream
+          <line>311</line>
+          <option name="timeStamp" value="3" />
+=======
+          <line>119</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/helper/bot_functions.js</url>
+          <line>81</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/bots/bot_supporter.js</url>
+          <line>2080</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/bots/bot_supporter.js</url>
+          <line>1821</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="7" />
+>>>>>>> Stashed changes
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/bots/entity-bot.js</url>
+          <line>85</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+<<<<<<< Updated upstream
+      <option name="time" value="5" />
+=======
+      <option name="time" value="8" />
+>>>>>>> Stashed changes
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/helper/bot_input.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+        <state relative-caret-position="629">
+          <caret line="37" column="53" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
+=======
+        <state relative-caret-position="7871">
+          <caret line="656" column="60" selection-start-line="656" selection-start-column="60" selection-end-line="656" selection-end-column="60" />
+          <folding>
+            <element signature="e#286#514#0" />
+            <element signature="e#1037#2204#0" />
+            <element signature="e#2451#2987#0" />
+            <element signature="e#3025#3294#0" />
+            <element signature="e#3473#3995#0" />
+            <element signature="e#4846#5010#0" />
+            <element signature="e#5312#7749#0" />
+            <element signature="e#8664#8747#0" />
+            <element signature="e#9040#10246#0" />
+            <element signature="e#10501#12127#0" />
+            <element signature="e#12189#14255#0" />
+            <element signature="e#15935#17146#0" />
+            <element signature="e#17509#21064#0" />
+            <element signature="e#19999#20542#0" />
+            <element signature="e#20619#21182#0" />
+            <element signature="e#21666#23751#0" />
+            <element signature="e#23906#26435#0" />
+            <element signature="e#26493#29220#0" />
+            <element signature="e#29286#32057#0" />
+            <element signature="e#32136#34268#0" />
+            <element signature="e#34350#36695#0" />
+            <element signature="e#35439#36572#0" />
+            <element signature="e#36744#36768#0" />
+            <element signature="e#38488#40151#0" />
+            <element signature="e#41800#44778#0" />
+          </folding>
+>>>>>>> Stashed changes
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wit-ai/conf.json" />
+    <entry file="file://$PROJECT_DIR$/routes/socketApi.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/socket.io-client/lib/url.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/socket.io-client/lib/index.js" />
+    <entry file="file://$PROJECT_DIR$/public/json/dataset.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="14" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www" />
+    <entry file="file://$PROJECT_DIR$/views/chat_test.html" />
+    <entry file="file://$PROJECT_DIR$/public/client-plugin/index_test.js" />
+    <entry file="file://$PROJECT_DIR$/public/javascripts/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="1" column="13058" selection-start-line="1" selection-start-column="13058" selection-end-line="1" selection-end-column="13058" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/jquery.min.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="1" column="1039" selection-start-line="1" selection-start-column="1039" selection-end-line="1" selection-end-column="1039" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/fab.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3128">
+          <caret line="184" selection-start-line="184" selection-end-line="184" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client-plugin/bot-plugin.js" />
+    <entry file="file://$PROJECT_DIR$/client-side/test.js" />
+    <entry file="file://$PROJECT_DIR$/events/home.js" />
+    <entry file="file://$PROJECT_DIR$/events/logger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/http-errors/index.js" />
+    <entry file="file://$PROJECT_DIR$/helper/sockets-io.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json" />
+    <entry file="file://$PROJECT_DIR$/public/documentation/bot-functions.txt" />
+    <entry file="file://$PROJECT_DIR$/public/documentation/template-slugs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/mysql-queries.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+          <folding>
+            <element signature="e#226#947#0" />
+            <element signature="e#973#1283#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events/helper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="74" column="6" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events/update_events_offline.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/documentation/wit-docs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home.html" />
+    <entry file="file://$PROJECT_DIR$/helper/wit-ai.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="55" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helper/bot_messages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/json/credit_churn_analysis.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="4482" column="29" selection-start-line="4482" selection-start-column="29" selection-end-line="4482" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client-plugin/bot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="52" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client-plugin/chat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="11054" column="59" selection-start-line="11054" selection-start-column="59" selection-end-line="11054" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+<<<<<<< Updated upstream
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.html">
+>>>>>>> Stashed changes
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< Updated upstream
+    <entry file="file://$PROJECT_DIR$/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/json/calls_analysis.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="137" column="44" selection-start-line="137" selection-start-column="19" selection-end-line="137" selection-end-column="44" />
+          <folding>
+            <element signature="e#167#6323#0" />
+            <element signature="e#6525#14031#0" />
+            <element signature="e#14056#67658#0" />
+            <element signature="e#14116#30884#0" />
+            <element signature="e#14128#25479#0" />
+            <element signature="e#67679#71596#0" />
+            <element signature="e#67759#71491#0" />
+            <element signature="e#71702#84592#0" />
+            <element signature="e#71758#84485#0" />
+            <element signature="e#84602#101134#0" />
+            <element signature="e#101267#106090#0" />
+            <element signature="e#106434#113584#0" />
+=======
+    <entry file="file://$PROJECT_DIR$/events/storing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/messages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bots/m-advisor-bot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bots/entity-bot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="232" column="16" selection-start-line="232" selection-start-column="16" selection-end-line="232" selection-end-column="16" />
+          <folding>
+            <element signature="e#9476#11914#0" />
+            <element signature="e#10349#11145#0" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helper/bot_functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+        <state relative-caret-position="119">
+          <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+=======
+        <state relative-caret-position="-7">
+          <caret line="352" column="27" lean-forward="true" selection-start-line="352" selection-start-column="27" selection-end-line="352" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/json/calls_analysis.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="2072" column="26" selection-start-line="2072" selection-start-column="21" selection-end-line="2072" selection-end-column="26" />
+          <folding>
+            <element signature="e#1640#2584#0" />
+            <element signature="e#2612#3290#0" />
+            <element signature="e#6525#14031#0" />
+            <element signature="e#14128#25479#0" />
+            <element signature="e#25491#30874#0" />
+            <element signature="e#25925#30009#0" />
+            <element signature="e#26043#28825#0" />
+            <element signature="e#30969#46801#0" />
+            <element signature="e#46809#57178#0" />
+            <element signature="e#57186#67652#0" />
+            <element signature="e#67679#71596#0" />
+            <element signature="e#67759#71491#0" />
+            <element signature="e#71702#84592#0" />
+            <element signature="e#71758#84485#0" />
+            <element signature="e#84602#101134#0" />
+            <element signature="e#102282#105157#0" />
+            <element signature="e#106434#113584#0" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< Updated upstream
+    <entry file="file://$PROJECT_DIR$/public/json/credit_churn_analysis.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="141" column="45" lean-forward="true" selection-start-line="141" selection-start-column="45" selection-end-line="141" selection-end-column="45" />
+          <folding>
+            <element signature="e#2559#4149#0" />
+            <element signature="e#4199#5181#0" />
+            <element signature="e#7765#310393#0" />
+            <element signature="e#311548#322717#0" />
+            <element signature="e#323096#344547#0" />
+          </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+>>>>>>> Stashed changes
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client-plugin/helper.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+        <state relative-caret-position="170">
+          <caret line="489" column="1" lean-forward="true" selection-start-line="489" selection-start-column="1" selection-end-line="489" selection-end-column="1" />
+=======
+        <state relative-caret-position="303">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+>>>>>>> Stashed changes
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< Updated upstream
+    <entry file="file://$PROJECT_DIR$/helper/bot_functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="389" column="9" selection-start-line="389" selection-start-column="9" selection-end-line="389" selection-end-column="9" />
+          <folding>
+            <element signature="e#15628#16410#0" />
+=======
+    <entry file="file://$PROJECT_DIR$/helper/sessions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding>
+            <element signature="e#732#880#0" />
+            <element signature="e#933#993#0" />
+            <element signature="e#1026#1050#0" />
+            <element signature="e#1032#1120#0" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/json/sales_analysis.json">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+        <state relative-caret-position="136">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helper/bot_messages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#594#656#0" />
+=======
+        <state relative-caret-position="114">
+          <caret line="1538" column="19" selection-start-line="1538" selection-start-column="19" selection-end-line="1538" selection-end-column="19" />
+          <folding>
+            <element signature="e#167#6480#0" />
+            <element signature="e#13224#19788#0" />
+            <element signature="e#13392#19603#0" />
+            <element signature="e#19798#25867#0" />
+            <element signature="e#25877#31735#0" />
+            <element signature="e#31745#37137#0" />
+            <element signature="e#37147#42694#0" />
+            <element signature="e#42797#46806#0" />
+            <element signature="e#47016#93554#0" />
+            <element signature="e#47078#62022#0" />
+            <element signature="e#94589#96861#0" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< Updated upstream
+    <entry file="file://$PROJECT_DIR$/bots/entity-bot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="422" column="49" selection-start-line="422" selection-start-column="49" selection-end-line="422" selection-end-column="49" />
+          <folding>
+            <element signature="e#3046#4745#0" />
+            <element signature="e#5148#6649#0" />
+            <element signature="e#6892#9088#0" />
+            <element signature="e#9320#12126#0" />
+            <element signature="e#12316#12657#0" />
+            <element signature="e#12857#13721#0" />
+            <element signature="e#13911#17167#0" />
+            <element signature="e#14100#14832#0" />
+            <element signature="e#14959#16992#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bots/bot_supporter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="1729" column="17" lean-forward="true" selection-start-line="1729" selection-start-column="17" selection-end-line="1729" selection-end-column="17" />
+          <folding>
+            <element signature="e#685#2445#0" />
+            <element signature="e#2607#101154#0" />
+            <element signature="e#34869#37556#0" />
+=======
+    <entry file="file://$PROJECT_DIR$/bots/bot_supporter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="2112" column="46" lean-forward="true" selection-start-line="2112" selection-start-column="46" selection-end-line="2112" selection-end-column="46" />
+          <folding>
+            <element signature="e#685#2445#0" />
+            <element signature="e#2980#4052#0" />
+            <element signature="e#4121#5156#0" />
+            <element signature="e#5221#6639#0" />
+            <element signature="e#6701#7810#0" />
+            <element signature="e#7880#8813#0" />
+            <element signature="e#8884#9832#0" />
+            <element signature="e#20474#21519#0" />
+            <element signature="e#21596#22937#0" />
+            <element signature="e#23031#24518#0" />
+            <element signature="e#24597#25704#0" />
+            <element signature="e#26269#27638#0" />
+            <element signature="e#29851#32085#0" />
+            <element signature="e#32583#34817#0" />
+            <element signature="e#33264#34682#0" />
+            <element signature="e#28141#28474#0" />
+            <element signature="e#30868#33100#0" />
+            <element signature="e#38592#40328#0" />
+            <element signature="e#33403#34793#0" />
+            <element signature="e#47596#50210#0" />
+            <element signature="e#50177#50522#0" />
+            <element signature="e#50614#53106#0" />
+            <element signature="e#51200#53090#0" />
+            <element signature="e#41690#42035#0" />
+            <element signature="e#42127#44813#0" />
+            <element signature="e#56455#56817#0" />
+            <element signature="e#57517#59382#0" />
+            <element signature="e#44907#45257#0" />
+            <element signature="e#45354#47993#0" />
+            <element signature="e#48082#48431#0" />
+            <element signature="e#48527#51165#0" />
+            <element signature="e#51253#51602#0" />
+            <element signature="e#51699#54299#0" />
+            <element signature="e#54393#54742#0" />
+            <element signature="e#54839#57438#0" />
+            <element signature="e#57821#59922#0" />
+            <element signature="e#60023#62159#0" />
+            <element signature="e#77451#79316#0" />
+            <element signature="e#76981#77024#0" />
+            <element signature="e#79501#80847#0" />
+            <element signature="e#77127#79228#0" />
+            <element signature="e#79329#81465#0" />
+            <element signature="e#62550#64659#0" />
+            <element signature="e#64762#66906#0" />
+            <element signature="e#87532#89152#0" />
+            <element signature="e#89719#91863#0" />
+            <element signature="e#67002#70441#0" />
+            <element signature="e#70535#74025#0" />
+            <element signature="e#74568#76055#0" />
+            <element signature="e#100881#101125#0" />
+            <element signature="e#76150#78128#0" />
+            <element signature="e#102312#103681#0" />
+            <element signature="e#77155#77399#0" />
+            <element signature="e#78206#81804#0" />
+            <element signature="e#79586#80040#0" />
+            <element signature="e#80104#80549#0" />
+            <element signature="e#80583#81195#0" />
+            <element signature="e#108220#110733#0" />
+            <element signature="e#108754#109180#0" />
+            <element signature="e#109240#109657#0" />
+            <element signature="e#109687#110263#0" />
+            <element signature="e#81893#83299#0" />
+            <element signature="e#83378#83554#0" />
+            <element signature="e#83629#85058#0" />
+            <element signature="e#85144#86533#0" />
+            <element signature="e#86624#88789#0" />
+            <element signature="e#88885#90851#0" />
+            <element signature="e#90940#93080#0" />
+            <element signature="e#93181#94879#0" />
+            <element signature="e#94964#95007#0" />
+            <element signature="e#96154#96287#0" />
+            <element signature="e#96347#97933#0" />
+            <element signature="e#98021#99209#0" />
+            <element signature="e#99268#100352#0" />
+            <element signature="e#100417#101511#0" />
+            <element signature="e#101581#103249#0" />
+            <element signature="e#103316#103359#0" />
+            <element signature="e#103435#103478#0" />
+            <element signature="e#103552#103595#0" />
+            <element signature="e#103671#103714#0" />
+            <element signature="e#103788#103831#0" />
+            <element signature="e#103896#103939#0" />
+            <element signature="e#104011#104054#0" />
+            <element signature="e#104113#104156#0" />
+            <element signature="e#104235#104278#0" />
+            <element signature="e#104351#104394#0" />
+            <element signature="e#104462#104505#0" />
+            <element signature="e#104573#104616#0" />
+            <element signature="e#104684#104727#0" />
+            <element signature="e#104803#104846#0" />
+            <element signature="e#137621#138407#0" />
+            <element signature="e#134120#134163#0" />
+            <element signature="e#134754#135752#0" />
+            <element signature="e#135837#138011#0" />
+            <element signature="e#138096#140269#0" />
+            <element signature="e#140356#141899#0" />
+            <element signature="e#141983#143975#0" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helper/bot_input.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+        <state relative-caret-position="81">
+          <caret line="360" column="11" lean-forward="true" selection-start-line="360" selection-start-column="11" selection-end-line="360" selection-end-column="11" />
+          <folding>
+            <element signature="e#286#514#0" />
+=======
+        <state relative-caret-position="191">
+          <caret line="747" column="46" lean-forward="true" selection-start-line="747" selection-start-column="46" selection-end-line="747" selection-end-column="46" />
+          <folding>
+            <element signature="e#286#514#0" />
+            <element signature="e#1037#2204#0" />
+            <element signature="e#2451#2987#0" />
+            <element signature="e#3025#3294#0" />
+            <element signature="e#3473#3995#0" />
+            <element signature="e#4846#5010#0" />
+            <element signature="e#5312#7749#0" />
+            <element signature="e#8664#8747#0" />
+            <element signature="e#9040#10246#0" />
+            <element signature="e#10501#12127#0" />
+            <element signature="e#12189#14255#0" />
+            <element signature="e#15935#17146#0" />
+            <element signature="e#17509#21064#0" />
+            <element signature="e#19999#20542#0" />
+            <element signature="e#20619#21182#0" />
+            <element signature="e#21666#23751#0" />
+            <element signature="e#23906#26435#0" />
+            <element signature="e#26493#29220#0" />
+            <element signature="e#29286#32057#0" />
+            <element signature="e#32136#34268#0" />
+            <element signature="e#34350#36695#0" />
+            <element signature="e#35439#36572#0" />
+            <element signature="e#36744#36768#0" />
+            <element signature="e#38488#40151#0" />
+            <element signature="e#41800#44778#0" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bots/m-advisor-bot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="57" column="68" selection-start-line="57" selection-start-column="68" selection-end-line="57" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,6 @@
+analysis :
+    relationship, distribution
+relationship
+    key segments
+distribution
+    key factors

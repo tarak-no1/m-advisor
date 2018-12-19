@@ -1,0 +1,13 @@
+1. how many variables in the dataset
+- what are they?
+    * need to consider | what are the variable in dataset |
+
+2. Which is the largest value in status?
+- minimum value?
+    * need to consider | which is the mininum value in status |
+
+3. Which variable has the strongest relationship with customer status ?
+- how many observations it have?
+    * need to consider | how many observations has the *output* |
+
+4.

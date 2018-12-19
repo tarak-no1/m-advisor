@@ -1,0 +1,2242 @@
+{
+  "listOfNodes": [
+    {
+      "listOfNodes": [],
+      "listOfCards": [
+        {
+          "cardWidth": 100,
+          "cardType": "normal",
+          "cardData": [
+            {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<p class = \"txt-justify\"> The value for call volume range from a <b>minimum</b> of 4 all the way upto a <b>maximum</b> of 78. The <b>sum of call volume</b> amounts to 80,850 with the <b>average</b> call volume per observation being 38. The dataset contains 2085 <b>observations</b> and there are no outliers. </p>"
+            },
+            {
+              "dataType": "c3Chart",
+              "widthPercent": 100,
+              "data": {
+                "chart_c3": {
+                  "bar": {
+                    "width": {
+                      "ratio": 0.5
+                    }
+                  },
+                  "point": null,
+                  "color": {
+                    "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+                  },
+                  "tooltip": {
+                    "show": true,
+                    "format": {
+                      "title": ".2s"
+                    }
+                  },
+                  "padding": {
+                    "top": 40
+                  },
+                  "grid": {
+                    "y": {
+                      "show": true
+                    },
+                    "x": {
+                      "show": false
+                    }
+                  },
+                  "subchart": {
+                    "show": true
+                  },
+                  "axis": {
+                    "y": {
+                      "tick": {
+                        "outer": false,
+                        "multiline": true,
+                        "format": ".2s"
+                      },
+                      "label": {
+                        "text": "No. of Observations",
+                        "position": "outer-middle"
+                      }
+                    },
+                    "x": {
+                      "height": 95,
+                      "tick": {
+                        "rotate": -45,
+                        "multiline": false,
+                        "fit": false,
+                        "format": ".2s"
+                      },
+                      "type": "category",
+                      "extent": [0, 10],
+                      "label": {
+                        "text": "",
+                        "position": "outer-center"
+                      }
+                    }
+                  },
+                  "data": {
+                    "x": "bin_name",
+                    "axes": {
+                      "Count": "y"
+                    },
+                    "type": "bar",
+                    "columns": [
+                      ["Count", 4, 61, 207, 122, 206, 161, 65, 71, 18, 55, 17, 78, 35, 36, 84, 139, 78, 164, 70, 73, 82, 41, 61, 50, 107],
+                      ["bin_name", "< 6.96", "< 9.92", "< 12.88", "< 15.84", "< 18.8", "< 21.76", "< 24.72", "< 27.68", "< 30.64", "< 33.6", "< 36.56", "< 39.52", "< 42.48", "< 45.44", "< 48.4", "< 51.36", "< 54.32", "< 57.28", "< 60.24", "< 63.2", "< 66.16", "< 69.12", "< 72.08", "< 75.04", "< 78.0"]
+                    ]
+                  },
+                  "legend": {
+                    "show": false
+                  },
+                  "size": {
+                    "height": 495
+                  }
+                },
+                "yformat": ".2s",
+                "table_c3": [
+                  ["bin_name", "< 6.96", "< 9.92", "< 12.88", "< 15.84", "< 18.8", "< 21.76", "< 24.72", "< 27.68", "< 30.64", "< 33.6", "< 36.56", "< 39.52", "< 42.48", "< 45.44", "< 48.4", "< 51.36", "< 54.32", "< 57.28", "< 60.24", "< 63.2", "< 66.16", "< 69.12", "< 72.08", "< 75.04", "< 78.0"],
+                  ["Count", 4, 61, 207, 122, 206, 161, 65, 71, 18, 55, 17, 78, 35, 36, 84, 139, 78, 164, 70, 73, 82, 41, 61, 50, 107]
+                ],
+                "download_url": "/api/download_data/ou8089irhdhvwzob",
+                "xdata": ["< 6.96", "< 9.92", "< 12.88", "< 15.84", "< 18.8", "< 21.76", "< 24.72", "< 27.68", "< 30.64", "< 33.6", "< 36.56", "< 39.52", "< 42.48", "< 45.44", "< 48.4", "< 51.36", "< 54.32", "< 57.28", "< 60.24", "< 63.2", "< 66.16", "< 69.12", "< 72.08", "< 75.04", "< 78.0"]
+              },
+              "chartInfo": []
+            },
+            {
+              "dataType": "table",
+              "tableWidth": 100,
+              "data": {
+                "tableType": "normal",
+                "tableData": [
+                  ["Minimum", "Quartile 1", "Median", "Quartile 3", "Maximum"],
+                  ["4", "19", "26", "52", "78"]
+                ]
+              }
+            },
+            {
+              "dataType": "html",
+              "classTag": null,
+              "data": " <p class = \"txt-justify\">The histogram shows distribution of call volume divided into 25 categories.</p> <p class = \"txt-justify\">The plot indicates that the call volume observations are spread across <b>many categories</b>, as more than <b>three quarters</b> (77.0%) of call volume values are between <b>9 and 60</b>. The distribution is <b>positively skewed</b>, which implies that there is a significant chunk of <b>low-value</b> call volume observations. </p> "
+            },
+            {
+              "dataType": "html",
+              "classTag": null,
+              "data": " <h2>Concentration of High & Low segments</h2> "
+            },
+            {
+              "dataType": "html",
+              "classTag": null,
+              "data": " <p class = \"txt-justify\"> The top 34% of the observations (High segment) account for about 57% of the total call volume (80,850), i.e. 46,548. </p> "
+            },
+            {
+              "dataType": "html",
+              "classTag": "highlight",
+              "data": " <ul> <li>The overall call volume from the bottom quartile (28% of observations low call volume) amounts to 7,904, which is just 9% of the total. </li> <li> The average call volume per observations for the top performing segment is 64, which is 1.65 times that of the overall average call volume per observation (38) and 3.9 times that of the mean value from Low segment. </li> </ul> "
+            }
+          ],
+          "name": "Distribution of Call Volume",
+          "slug": "distribution-of-call-volume-3c1p4xtgya"
+        }
+      ],
+      "name": "Overview",
+      "slug": "overview-j18mjd4r4b"
+    },
+    {
+    "listOfNodes": [],
+    "listOfCards": [
+      {
+      "cardWidth": 100,
+      "cardType": "normal",
+      "cardData": [
+        {
+          "dataType": "html",
+          "classTag": null,
+          "data": "<h3>How Call Volume is Changing over Time</h3> "
+        },
+        {
+          "dataType": "c3Chart",
+          "widthPercent": 100,
+          "data": {
+            "chart_c3": {
+              "bar": {
+                "width": {
+                  "ratio": 0.5
+                }
+              },
+              "point": {
+                "r": 8
+              },
+              "color": {
+                "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+              },
+              "tooltip": {
+                "show": true
+              },
+              "padding": {
+                "top": 40
+              },
+              "grid": {
+                "y": {
+                  "show": true
+                },
+                "x": {
+                  "show": true
+                }
+              },
+              "subchart": null,
+              "axis": {
+                "y": {
+                  "tick": {
+                    "outer": false,
+                    "multiline": true,
+                    "format": ".2s"
+                  },
+                  "label": {
+                    "text": "No. of Observations",
+                    "position": "outer-middle"
+                  }
+                },
+                "x": {
+                  "height": 95,
+                  "tick": {
+                    "rotate": -45,
+                    "multiline": false,
+                    "fit": false
+                  },
+                  "type": "category",
+                  "extent": null,
+                  "label": {
+                    "text": " ",
+                    "position": "outer-center"
+                  }
+                }
+              },
+              "data": {
+                "axes": {
+                  "value": "y"
+                },
+                "names": {
+                  "actual": "Observed",
+                  "predicted": "Forecast"
+                },
+                "x": null,
+                "xs": {
+                  "actual": "actual_x",
+                  "predicted": "predicted_x"
+                },
+                "type": "line",
+                "columns": [
+                  ["actual_x", "Jan-16", "Feb-16", "Mar-16", "Apr-16", "May-16", "Jun-16", "Jul-16", "Aug-16", "Sep-16", "Oct-16", "Nov-16", "Dec-16"],
+                  ["actual", 7088, 5784, 7780, 6608, 7692, 5386, 6716, 7139, 7665, 8105, 4638, 6249],
+                  ["predicted_x", "Dec-16", "Jan-17", "Feb-17", "Mar-17"],
+                  ["predicted", 6249, 7090.3, 6078.6, 5066.9]
+                ]
+              },
+              "legend": {
+                "show": true
+              },
+              "size": {
+                "height": 340
+              }
+            },
+            "yformat": ".2s",
+            "table_c3": [
+              ["actual_x", "Jan-16", "Feb-16", "Mar-16", "Apr-16", "May-16", "Jun-16", "Jul-16", "Aug-16", "Sep-16", "Oct-16", "Nov-16", "Dec-16"],
+              ["actual", 7088, 5784, 7780, 6608, 7692, 5386, 6716, 7139, 7665, 8105, 4638, 6249],
+              ["predicted_x", "Dec-16", "Jan-17", "Feb-17", "Mar-17"],
+              ["predicted", 6249, 7090.3, 6078.6, 5066.9]
+            ],
+            "download_url": "/api/download_data/yhjla6c2zll51hvn"
+          },
+          "chartInfo": ["Trend Analysis", "Forecast Method : Holt Winters Method"]
+        }, {
+          "dataType": "html",
+          "classTag": null,
+          "data": " <p class=\"txt-justify\"> This section provides insights on how Call Volume is performing over time and captures the most significant moments that defined the overall pattern or trend over the observation period. </p> "
+        }, {
+          "dataType": "html",
+          "classTag": null,
+          "data": " <p class=\"txt-justify\"> The dataset contains Call Volume figures for a <b>12 months</b> period. The values of Call Volume have <b> dropped by 11.8% </b> during the same time, from 7,088 in Jan-16 to 6,249 in Dec-16. The total Call Volume </b> were 80,850 for the last 12 months, with the <b> average Call Volume per month being 6,737</b>. </p> "
+        }, {
+          "dataType": "html",
+          "classTag": null,
+          "data": " <p class=\"txt-justify\"> Despite <b> negative growth </b>, there is <b>no trend</b> in the data. However, the Call Volume figures are <b> unlikely to follow a seasonal pattern </b> during this period. </p> "
+        }, {
+          "dataType": "html",
+          "classTag": "highlight",
+          "data": " The total contribution from the streak of 2 months (Sep-16 to Oct-16) amounts to a total of 15770.0, which is almost one fourth of the overall Call Volume for the 12 months period. "
+        }, {
+          "dataType": "html",
+          "classTag": null,
+          "data": "<div class='col-md-6 col-xs-12 xs-p-20'><h2 class='text-center'><span>11.8%</span><br/><small>Overall decline in Call Volume over the last 12 months</small></h2></div><div class='col-md-6 col-xs-12 xs-p-20'><h2 class='text-center'><span>34.7%</span><br/><small>Largest growth in Call Volume happened in Dec-16</small></h2></div>"
+        }, {
+          "dataType": "html",
+          "classTag": null,
+          "data": "<h3>Highest and Lowest Points of Call Volume</h3> "
+        }, {
+          "dataType": "html",
+          "classTag": null,
+          "data": " <p class=\"txt-justify\"> The Call Volume figures hit a peak of 8,105 in Oct-16, which resulted after <b>a continuous streak of growth for 4 months </b> ending at Oct-16. The most significant factor that fuelled this strong run is the Top Organization, Microsoft. Call Volume contribution from Microsoft in Oct-16, increased by over 141 percentage points (87.09 vis-a-vis 36.01) compared to rest of the observation period. </p> "
+        }, {
+          "dataType": "html",
+          "classTag": null,
+          "data": " <p class=\"txt-justify\"> However, there are also few months when Call Volume was lagging and didn't do very well. The most notable among them was Nov-16 and values for Call Volume dropped to 4,638. This was primarily due to <b>sharp decline in Call Volume from Docs for reimbursement Call Type</b>, which observed a decline of over 11 percentage points (52.07 vis-a-vis 57.65). </p> "
+        }, {
+          "dataType": "html",
+          "classTag": null,
+          "data": " <h4>Significant factors that drive increase in Call Volume</h4> "
+        }, {
+          "dataType": "html",
+          "classTag": null,
+          "data": " <p class=\"txt-justify\"> <ul> <li> Top Organization and Call Type have been very instrumental in driving Call Volume growth, as their respective levels Apple and Plan Limit witnessed the highest overall growth rates of 250% and 57% respectively. </li> </ul> </p> "
+        }, {
+          "dataType": "html",
+          "classTag": null,
+          "data": " <h4>Significant factors that drag Call Volume down</h4> "
+        }, {
+          "dataType": "html",
+          "classTag": null,
+          "data": " <p class=\"txt-justify\"> <ul> <li> Agent Age and Region have been an area of concern, as their respective levels 36 to 45 and Central shrunk by 32% and 6% respectively. </li> </ul> </p> "
+        }
+      ],
+      "name": "Trend Analysis",
+      "slug": "trend-analysis-cf4yat84f5"
+    }],
+    "name": "Trend",
+    "slug": "trend-ulf05xwboy"
+  },
+  {
+    "listOfNodes": [
+      {
+        "listOfNodes": [],
+        "listOfCards": [
+          {
+            "cardWidth": 100,
+            "cardType": "normal",
+            "cardData": [
+                {
+                "dataType": "html",
+                "classTag": null,
+                "data": "<h3>Call Volume: Impact of Call Type on Call Volume</h3>"
+              },
+              {
+                "dataType": "c3Chart",
+                "widthPercent": 100,
+                "data": {
+                  "download_url": "/api/download_data/8v2dxp6lpn7nwpsk",
+                  "y2format": ".2s",
+                  "xdata": ["Status", "Docs for reimbursement", "Complaints", "Plan Limit", "Others", "Disease Coverage"],
+                  "chart_c3": {
+                    "bar": {
+                      "width": {
+                        "ratio": 0.5
+                      }
+                    },
+                    "point": null,
+                    "color": {
+                      "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+                    },
+                    "tooltip": {
+                      "show": true,
+                      "format": {
+                        "title": ".2s"
+                      }
+                    },
+                    "padding": {
+                      "top": 40
+                    },
+                    "grid": {
+                      "y": {
+                        "show": true
+                      },
+                      "x": {
+                        "show": false
+                      }
+                    },
+                    "subchart": null,
+                    "axis": {
+                      "y": {
+                        "tick": {
+                          "outer": false,
+                          "multiline": true,
+                          "format": ".2s"
+                        },
+                        "label": {
+                          "text": "Total Call Volume",
+                          "position": "outer-middle"
+                        }
+                      },
+                      "x": {
+                        "height": 95,
+                        "tick": {
+                          "rotate": -45,
+                          "multiline": false,
+                          "fit": false,
+                          "format": ".2s"
+                        },
+                        "type": "category",
+                        "label": {
+                          "text": "Call Type",
+                          "position": "outer-center"
+                        }
+                      },
+                      "y2": {
+                        "show": true,
+                        "tick": {
+                          "count": 7,
+                          "multiline": true,
+                          "format": ".2s"
+                        },
+                        "label": {
+                          "text": "Average Call Volume",
+                          "position": "outer-middle"
+                        }
+                      }
+                    },
+                    "data": {
+                      "x": "dimension",
+                      "axes": {
+                        "average": "y2"
+                      },
+                      "type": "bar",
+                      "columns": [
+                        ["average", 48.71071428571429, 39.100833333333334, 33.273809523809526, 29.410852713178294, 29.248322147651006, 38.44855967078189],
+                        ["total", 13639.0, 46921.0, 2795.0, 3794.0, 4358.0, 9343.0],
+                        ["dimension", "Status", "Docs for reimbursement", "Complaints", "Plan Limit", "Others", "Disease Coverage"]
+                      ]
+                    },
+                    "legend": {
+                      "show": false
+                    },
+                    "size": {
+                      "height": 340
+                    }
+                  },
+                  "yformat": ".2s",
+                  "table_c3": [
+                    ["dimension", "Status", "Docs for reimbursement", "Complaints", "Plan Limit", "Others", "Disease Coverage"],
+                    ["total", 13639.0, 46921.0, 2795.0, 3794.0, 4358.0, 9343.0],
+                    ["average", 48.71071428571429, 39.100833333333334, 33.273809523809526, 29.410852713178294, 29.248322147651006, 38.44855967078189]
+                  ]
+                },
+                "chartInfo": ["Test Type   : ANOVA", "P-Value     : 0.05", "F Value     : 0.13", "Inference   : There is a significant effect of Call Type on Call Volume (target)."]
+              }, {
+                "dataType": "html",
+                "classTag": null,
+                "data": "<p class = \"txt-justify\"> The <b>top three Call Types(Docs for reimbursement, Status and Disease Coverage)</b> account for about <b>86%</b> of the total Call Volume. Being the <b>largest contributor</b>, Docs for reimbursement amounts to 46,921 that accounts for about <b>58.03% of the total Call Volume</b>. However, Status has the <b>highest average</b> Call Volume of 48, whereas the average for Docs for reimbursement is 39. On the other hand, Complaints and Plan Limit contributes to just 8% of the total Call Volume. </p>"
+              }, {
+                "dataType": "html",
+                "classTag": null,
+                "data": "<h4>Key Factors influencing Call Volume from Docs for reimbursement</h4>"
+              }, {
+                "dataType": "html",
+                "classTag": null,
+                "data": "<p class = \"txt-justify\"> High contribution of Call Volume from Docs for reimbursement is characterized by the influence of key dimensions - Region and Agent Age. Certain specific segment from those dimensions are more likely to explain Docs for reimbursement's significant Call Volume turnover. <!-- In terms of Agent Age, top 3 account for 76.0% of the total Call Volume from Docs for reimbursement. --> </p> "
+              }, {
+                "dataType": "html",
+                "classTag": "highlight",
+                "data": " <ul> <li> Agent Age - The top 3 Agent Age account for 76.0% of the Call Volume from Docs for reimbursement. </li> <li> Region - Among the Region, top 3 Region account for 79.0% of the total Call Volume. </li> </ul> "
+              }, {
+                "dataType": "html",
+                "classTag": null,
+                "data": "<h4>Docs for reimbursement's Call Volume Performance over time</h4>"
+              },
+              {
+                "dataType": "c3Chart",
+                "widthPercent": 100,
+                "data": {
+                  "download_url": "/api/download_data/f2rs2gblycajsnaz",
+                  "y2format": ".2s",
+                  "xdata": ["Jan-16", "Feb-16", "Nov-16", "Dec-16", "Mar-16", "Apr-16", "May-16", "Jun-16", "Jul-16", "Aug-16", "Sep-16", "Oct-16"],
+                  "chart_c3": {
+                    "bar": {
+                      "width": {
+                        "ratio": 0.5
+                      }
+                    },
+                    "point": null,
+                    "color": {
+                      "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+                    },
+                    "tooltip": {
+                      "show": true,
+                      "format": {
+                        "title": ".2s"
+                      }
+                    },
+                    "padding": {
+                      "top": 40
+                    },
+                    "grid": {
+                      "y": {
+                        "show": true
+                      },
+                      "x": {
+                        "show": true
+                      }
+                    },
+                    "subchart": null,
+                    "axis": {
+                      "y": {
+                        "tick": {
+                          "outer": false,
+                          "multiline": true,
+                          "format": ".2s"
+                        },
+                        "label": {
+                          "text": "Total Call Volume",
+                          "position": "outer-middle"
+                        }
+                      },
+                      "x": {
+                        "height": 95,
+                        "tick": {
+                          "rotate": -45,
+                          "multiline": false,
+                          "fit": false,
+                          "format": ".2s"
+                        },
+                        "type": "category",
+                        "label": {
+                          "text": "Time Period",
+                          "position": "outer-center"
+                        }
+                      },
+                      "y2": {
+                        "show": true,
+                        "tick": {
+                          "count": 7,
+                          "multiline": true,
+                          "format": ".2s"
+                        },
+                        "label": {
+                          "text": "Docs for reimbursement Call Volume",
+                          "position": "outer-middle"
+                        }
+                      }
+                    },
+                    "data": {
+                      "x": "k1",
+                      "axes": {
+                        "k3": "y2"
+                      },
+                      "type": "line",
+                      "names": {
+                        "k3": "Docs for reimbursement Call Volume",
+                        "k2": "Total Call Volume",
+                        "k1": "Time Period"
+                      },
+                      "columns": [
+                        ["k3", 3777, 3028, 2487, 3988, 4051, 3543, 4696, 3007, 4108, 4502, 4930, 4804],
+                        ["k2", 7088, 5784, 4638, 6249, 7780, 6608, 7692, 5386, 6716, 7139, 7665, 8105],
+                        ["k1", "Jan-16", "Feb-16", "Nov-16", "Dec-16", "Mar-16", "Apr-16", "May-16", "Jun-16", "Jul-16", "Aug-16", "Sep-16", "Oct-16"]
+                      ]
+                    },
+                    "legend": {
+                      "show": true
+                    },
+                    "size": {
+                      "height": 340
+                    }
+                  },
+                  "yformat": ".2s",
+                  "table_c3": [
+                    ["k1", "Jan-16", "Feb-16", "Nov-16", "Dec-16", "Mar-16", "Apr-16", "May-16", "Jun-16", "Jul-16", "Aug-16", "Sep-16", "Oct-16"],
+                    ["k2", 7088, 5784, 4638, 6249, 7780, 6608, 7692, 5386, 6716, 7139, 7665, 8105],
+                    ["k3", 3777, 3028, 2487, 3988, 4051, 3543, 4696, 3007, 4108, 4502, 4930, 4804]
+                  ]
+                },
+                "chartInfo": []
+              },
+              {
+                "dataType": "html",
+                "classTag": null,
+                "data": "<p class=\"txt-justify\"> Call Volume contribution from Docs for reimbursement is predominantly in line with the overall Call Volume trend, as the Call Type observed similar ups and downs during the observation period. The <b>overall Call Volume figures hit a peak of 8,105</b> in Oct-16, when it <b>grew by over 9.51%</b> compared to the previous time period. But, Docs for reimbursement’s Call Volume peaked at 4,930 during Sep-16. </p>"
+              }],
+            "name": "Impact on Call Volume",
+            "slug": "impact-on-call-volume-cguhoh0ypk"
+          },
+          {
+            "cardWidth": 100,
+            "cardType": "normal",
+            "cardData": [
+              {
+                "dataType": "html",
+                "classTag": null,
+                "data": "<h3>Call Type-Call Volume Performance Decision Matrix</h3><br>Based on the absolute Call Volume values and the overall growth rates, mAdvisor presents the decision matrix for Call Volume for Call Type as displayed below."
+              },
+              {
+                "dataType": "c3Chart",
+                "widthPercent": 100,
+                "data": {
+                  "chart_c3": {
+                    "bar": {
+                      "width": {
+                        "ratio": 0.5
+                      }
+                    },
+                    "point": {
+                      "r": 10
+                    },
+                    "color": {
+                      "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+                    },
+                    "tooltip": {
+                      "contents": "set_tooltip",
+                      "show": true
+                    },
+                    "padding": {
+                      "top": 40
+                    },
+                    "grid": {
+                      "y": {
+                        "show": true
+                      },
+                      "x": {
+                        "show": true
+                      }
+                    },
+                    "subchart": null,
+                    "axis": {
+                      "y": {
+                        "tick": {
+                          "outer": false,
+                          "multiline": true,
+                          "format": ".2s"
+                        },
+                        "label": {
+                          "text": "Growth over time",
+                          "position": "outer-middle"
+                        }
+                      },
+                      "x": {
+                        "height": 95,
+                        "tick": {
+                          "rotate": -45,
+                          "multiline": false,
+                          "fit": false
+                        },
+                        "type": "index",
+                        "extent": null,
+                        "label": {
+                          "text": "Percentage share of Call Volume",
+                          "position": "outer-center"
+                        }
+                      }
+                    },
+                    "data": {
+                      "x": null,
+                      "type": "scatter",
+                      "names": {
+                        "legendWillNotBeUsed": "legendWillNotBeUsed"
+                      },
+                      "columns": [
+                        ["Playing Safe_", -13.60759493670886, -15.470297029702971, -2.5766016713091924],
+                        ["Playing Safe", 9.287952089682658, 19.912192834764816, 29.068007928219775],
+                        ["Opportunity Bay_", 52.15311004784689, 57.07964601769911],
+                        ["Opportunity Bay", 5.956821039619786, 8.085931672385499],
+                        ["Leaders Club_", 27.19089224252052],
+                        ["Leaders Club", 100.0]
+                      ],
+                      "xs": {
+                        "Playing Safe": "Playing Safe_",
+                        "Opportunity Bay": "Opportunity Bay_",
+                        "Leaders Club": "Leaders Club_"
+                      }
+                    },
+                    "legend": {
+                      "show": true
+                    },
+                    "size": {
+                      "height": 340
+                    }
+                  },
+                  "yformat": ".2s",
+                  "tooltip_c3": [
+                    ["Growth", 52.15311004784689, 57.07964601769911, -13.60759493670886, -15.470297029702971, -2.5766016713091924, 27.19089224252052],
+                    ["Share", 5.956821039619786, 8.085931672385499, 9.287952089682658, 19.912192834764816, 29.068007928219775, 100.0],
+                    ["Call Type", "Complaints", "Plan Limit", "Others", "Disease Coverage", "Status", "Docs for reimbursement"]
+                  ],
+                  "table_c3": [
+                    ["Growth", 52.15311004784689, 57.07964601769911, -13.60759493670886, -15.470297029702971, -2.5766016713091924, 27.19089224252052],
+                    ["Share", 5.956821039619786, 8.085931672385499, 9.287952089682658, 19.912192834764816, 29.068007928219775, 100.0],
+                    ["Call Type", "Complaints", "Plan Limit", "Others", "Disease Coverage", "Status", "Docs for reimbursement"],
+                    ["Category", "Opportunity Bay", "Opportunity Bay", "Playing Safe", "Playing Safe", "Playing Safe", "Leaders Club"]
+                  ],
+                  "download_url": "/api/download_data/da2hsr5sh939fg0e"
+                },
+                "chartInfo": []
+              },
+              {
+                "dataType": "html",
+                "classTag": null,
+                "data": "<p class = \"txt-justify\"> <b>Leaders Club</b> - Only 1 Call Type, Docs for reimbursement, feature in the Leaders Club signalling healthy trend in terms of revenue contribution as well as growth. <br> <b>Opportunity Bay</b> - 3 Call Types, including Status, Others, etc., feature in this quadrant implying that there is good potential for revenue growth, even though their current Call Volume contributions are relatively less. <br> <b>Playing Safe</b> - There are 2 Call Types, Complaints and Plan Limit are featuring in this quadrant which is characterized by high level of Call Volume but low rates of growth. <br> </p>"
+              }
+            ],
+            "name": "Call Type- Decision Matrix",
+            "slug": "call-type-decision-matrix-ipht7b8m2k"
+          }
+        ],
+        "name": "Call Type",
+        "slug": "call-type-obwxpoynjy"
+      },
+      {
+        "listOfNodes": [],
+        "listOfCards": [
+          {
+            "cardWidth": 100,
+            "cardType": "normal",
+            "cardData": [
+              {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<h3>Call Volume: Impact of Top Organization on Call Volume</h3>"
+            }, {
+              "dataType": "c3Chart",
+              "widthPercent": 100,
+              "data": {
+                "download_url": "/api/download_data/vm2dmligyy28cjew",
+                "y2format": ".2s",
+                "xdata": ["Oracle", "Microsoft", "Apple", "Yahoo", "IBM"],
+                "chart_c3": {
+                  "bar": {
+                    "width": {
+                      "ratio": 0.5
+                    }
+                  },
+                  "point": null,
+                  "color": {
+                    "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+                  },
+                  "tooltip": {
+                    "show": true,
+                    "format": {
+                      "title": ".2s"
+                    }
+                  },
+                  "padding": {
+                    "top": 40
+                  },
+                  "grid": {
+                    "y": {
+                      "show": true
+                    },
+                    "x": {
+                      "show": false
+                    }
+                  },
+                  "subchart": null,
+                  "axis": {
+                    "y": {
+                      "tick": {
+                        "outer": false,
+                        "multiline": true,
+                        "format": ".2s"
+                      },
+                      "label": {
+                        "text": "Total Call Volume",
+                        "position": "outer-middle"
+                      }
+                    },
+                    "x": {
+                      "height": 95,
+                      "tick": {
+                        "rotate": -45,
+                        "multiline": false,
+                        "fit": false,
+                        "format": ".2s"
+                      },
+                      "type": "category",
+                      "label": {
+                        "text": "Top Organization",
+                        "position": "outer-center"
+                      }
+                    },
+                    "y2": {
+                      "show": true,
+                      "tick": {
+                        "count": 7,
+                        "multiline": true,
+                        "format": ".2s"
+                      },
+                      "label": {
+                        "text": "Average Call Volume",
+                        "position": "outer-middle"
+                      }
+                    }
+                  },
+                  "data": {
+                    "x": "dimension",
+                    "axes": {
+                      "average": "y2"
+                    },
+                    "type": "bar",
+                    "columns": [
+                      ["average", 43.722276741903826, 36.690406976744185, 31.048387096774192, 35.79245283018868, 27.49809885931559],
+                      ["total", 44553.0, 25243.0, 1925.0, 1897.0, 7232.0],
+                      ["dimension", "Oracle", "Microsoft", "Apple", "Yahoo", "IBM"]
+                    ]
+                  },
+                  "legend": {
+                    "show": false
+                  },
+                  "size": {
+                    "height": 340
+                  }
+                },
+                "yformat": ".2s",
+                "table_c3": [
+                  ["dimension", "Oracle", "Microsoft", "Apple", "Yahoo", "IBM"],
+                  ["total", 44553.0, 25243.0, 1925.0, 1897.0, 7232.0],
+                  ["average", 43.722276741903826, 36.690406976744185, 31.048387096774192, 35.79245283018868, 27.49809885931559]
+                ]
+              },
+              "chartInfo": ["Test Type   : ANOVA", "P-Value     : 0.05", "F Value     : 0.12", "Inference   : There is a significant effect of Top Organization on Call Volume (target)."]
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<p class = \"txt-justify\"> The <b>top two Top Organizations(Oracle and Microsoft)</b> account for about <b>86%</b> of the total Call Volume. Being the <b>largest contributor</b>, Oracle amounts to 44,553 that accounts for about <b>55.11% of the total Call Volume</b> and the average Call Volume is 43. On the other hand, bottom 3 contributes to just 13% of the total Call Volume. </p>"
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<h4>Key Factors influencing Call Volume from Oracle</h4>"
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<p class = \"txt-justify\"> High contribution of Call Volume from Oracle is characterized by the influence of key dimensions - Agent Age and Region. Certain specific segment from those dimensions are more likely to explain Oracle's significant Call Volume turnover. <!-- In terms of Region, top 4 account for 79.0% of the total Call Volume from Oracle. --> </p> "
+            }, {
+              "dataType": "html",
+              "classTag": "highlight",
+              "data": " <ul> <li> Region - The top 4 Region account for 79.0% of the Call Volume from Oracle. </li> <li> Agent Age - Among the Agent Age, top 2 Agent Age account for 52.0% of the total Call Volume. </li> </ul> "
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<h4>Oracle's Call Volume Performance over time</h4>"
+            }, {
+              "dataType": "c3Chart",
+              "widthPercent": 100,
+              "data": {
+                "download_url": "/api/download_data/zcuyeomxrnfc4pro",
+                "y2format": ".2s",
+                "xdata": ["Nov-16", "Mar-16", "Apr-16", "May-16", "Jun-16", "Jul-16", "Aug-16", "Sep-16", "Oct-16"],
+                "chart_c3": {
+                  "bar": {
+                    "width": {
+                      "ratio": 0.5
+                    }
+                  },
+                  "point": null,
+                  "color": {
+                    "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+                  },
+                  "tooltip": {
+                    "show": true,
+                    "format": {
+                      "title": ".2s"
+                    }
+                  },
+                  "padding": {
+                    "top": 40
+                  },
+                  "grid": {
+                    "y": {
+                      "show": true
+                    },
+                    "x": {
+                      "show": true
+                    }
+                  },
+                  "subchart": null,
+                  "axis": {
+                    "y": {
+                      "tick": {
+                        "outer": false,
+                        "multiline": true,
+                        "format": ".2s"
+                      },
+                      "label": {
+                        "text": "Total Call Volume",
+                        "position": "outer-middle"
+                      }
+                    },
+                    "x": {
+                      "height": 95,
+                      "tick": {
+                        "rotate": -45,
+                        "multiline": false,
+                        "fit": false,
+                        "format": ".2s"
+                      },
+                      "type": "category",
+                      "label": {
+                        "text": "Time Period",
+                        "position": "outer-center"
+                      }
+                    },
+                    "y2": {
+                      "show": true,
+                      "tick": {
+                        "count": 7,
+                        "multiline": true,
+                        "format": ".2s"
+                      },
+                      "label": {
+                        "text": "Oracle Call Volume",
+                        "position": "outer-middle"
+                      }
+                    }
+                  },
+                  "data": {
+                    "x": "k1",
+                    "axes": {
+                      "k3": "y2"
+                    },
+                    "type": "line",
+                    "names": {
+                      "k3": "Oracle Call Volume",
+                      "k2": "Total Call Volume",
+                      "k1": "Time Period"
+                    },
+                    "columns": [
+                      ["k3", 1143, 2609, 5414, 6286, 4149, 5368, 6327, 6509, 6748],
+                      ["k2", 4638, 7780, 6608, 7692, 5386, 6716, 7139, 7665, 8105],
+                      ["k1", "Nov-16", "Mar-16", "Apr-16", "May-16", "Jun-16", "Jul-16", "Aug-16", "Sep-16", "Oct-16"]
+                    ]
+                  },
+                  "legend": {
+                    "show": true
+                  },
+                  "size": {
+                    "height": 340
+                  }
+                },
+                "yformat": ".2s",
+                "table_c3": [
+                  ["k1", "Nov-16", "Mar-16", "Apr-16", "May-16", "Jun-16", "Jul-16", "Aug-16", "Sep-16", "Oct-16"],
+                  ["k2", 4638, 7780, 6608, 7692, 5386, 6716, 7139, 7665, 8105],
+                  ["k3", 1143, 2609, 5414, 6286, 4149, 5368, 6327, 6509, 6748]
+                ]
+              },
+              "chartInfo": []
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<p class=\"txt-justify\"> The growth rate of Call Volume for Oracle has overperformed the overall growth rate. The <b>overall Call Volume figures hit a peak of 8,105</b> in Oct-16, when it <b>grew by over 3.67%</b> compared to the previous time period. Interestingly, Oracle’s Call Volume also peaked at 6,748 during a similar period. </p>"
+            }],
+            "name": "Impact on Call Volume",
+            "slug": "impact-on-call-volume-54rxju25uy"
+          }, {
+            "cardWidth": 100,
+            "cardType": "normal",
+            "cardData": [
+              {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<h3>Top Organization-Call Volume Performance Decision Matrix</h3><br>Based on the absolute Call Volume values and the overall growth rates, mAdvisor presents the decision matrix for Call Volume for Top Organization as displayed below."
+            }, {
+              "dataType": "c3Chart",
+              "widthPercent": 100,
+              "data": {
+                "chart_c3": {
+                  "bar": {
+                    "width": {
+                      "ratio": 0.5
+                    }
+                  },
+                  "point": {
+                    "r": 10
+                  },
+                  "color": {
+                    "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+                  },
+                  "tooltip": {
+                    "contents": "set_tooltip",
+                    "show": true
+                  },
+                  "padding": {
+                    "top": 40
+                  },
+                  "grid": {
+                    "y": {
+                      "show": true
+                    },
+                    "x": {
+                      "show": true
+                    }
+                  },
+                  "subchart": null,
+                  "axis": {
+                    "y": {
+                      "tick": {
+                        "outer": false,
+                        "multiline": true,
+                        "format": ".2s"
+                      },
+                      "label": {
+                        "text": "Growth over time",
+                        "position": "outer-middle"
+                      }
+                    },
+                    "x": {
+                      "height": 95,
+                      "tick": {
+                        "rotate": -45,
+                        "multiline": false,
+                        "fit": false
+                      },
+                      "type": "index",
+                      "extent": null,
+                      "label": {
+                        "text": "Percentage share of Call Volume",
+                        "position": "outer-center"
+                      }
+                    }
+                  },
+                  "data": {
+                    "x": null,
+                    "type": "scatter",
+                    "names": {
+                      "legendWillNotBeUsed": "legendWillNotBeUsed"
+                    },
+                    "columns": [
+                      ["Playing Safe_", 5.420054200542006, -96.33705650459922],
+                      ["Playing Safe", 16.23235247906987, 56.65836195093484],
+                      ["Red Alert_", -19.653179190751445],
+                      ["Red Alert", 4.25785020088434],
+                      ["Opportunity Bay_", 143.82022471910113],
+                      ["Opportunity Bay", 4.320696698314367],
+                      ["Leaders Club_", 490.3762029746282],
+                      ["Leaders Club", 100.0]
+                    ],
+                    "xs": {
+                      "Playing Safe": "Playing Safe_",
+                      "Red Alert": "Red Alert_",
+                      "Opportunity Bay": "Opportunity Bay_",
+                      "Leaders Club": "Leaders Club_"
+                    }
+                  },
+                  "legend": {
+                    "show": true
+                  },
+                  "size": {
+                    "height": 340
+                  }
+                },
+                "yformat": ".2s",
+                "tooltip_c3": [
+                  ["Growth", -19.653179190751445, 143.82022471910113, 5.420054200542006, -96.33705650459922, 490.3762029746282],
+                  ["Share", 4.25785020088434, 4.320696698314367, 16.23235247906987, 56.65836195093484, 100.0],
+                  ["Top Organization", "Yahoo", "Apple", "IBM", "Microsoft", "Oracle"]
+                ],
+                "table_c3": [
+                  ["Growth", -19.653179190751445, 143.82022471910113, 5.420054200542006, -96.33705650459922, 490.3762029746282],
+                  ["Share", 4.25785020088434, 4.320696698314367, 16.23235247906987, 56.65836195093484, 100.0],
+                  ["Top Organization", "Yahoo", "Apple", "IBM", "Microsoft", "Oracle"],
+                  ["Category", "Red Alert", "Opportunity Bay", "Playing Safe", "Playing Safe", "Leaders Club"]
+                ],
+                "download_url": "/api/download_data/6inzj4a8uh2acdwa"
+              },
+              "chartInfo": []
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<p class = \"txt-justify\"> <b>Leaders Club</b> - Only 1 Top Organization, Oracle, feature in the Leaders Club signalling healthy trend in terms of revenue contribution as well as growth. <br> <b>Opportunity Bay</b> - Microsoft and IBM feature in this quadrant implying that there is good potential for revenue growth, even though their current Call Volume contributions are relatively less. <br> <b>Playing Safe</b> - Only Apple feature in this quadrant which is characterized by high level of Call Volume but low rates of growth. <br> <b>Red Alert</b> - Yahoo is not performing well both in terms of Call Volume contribution and growth. </p>"
+            }],
+            "name": "Top Organization- Decision Matrix",
+            "slug": "top-organization-decision-matrix-dc0hoxh1au"
+          }
+        ],
+        "name": "Top Organization",
+        "slug": "top-organization-3tqmvxr3gp"
+      },
+      {
+        "listOfNodes": [],
+        "listOfCards": [
+          {
+            "cardWidth": 100,
+            "cardType": "normal",
+            "cardData": [
+              {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<h3>Call Volume: Impact of Region on Call Volume</h3>"
+            }, {
+              "dataType": "c3Chart",
+              "widthPercent": 100,
+              "data": {
+                "download_url": "/api/download_data/7jru0znpaz9dcix9",
+                "y2format": ".2s",
+                "xdata": ["West", "East", "Central", "South"],
+                "chart_c3": {
+                  "bar": {
+                    "width": 40
+                  },
+                  "point": null,
+                  "color": {
+                    "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+                  },
+                  "tooltip": {
+                    "show": true,
+                    "format": {
+                      "title": ".2s"
+                    }
+                  },
+                  "padding": {
+                    "top": 40
+                  },
+                  "grid": {
+                    "y": {
+                      "show": true
+                    },
+                    "x": {
+                      "show": false
+                    }
+                  },
+                  "subchart": null,
+                  "axis": {
+                    "y": {
+                      "tick": {
+                        "outer": false,
+                        "multiline": true,
+                        "format": ".2s"
+                      },
+                      "label": {
+                        "text": "Total Call Volume",
+                        "position": "outer-middle"
+                      }
+                    },
+                    "x": {
+                      "height": 95,
+                      "tick": {
+                        "rotate": -45,
+                        "multiline": false,
+                        "fit": false,
+                        "format": ".2s"
+                      },
+                      "type": "category",
+                      "label": {
+                        "text": "Region",
+                        "position": "outer-center"
+                      }
+                    },
+                    "y2": {
+                      "show": true,
+                      "tick": {
+                        "count": 7,
+                        "multiline": true,
+                        "format": ".2s"
+                      },
+                      "label": {
+                        "text": "Average Call Volume",
+                        "position": "outer-middle"
+                      }
+                    }
+                  },
+                  "data": {
+                    "x": "dimension",
+                    "axes": {
+                      "average": "y2"
+                    },
+                    "type": "bar",
+                    "columns": [
+                      ["average", 38.48148148148148, 36.95531914893617, 39.50909090909091, 39.963800904977376],
+                      ["total", 19741.0, 17369.0, 26076.0, 17664.0],
+                      ["dimension", "West", "East", "Central", "South"]
+                    ]
+                  },
+                  "legend": {
+                    "show": false
+                  },
+                  "size": {
+                    "height": 340
+                  }
+                },
+                "yformat": ".2s",
+                "table_c3": [
+                  ["dimension", "West", "East", "Central", "South"],
+                  ["total", 19741.0, 17369.0, 26076.0, 17664.0],
+                  ["average", 38.48148148148148, 36.95531914893617, 39.50909090909091, 39.963800904977376]
+                ]
+              },
+              "chartInfo": ["Test Type   : ANOVA", "P-Value     : 0.05", "F Value     : 0.0", "Inference   : There is a significant effect of Region on Call Volume (target)."]
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<p class = \"txt-justify\"> Call Volume contribution from each of the Regions seems to be similar. Being the <b>largest contributor</b>, Central amounts to 26,076 that accounts for about <b>32.25% of the total Call Volume</b>. However, South has the <b>highest average</b> Call Volume of 39, whereas the average for Central is 39. </p>"
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<h4>Key Factors influencing Call Volume from Central</h4>"
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<p class = \"txt-justify\"> High contribution of Call Volume from Central is characterized by the influence of key dimensions, such as Call Type, Top Organization, and Agent Age. Certain specific segment from those dimensions are more likely to explain Central's significant Call Volume turnover. <!-- Among the Agent Age, 36 to 45 and 26.0 has got the major chunk of Call Volume from Central, accounting for 52.0%. --> </p> "
+            }, {
+              "dataType": "html",
+              "classTag": "highlight",
+              "data": " <ul> <li> Agent Age - 36 to 45 along with 26 to 30, the top performing Agent Age account for 52.0% of the overall Call Volume from Central. </li> <li> Top Organization - Among the Top Organization, Oracle and Microsoft, account for 96.0% of the total Call Volume. </li> </ul> "
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<h4>Central's Call Volume Performance over time</h4>"
+            }, {
+              "dataType": "c3Chart",
+              "widthPercent": 100,
+              "data": {
+                "download_url": "/api/download_data/nsgfis9gtzv020s0",
+                "y2format": ".2s",
+                "xdata": ["Jan-16", "Feb-16", "Nov-16", "Dec-16", "Mar-16", "Apr-16", "May-16", "Jun-16", "Jul-16", "Aug-16", "Sep-16", "Oct-16"],
+                "chart_c3": {
+                  "bar": {
+                    "width": {
+                      "ratio": 0.5
+                    }
+                  },
+                  "point": null,
+                  "color": {
+                    "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+                  },
+                  "tooltip": {
+                    "show": true,
+                    "format": {
+                      "title": ".2s"
+                    }
+                  },
+                  "padding": {
+                    "top": 40
+                  },
+                  "grid": {
+                    "y": {
+                      "show": true
+                    },
+                    "x": {
+                      "show": true
+                    }
+                  },
+                  "subchart": null,
+                  "axis": {
+                    "y": {
+                      "tick": {
+                        "outer": false,
+                        "multiline": true,
+                        "format": ".2s"
+                      },
+                      "label": {
+                        "text": "Total Call Volume",
+                        "position": "outer-middle"
+                      }
+                    },
+                    "x": {
+                      "height": 95,
+                      "tick": {
+                        "rotate": -45,
+                        "multiline": false,
+                        "fit": false,
+                        "format": ".2s"
+                      },
+                      "type": "category",
+                      "label": {
+                        "text": "Time Period",
+                        "position": "outer-center"
+                      }
+                    },
+                    "y2": {
+                      "show": true,
+                      "tick": {
+                        "count": 7,
+                        "multiline": true,
+                        "format": ".2s"
+                      },
+                      "label": {
+                        "text": "Central Call Volume",
+                        "position": "outer-middle"
+                      }
+                    }
+                  },
+                  "data": {
+                    "x": "k1",
+                    "axes": {
+                      "k3": "y2"
+                    },
+                    "type": "line",
+                    "names": {
+                      "k3": "Central Call Volume",
+                      "k2": "Total Call Volume",
+                      "k1": "Time Period"
+                    },
+                    "columns": [
+                      ["k3", 2021, 1525, 1736, 1917, 2649, 2272, 2643, 1687, 2505, 2407, 2007, 2707],
+                      ["k2", 7088, 5784, 4638, 6249, 7780, 6608, 7692, 5386, 6716, 7139, 7665, 8105],
+                      ["k1", "Jan-16", "Feb-16", "Nov-16", "Dec-16", "Mar-16", "Apr-16", "May-16", "Jun-16", "Jul-16", "Aug-16", "Sep-16", "Oct-16"]
+                    ]
+                  },
+                  "legend": {
+                    "show": true
+                  },
+                  "size": {
+                    "height": 340
+                  }
+                },
+                "yformat": ".2s",
+                "table_c3": [
+                  ["k1", "Jan-16", "Feb-16", "Nov-16", "Dec-16", "Mar-16", "Apr-16", "May-16", "Jun-16", "Jul-16", "Aug-16", "Sep-16", "Oct-16"],
+                  ["k2", 7088, 5784, 4638, 6249, 7780, 6608, 7692, 5386, 6716, 7139, 7665, 8105],
+                  ["k3", 2021, 1525, 1736, 1917, 2649, 2272, 2643, 1687, 2505, 2407, 2007, 2707]
+                ]
+              },
+              "chartInfo": []
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<p class=\"txt-justify\"> The growth rate of Call Volume for Central has overperformed the overall growth rate. The <b>overall Call Volume figures hit a peak of 8,105</b> in Oct-16, when it <b>grew by over 34.88%</b> compared to the previous time period. Interestingly, Central’s Call Volume also peaked at 2,707 during a similar period. </p>"
+            }],
+            "name": "Impact on Call Volume",
+            "slug": "impact-on-call-volume-x454fg3001"
+          }
+        ],
+        "name": "Region",
+        "slug": "region-jgls438c9u"
+      },
+      {
+        "listOfNodes": [],
+        "listOfCards": [
+          {
+          "cardWidth": 100,
+          "cardType": "normal",
+          "cardData": [
+            {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<h3>Call Volume: Impact of Agent Age on Call Volume</h3>"
+            },
+              {
+              "dataType": "c3Chart",
+              "widthPercent": 100,
+              "data": {
+                "download_url": "/api/download_data/fee8k151nfx55ycn",
+                "y2format": ".2s",
+                "xdata": ["26 to 30", "Below 25", "36 to 45", "31 to 35"],
+                "chart_c3": {
+                  "bar": {
+                    "width": 40
+                  },
+                  "point": null,
+                  "color": {
+                    "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+                  },
+                  "tooltip": {
+                    "show": true,
+                    "format": {
+                      "title": ".2s"
+                    }
+                  },
+                  "padding": {
+                    "top": 40
+                  },
+                  "grid": {
+                    "y": {
+                      "show": true
+                    },
+                    "x": {
+                      "show": false
+                    }
+                  },
+                  "subchart": null,
+                  "axis": {
+                    "y": {
+                      "tick": {
+                        "outer": false,
+                        "multiline": true,
+                        "format": ".2s"
+                      },
+                      "label": {
+                        "text": "Total Call Volume",
+                        "position": "outer-middle"
+                      }
+                    },
+                    "x": {
+                      "height": 95,
+                      "tick": {
+                        "rotate": -45,
+                        "multiline": false,
+                        "fit": false,
+                        "format": ".2s"
+                      },
+                      "type": "category",
+                      "label": {
+                        "text": "Agent Age",
+                        "position": "outer-center"
+                      }
+                    },
+                    "y2": {
+                      "show": true,
+                      "tick": {
+                        "count": 7,
+                        "multiline": true,
+                        "format": ".2s"
+                      },
+                      "label": {
+                        "text": "Average Call Volume",
+                        "position": "outer-middle"
+                      }
+                    }
+                  },
+                  "data": {
+                    "x": "dimension",
+                    "axes": {
+                      "average": "y2"
+                    },
+                    "type": "bar",
+                    "columns": [
+                      ["average", 37.80073126142596, 39.156, 38.10925925925926, 40.19277108433735],
+                      ["total", 20677.0, 19578.0, 20579.0, 20016.0],
+                      ["dimension", "26 to 30", "Below 25", "36 to 45", "31 to 35"]
+                    ]
+                  },
+                  "legend": {
+                    "show": false
+                  },
+                  "size": {
+                    "height": 340
+                  }
+                },
+                "yformat": ".2s",
+                "table_c3": [
+                  ["dimension", "26 to 30", "Below 25", "36 to 45", "31 to 35"],
+                  ["total", 20677.0, 19578.0, 20579.0, 20016.0],
+                  ["average", 37.80073126142596, 39.156, 38.10925925925926, 40.19277108433735]
+                ]
+              },
+              "chartInfo": ["Test Type   : ANOVA", "P-Value     : 0.05", "F Value     : 0.0", "Inference   : There is a significant effect of Agent Age on Call Volume (target)."]
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<p class = \"txt-justify\"> Call Volume contribution from each of the Agent Ages seems to be similar. Being the <b>largest contributor</b>, 26 to 30 amounts to 20,677 that accounts for about <b>25.57% of the total Call Volume</b>. However, 31 to 35 has the <b>highest average</b> Call Volume of 40, whereas the average for 26 to 30 is 37. </p>"
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<h4>Key Factors influencing Call Volume from 26 to 30</h4>"
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<p class = \"txt-justify\"> High contribution of Call Volume from 26 to 30 is characterized by the influence of key dimensions, such as Call Type, Top Organization, and Region. Certain specific segment from those dimensions are more likely to explain 26 to 30's significant Call Volume turnover. <!-- Also, the top 5 Region contribute to 85.0% of Call Volume from 26 to 30. --> </p> "
+            }, {
+              "dataType": "html",
+              "classTag": "highlight",
+              "data": " <ul> <li> Region - The top 4 Region account for 80.0% of the Call Volume from 26 to 30. </li> <li> Top Organization - Among the Top Organization, top 5 Top Organization account for 95.0% of the total Call Volume. </li> <li> Call Type - Among the Call Type, Docs for reimbursement has got the major chunk of Call Volume from 26 to 30, accounting for 55.0%. </li> </ul> "
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<h4>26 to 30's Call Volume Performance over time</h4>"
+            }, {
+              "dataType": "c3Chart",
+              "widthPercent": 100,
+              "data": {
+                "download_url": "/api/download_data/yqoi8ntyr1w4cdkj",
+                "y2format": ".2s",
+                "xdata": ["Jan-16", "Feb-16", "Nov-16", "Dec-16", "Mar-16", "Apr-16", "May-16", "Jun-16", "Jul-16", "Aug-16", "Sep-16", "Oct-16"],
+                "chart_c3": {
+                  "bar": {
+                    "width": {
+                      "ratio": 0.5
+                    }
+                  },
+                  "point": null,
+                  "color": {
+                    "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+                  },
+                  "tooltip": {
+                    "show": true,
+                    "format": {
+                      "title": ".2s"
+                    }
+                  },
+                  "padding": {
+                    "top": 40
+                  },
+                  "grid": {
+                    "y": {
+                      "show": true
+                    },
+                    "x": {
+                      "show": true
+                    }
+                  },
+                  "subchart": null,
+                  "axis": {
+                    "y": {
+                      "tick": {
+                        "outer": false,
+                        "multiline": true,
+                        "format": ".2s"
+                      },
+                      "label": {
+                        "text": "Total Call Volume",
+                        "position": "outer-middle"
+                      }
+                    },
+                    "x": {
+                      "height": 95,
+                      "tick": {
+                        "rotate": -45,
+                        "multiline": false,
+                        "fit": false,
+                        "format": ".2s"
+                      },
+                      "type": "category",
+                      "label": {
+                        "text": "Time Period",
+                        "position": "outer-center"
+                      }
+                    },
+                    "y2": {
+                      "show": true,
+                      "tick": {
+                        "count": 7,
+                        "multiline": true,
+                        "format": ".2s"
+                      },
+                      "label": {
+                        "text": "26 to 30 Call Volume",
+                        "position": "outer-middle"
+                      }
+                    }
+                  },
+                  "data": {
+                    "x": "k1",
+                    "axes": {
+                      "k3": "y2"
+                    },
+                    "type": "line",
+                    "names": {
+                      "k3": "26 to 30 Call Volume",
+                      "k2": "Total Call Volume",
+                      "k1": "Time Period"
+                    },
+                    "columns": [
+                      ["k3", 1771, 1352, 1521, 2089, 2028, 1420, 1897, 1161, 1607, 1880, 1774, 2177],
+                      ["k2", 7088, 5784, 4638, 6249, 7780, 6608, 7692, 5386, 6716, 7139, 7665, 8105],
+                      ["k1", "Jan-16", "Feb-16", "Nov-16", "Dec-16", "Mar-16", "Apr-16", "May-16", "Jun-16", "Jul-16", "Aug-16", "Sep-16", "Oct-16"]
+                    ]
+                  },
+                  "legend": {
+                    "show": true
+                  },
+                  "size": {
+                    "height": 340
+                  }
+                },
+                "yformat": ".2s",
+                "table_c3": [
+                  ["k1", "Jan-16", "Feb-16", "Nov-16", "Dec-16", "Mar-16", "Apr-16", "May-16", "Jun-16", "Jul-16", "Aug-16", "Sep-16", "Oct-16"],
+                  ["k2", 7088, 5784, 4638, 6249, 7780, 6608, 7692, 5386, 6716, 7139, 7665, 8105],
+                  ["k3", 1771, 1352, 1521, 2089, 2028, 1420, 1897, 1161, 1607, 1880, 1774, 2177]
+                ]
+              },
+              "chartInfo": []
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<p class=\"txt-justify\"> The growth rate of Call Volume for 26 to 30 has overperformed the overall growth rate. The <b>overall Call Volume figures hit a peak of 8,105</b> in Oct-16, when it <b>grew by over 22.72%</b> compared to the previous time period. Interestingly, 26 to 30’s Call Volume also peaked at 2,177 during a similar period. </p>"
+            }],
+            "name": "Impact on Call Volume",
+            "slug": "impact-on-call-volume-cdheetl642"
+          }
+        ],
+        "name": "Agent Age",
+        "slug": "agent-age-1x02sq83cf"
+      }
+    ],
+    "listOfCards": [
+      {
+      "cardWidth": 100,
+      "cardType": "normal",
+      "cardData": [
+        {
+        "dataType": "html",
+        "classTag": null,
+        "data": "<p class = \"txt-justify\"> There are <b>7 dimensions</b> in the dataset and <b>4 of them</b>(including Call Type, Top Organization, Region, etc.) have <b>significant influence</b> on Call Volume. It implies that specific categories within each of the dimensions show <b>considerable amount of variation</b> in Call Volume. However, other dimensions, such as Agent Rating, Agent Experience, etc., don’t show significant difference in Call Volume values across categories. </p>"
+      }, {
+        "dataType": "c3Chart",
+        "widthPercent": 100,
+        "data": {
+          "chart_c3": {
+            "bar": {
+              "width": 40
+            },
+            "point": null,
+            "color": {
+              "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+            },
+            "tooltip": {
+              "show": true,
+              "format": {
+                "title": ".2s"
+              }
+            },
+            "padding": {
+              "top": 40
+            },
+            "grid": {
+              "y": {
+                "show": true
+              },
+              "x": {
+                "show": false
+              }
+            },
+            "subchart": null,
+            "axis": {
+              "y": {
+                "tick": {
+                  "outer": false,
+                  "multiline": true,
+                  "format": ".2s"
+                },
+                "label": {
+                  "text": "Effect Size",
+                  "position": "outer-middle"
+                }
+              },
+              "x": {
+                "height": 95,
+                "tick": {
+                  "rotate": -45,
+                  "multiline": false,
+                  "fit": false,
+                  "format": ".2s"
+                },
+                "type": "category",
+                "label": {
+                  "text": "",
+                  "position": "outer-center"
+                }
+              }
+            },
+            "data": {
+              "x": "dimension",
+              "axes": {
+                "effect_size": "y"
+              },
+              "type": "bar",
+              "columns": [
+                ["effect_size", 0.000299290651827387, 0.00021852408341963564, 5.204137509985672e-06, 3.450135545105761e-06],
+                ["dimension", "Call Type", "Top Organization", "Region", "Agent Age"]
+              ]
+            },
+            "legend": {
+              "show": false
+            },
+            "size": {
+              "height": 340
+            }
+          },
+          "yformat": ".4f",
+          "table_c3": [
+            ["dimension", "Call Type", "Top Organization", "Region", "Agent Age"],
+            ["effect_size", 0.000299290651827387, 0.00021852408341963564, 5.204137509985672e-06, 3.450135545105761e-06]
+          ],
+          "download_url": "/api/download_data/l6t4k5qfcfnjenul",
+          "xdata": ["Call Type", "Top Organization", "Region", "Agent Age"]
+        },
+        "chartInfo": ["Test Type         : ANOVA", "Effect Size       : ETA squared", "Max Effect Size   : Call Type", "Min Effect Size   : Agent Age", "Inference         : There are 4 variables that have significant association with the Call Volume (Target) and the                      Effect size ranges from 0.0003 to 0.0"]
+      }, {
+        "dataType": "html",
+        "classTag": null,
+        "data": "<p class = \"txt-justify\"> The chart above displays the <b>impact of key dimensions</b> on Call Volume, as measured by effect size. Let us take a deeper look at some of the most important dimensions that show significant amount of difference in average Call Volume. </p>"
+      }],
+      "name": "Overview of Key Factors",
+      "slug": "overview-of-key-factors-96hefubjt9"
+    }
+    ],
+    "name": "Performance",
+    "slug": "performance-7isgi799lz"
+  },
+  {
+      "listOfNodes": [
+        {
+          "listOfNodes": [],
+          "listOfCards": [
+            {
+            "cardWidth": 100,
+            "cardType": "normal",
+            "cardData": [{
+              "dataType": "html",
+              "classTag": null,
+              "data": "<h3>Impact of First call resolution on Call Volume</h3>"
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<h4>Overview</h4> "
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": " <p class=\"txt-justify\"> First call resolution is one of the <b>significant influencer</b> of Call Volume and it explains a great magnitude of change in Call Volume. It is <b>positively & strongly correlated</b> with the Call Volume figures. As First call resolution changes, Call Volume also tend to move in the same direction. An incremental unit change in First call resolution corresponds to an average decrease in Call Volume by -1.54 units. </p>"
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<h4>Sensitivity Analysis</h4> "
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": " <p class=\"txt-justify\"> First call resolution seems to have a remarkable impact on various segments of Call Volume observations. The chart above shows four quadrants based on the distribution of Call Volume (high vs. low) and First call resolution (high vs. low). </p> "
+            }, {
+              "dataType": "c3Chart",
+              "widthPercent": 100,
+              "data": {
+                "chart_c3": {
+                  "bar": {
+                    "width": {
+                      "ratio": 0.5
+                    }
+                  },
+                  "point": {
+                    "r": 4
+                  },
+                  "color": {
+                    "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+                  },
+                  "tooltip": {
+                    "show": true
+                  },
+                  "padding": {
+                    "top": 40
+                  },
+                  "grid": {
+                    "y": {
+                      "show": true
+                    },
+                    "x": {
+                      "show": true
+                    }
+                  },
+                  "subchart": null,
+                  "axis": {
+                    "y": {
+                      "tick": {
+                        "outer": false,
+                        "multiline": true,
+                        "format": ".2s"
+                      },
+                      "label": {
+                        "text": "Call Volume",
+                        "position": "outer-middle"
+                      }
+                    },
+                    "x": {
+                      "height": 95,
+                      "tick": {
+                        "rotate": -45,
+                        "multiline": false,
+                        "fit": false
+                      },
+                      "type": "index",
+                      "extent": null,
+                      "label": {
+                        "text": "First call resolution",
+                        "position": "outer-center"
+                      }
+                    }
+                  },
+                  "data": {
+                    "axes": {
+                      "Call Volume": "y"
+                    },
+                    "names": {
+                      "#EC640C": "High Call Volume with Low First call resolution",
+                      "#00AEB3": "High Call Volume with High First call resolution",
+                      "#DD2E1F": "Low Call Volume with Low First call resolution",
+                      "#7C5BBB": "Low Call Volume with High First call resolution"
+                    },
+                    "x": null,
+                    "xs": {
+                      "High Call Volume with High First call resolution": "High Call Volume with High First call resolution_x",
+                      "Low Call Volume with High First call resolution": "Low Call Volume with High First call resolution_x",
+                      "Low Call Volume with Low First call resolution": "Low Call Volume with Low First call resolution_x",
+                      "High Call Volume with Low First call resolution": "High Call Volume with Low First call resolution_x"
+                    },
+                    "type": "scatter",
+                    "columns": [
+                      ["High Call Volume with High First call resolution", 46, 47, 49, 49, 49, 49, 49, 49, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 52, 52, 53, 54, 54, 55, 55, 55, 55, 55, 55, 56, 56, 57, 57, 57, 57, 57, 57, 57, 57, 57, 57, 57, 57, 57, 58, 58, 58, 58, 58, 58, 58, 58, 60, 60, 60, 60, 60, 60, 63, 63, 63, 65, 65, 65, 66, 66, 66, 66, 66, 69, 69, 69, 69, 69, 71, 71, 71, 71, 72, 74, 74, 74, 75, 77, 77, 77, 78, 78, 78, 78, 78, 78, 78],
+                      ["High Call Volume with High First call resolution_x", 48, 46, 46, 46, 46, 46, 46, 46, 48, 48, 46, 48, 46, 48, 48, 45, 45, 45, 45, 45, 45, 48, 52, 48, 47, 48, 48, 52, 52, 48, 52, 52, 52, 50, 50, 51, 52, 51, 54, 52, 52, 52, 54, 54, 51, 51, 52, 51, 51, 54, 51, 54, 51, 54, 54, 54, 58, 58, 58, 58, 48, 58, 58, 58, 58, 52, 52, 52, 36, 52, 52, 52, 52, 61, 54, 54, 54, 52, 54, 54, 54, 54, 54, 58, 58, 58, 40, 60, 60, 60, 60, 60, 60, 84, 60, 60, 60],
+                      ["Low Call Volume with High First call resolution", 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 26, 26, 29, 33, 33, 33, 35],
+                      ["Low Call Volume with High First call resolution_x", 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 28, 28, 32, 35, 35, 35, 38],
+                      ["Low Call Volume with Low First call resolution", 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 10, 10, 10, 10, 10, 10, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 16, 16, 16, 16, 16, 16, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 19, 19, 19, 19, 19, 19, 19, 19, 21, 21, 21, 21, 24, 24, 24, 24, 26, 26, 26, 26, 26, 29, 32, 32, 33, 33, 33, 33, 35, 37, 37],
+                      ["Low Call Volume with Low First call resolution_x", 4, 4, 4, 4, 4, 4, 4, 4, 4, 9, 9, 6, 11, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 15, 6, 6, 6, 12, 12, 12, 12, 12, 12, 16, 16, 16, 16, 16, 16, 16, 20, 16, 16, 20, 20, 20, 12, 12, 16, 16, 12, 16, 4, 16, 16, 4, 4, 16, 4, 4, 4, 4, 4, 4, 4, 4, 4, 6, 6, 6, 6, 4, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6],
+                      ["High Call Volume with Low First call resolution", 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 46, 46, 46, 46, 46, 46, 46, 46, 46, 46, 46, 46, 46, 46, 47, 47, 47, 47, 47, 47, 47, 47, 47, 47, 47, 47, 47, 51, 57, 61, 61, 61, 62, 62, 62, 63, 63, 63, 64, 64, 64, 72, 74, 75, 77, 77, 78, 78],
+                      ["High Call Volume with Low First call resolution_x", 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 10, 10, 10, 10, 10, 6, 6, 10, 10, 10, 10, 10, 10, 4, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 16, 18, 6, 16, 6, 18, 18, 18, 18, 18, 18, 18, 18, 18, 6, 0, 22, 22, 4, 18, 4]
+                    ]
+                  },
+                  "legend": {
+                    "show": true
+                  },
+                  "size": {
+                    "height": 340
+                  }
+                },
+                "yformat": ".2s",
+                "table_c3": [
+                  ["High Call Volume with High First call resolution", 46, 47, 49, 49, 49, 49, 49, 49, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 52, 52, 53, 54, 54, 55, 55, 55, 55, 55, 55, 56, 56, 57, 57, 57, 57, 57, 57, 57, 57, 57, 57, 57, 57, 57, 58, 58, 58, 58, 58, 58, 58, 58, 60, 60, 60, 60, 60, 60, 63, 63, 63, 65, 65, 65, 66, 66, 66, 66, 66, 69, 69, 69, 69, 69, 71, 71, 71, 71, 72, 74, 74, 74, 75, 77, 77, 77, 78, 78, 78, 78, 78, 78, 78],
+                  ["High Call Volume with High First call resolution_x", 48, 46, 46, 46, 46, 46, 46, 46, 48, 48, 46, 48, 46, 48, 48, 45, 45, 45, 45, 45, 45, 48, 52, 48, 47, 48, 48, 52, 52, 48, 52, 52, 52, 50, 50, 51, 52, 51, 54, 52, 52, 52, 54, 54, 51, 51, 52, 51, 51, 54, 51, 54, 51, 54, 54, 54, 58, 58, 58, 58, 48, 58, 58, 58, 58, 52, 52, 52, 36, 52, 52, 52, 52, 61, 54, 54, 54, 52, 54, 54, 54, 54, 54, 58, 58, 58, 40, 60, 60, 60, 60, 60, 60, 84, 60, 60, 60],
+                  ["Low Call Volume with High First call resolution", 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 26, 26, 29, 33, 33, 33, 35],
+                  ["Low Call Volume with High First call resolution_x", 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 28, 28, 32, 35, 35, 35, 38],
+                  ["Low Call Volume with Low First call resolution", 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 10, 10, 10, 10, 10, 10, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 16, 16, 16, 16, 16, 16, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 19, 19, 19, 19, 19, 19, 19, 19, 21, 21, 21, 21, 24, 24, 24, 24, 26, 26, 26, 26, 26, 29, 32, 32, 33, 33, 33, 33, 35, 37, 37],
+                  ["Low Call Volume with Low First call resolution_x", 4, 4, 4, 4, 4, 4, 4, 4, 4, 9, 9, 6, 11, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 15, 6, 6, 6, 12, 12, 12, 12, 12, 12, 16, 16, 16, 16, 16, 16, 16, 20, 16, 16, 20, 20, 20, 12, 12, 16, 16, 12, 16, 4, 16, 16, 4, 4, 16, 4, 4, 4, 4, 4, 4, 4, 4, 4, 6, 6, 6, 6, 4, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6],
+                  ["High Call Volume with Low First call resolution", 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 46, 46, 46, 46, 46, 46, 46, 46, 46, 46, 46, 46, 46, 46, 47, 47, 47, 47, 47, 47, 47, 47, 47, 47, 47, 47, 47, 51, 57, 61, 61, 61, 62, 62, 62, 63, 63, 63, 64, 64, 64, 72, 74, 75, 77, 77, 78, 78],
+                  ["High Call Volume with Low First call resolution_x", 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 10, 10, 10, 10, 10, 6, 6, 10, 10, 10, 10, 10, 10, 4, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 16, 18, 6, 16, 6, 18, 18, 18, 18, 18, 18, 18, 18, 18, 6, 0, 22, 22, 4, 18, 4]
+                ],
+                "download_url": "/api/download_data/9uucgt3ny0qmtkst"
+              },
+              "chartInfo": ["Test Type     : Regression", "Coefficient   : -1.54", "P-Value       : <= 0.05", "Intercept     : 29.28", "R Square      : 0.71", "Inference     : For every additional unit of decrease in First call resolution there will be an decrease of -1.54 units in Call Volume (target)."]
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": " <p class=\"txt-justify\"> <b>High Call Volume with High First call resolution</b>: The Call Volume observations from this quadrant are typically from Docs for reimbursement (Call Type),Oracle (Top Organization) and Central (Region). It accounts for about 38.0% of the total population. </p> "
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": " <p class=\"txt-justify\"> <b>Low Call Volume with Low First call resolution</b>: Mostly Call Volume from Docs for reimbursement (Call Type), Oracle (Top Organization) and Central (Region) belong to this segment. They cover nearly 48.0% of the total population. </p> "
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": " <p class=\"txt-justify\"> <b>High Call Volume with Low First call resolution</b>: Nearly 12.0% of the total observations are from this group and they are generally coming from Oracle (Top Organization),Docs for reimbursement (Call Type) and Central (Region). </p> "
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": " <p class=\"txt-justify\"> <b>Low Call Volume with High First call resolution</b>: Nearly 0.0% of the total observations are from this group and they are generally coming from West (Region), Plan Limit (Call Type) and Oracle (Top Organization). </p>"
+            }],
+            "name": "First call resolution: Impact on Call Volume",
+            "slug": "first-call-resolution-impact-on-call-volume-deuofhbhnn"
+          }],
+          "name": "First call resolution",
+          "slug": "first-call-resolution-1gtvu590pl"
+        },
+        {
+          "listOfNodes": [],
+          "listOfCards": [
+            {
+            "cardWidth": 100,
+            "cardType": "normal",
+            "cardData": [{
+              "dataType": "html",
+              "classTag": null,
+              "data": "<h3>Impact of Average Call duration (in Minutes) on Call Volume</h3>"
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<h4>Overview</h4> "
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": " <p class=\"txt-justify\"> Average Call duration (in Minutes) is one of the <b>significant influencer</b> of Call Volume and it explains a great magnitude of change in Call Volume. It is <b>negatively & moderately correlated</b> with the Call Volume figures. As Average Call duration (in Minutes) changes, Call Volume tend to move in the opposite direction. An incremental unit change in Average Call duration (in Minutes) corresponds to an average increase in Call Volume by 0.69 units. </p>"
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<h4>Sensitivity Analysis</h4> "
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": " <p class=\"txt-justify\"> Average Call duration (in Minutes) seems to have a remarkable impact on various segments of Call Volume observations. The chart above shows four quadrants based on the distribution of Call Volume (high vs. low) and Average Call duration (in Minutes) (high vs. low). </p> "
+            }, {
+              "dataType": "c3Chart",
+              "widthPercent": 100,
+              "data": {
+                "chart_c3": {
+                  "bar": {
+                    "width": {
+                      "ratio": 0.5
+                    }
+                  },
+                  "point": {
+                    "r": 4
+                  },
+                  "color": {
+                    "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+                  },
+                  "tooltip": {
+                    "show": true
+                  },
+                  "padding": {
+                    "top": 40
+                  },
+                  "grid": {
+                    "y": {
+                      "show": true
+                    },
+                    "x": {
+                      "show": true
+                    }
+                  },
+                  "subchart": null,
+                  "axis": {
+                    "y": {
+                      "tick": {
+                        "outer": false,
+                        "multiline": true,
+                        "format": ".2s"
+                      },
+                      "label": {
+                        "text": "Call Volume",
+                        "position": "outer-middle"
+                      }
+                    },
+                    "x": {
+                      "height": 95,
+                      "tick": {
+                        "rotate": -45,
+                        "multiline": false,
+                        "fit": false
+                      },
+                      "type": "index",
+                      "extent": null,
+                      "label": {
+                        "text": "Average Call duration (in Minutes)",
+                        "position": "outer-center"
+                      }
+                    }
+                  },
+                  "data": {
+                    "axes": {
+                      "Call Volume": "y"
+                    },
+                    "names": {
+                      "#EC640C": "High Call Volume with Low Average Call duration (in Minutes)",
+                      "#00AEB3": "High Call Volume with High Average Call duration (in Minutes)",
+                      "#DD2E1F": "Low Call Volume with Low Average Call duration (in Minutes)",
+                      "#7C5BBB": "Low Call Volume with High Average Call duration (in Minutes)"
+                    },
+                    "x": null,
+                    "xs": {
+                      "High Call Volume with Low Average Call duration (in Minutes)": "High Call Volume with Low Average Call duration (in Minutes)_x",
+                      "High Call Volume with High Average Call duration (in Minutes)": "High Call Volume with High Average Call duration (in Minutes)_x",
+                      "Low Call Volume with High Average Call duration (in Minutes)": "Low Call Volume with High Average Call duration (in Minutes)_x",
+                      "Low Call Volume with Low Average Call duration (in Minutes)": "Low Call Volume with Low Average Call duration (in Minutes)_x"
+                    },
+                    "type": "scatter",
+                    "columns": [
+                      ["High Call Volume with Low Average Call duration (in Minutes)", 39, 39, 39, 39, 39, 41, 41, 41, 41, 43, 46, 46, 47, 47, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 52, 52, 52, 53, 53, 54, 55, 55, 55, 55, 55, 56, 57, 57, 57, 57, 57, 57, 57, 58, 58, 58, 58, 58, 58, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 61, 61, 62, 62, 63, 63, 63, 64, 65, 65, 65, 66, 66, 66, 66, 69, 70, 70, 71, 71, 72, 72, 72, 72, 72, 74, 75, 77, 77, 77, 78, 78, 78, 78, 78, 78, 78],
+                      ["High Call Volume with Low Average Call duration (in Minutes)_x", 4.72, 3.54, 4.72, 4.72, 4.72, 4.72, 4.72, 3.54, 4.72, 3.54, 4.72, 2.36, 4.72, 2.36, 1.15, 2.3, 3.45, 1.15, 2.3, 2.3, 1.15, 2.3, 2.3, 2.3, 1.15, 1.15, 2.3, 1.15, 2.3, 1.15, 1.15, 1.15, 1.15, 2.1, 1.05, 2.1, 1.05, 3.15, 3.15, 3.15, 2.1, 3.15, 2.1, 3.15, 2.1, 2.1, 3.15, 1.05, 2.1, 3.15, 3.15, 1.05, 1.05, 1.05, 1.05, 2.1, 3.15, 3.15, 2.1, 1.05, 2.1, 2.1, 2.1, 3.15, 1.05, 3.15, 1.05, 2.1, 3.15, 1.05, 1.02, 2.04, 4.08, 3.06, 3.06, 2.04, 2.04, 3.06, 3.06, 3.06, 3.06, 3.06, 1.02, 2.04, 2.04, 1.02, 2.04, 3.06, 1.02, 2.04, 3.06, 2.04, 3.06, 5.05, 3.03, 2.02, 3.03, 4.08, 3.06, 3.06],
+                      ["High Call Volume with High Average Call duration (in Minutes)", 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 46, 46, 46, 46, 46, 46, 46, 46, 46, 46, 47, 47, 47, 47, 47, 47, 47, 47, 47, 47, 47, 47, 47, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 51, 51, 52, 55, 55, 55, 56, 57, 57, 57, 63, 74, 74, 77, 78, 78, 78, 78, 78],
+                      ["High Call Volume with High Average Call duration (in Minutes)_x", 5.9, 7.08, 5.9, 5.9, 5.9, 7.08, 7.08, 5.9, 7.08, 7.08, 7.08, 5.9, 5.9, 5.9, 5.9, 7.08, 7.08, 5.9, 5.9, 7.08, 7.08, 7.08, 5.9, 5.9, 7.08, 5.9, 5.9, 7.08, 5.9, 7.08, 7.08, 7.08, 7.08, 5.9, 7.08, 5.9, 7.08, 5.9, 5.9, 7.08, 5.9, 7.08, 5.9, 5.9, 5.9, 7.08, 7.08, 7.08, 7.08, 5.9, 5.9, 5.9, 7.08, 5.9, 7.08, 7.08, 7.08, 5.9, 5.75, 5.75, 6.9, 6.9, 6.9, 5.75, 6.9, 5.75, 5.75, 6.9, 5.75, 5.75, 5.75, 5.75, 6.9, 5.75, 6.9, 5.75, 6.9, 6.9, 6.9, 5.75, 6.9, 5.75, 8.05, 6.3, 7.35, 7.35, 6.3, 7.35, 7.35, 7.35, 6.3, 6.12, 8.16, 6.12, 6.06, 9.09, 7.07, 7.07, 7.07],
+                      ["Low Call Volume with High Average Call duration (in Minutes)", 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 19, 19, 19, 19, 19, 19, 19, 21, 21, 21, 21, 21, 21, 21, 21, 24, 24, 24, 24, 24, 24, 24, 24, 26, 26, 27, 29, 29, 32, 32, 32, 33, 35, 37, 37, 37],
+                      ["Low Call Volume with High Average Call duration (in Minutes)_x", 8.26, 8.26, 9.44, 10.62, 8.26, 8.26, 8.26, 9.44, 10.62, 9.44, 9.44, 10.62, 8.26, 10.62, 8.26, 9.44, 9.44, 8.26, 10.62, 9.44, 8.26, 8.26, 9.44, 8.26, 10.62, 9.44, 8.26, 9.44, 9.44, 10.62, 10.62, 9.44, 8.26, 9.44, 9.44, 10.62, 9.44, 10.62, 10.62, 8.26, 9.44, 10.62, 8.26, 10.62, 9.44, 8.26, 8.26, 8.26, 10.62, 8.26, 8.26, 10.62, 10.62, 8.26, 9.44, 8.26, 10.62, 10.62, 9.44, 8.26, 8.26, 8.26, 10.62, 9.44, 10.62, 8.26, 8.26, 10.62, 8.26, 9.44, 8.26, 10.62, 10.62, 10.62, 9.44, 10.62, 9.44, 10.62, 9.44, 10.62, 9.44, 9.44, 7.08, 7.08, 7.08, 9.44, 5.9, 7.08, 5.9, 7.08, 7.08, 7.08, 7.08, 7.08, 7.08],
+                      ["Low Call Volume with Low Average Call duration (in Minutes)", 6, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 12, 12, 12, 12, 13, 16, 16, 16, 16, 16, 16, 18, 18, 18, 18, 26, 26, 26, 26, 26, 26, 26, 27, 27, 27, 27, 29, 32, 32, 32, 32, 32, 32, 33, 33, 35, 37, 37, 37, 37],
+                      ["Low Call Volume with Low Average Call duration (in Minutes)_x", 0.885, 1.357, 1.357, 1.357, 1.357, 1.357, 3.776, 1.357, 1.357, 1.357, 1.357, 1.357, 1.357, 1.357, 0.885, 0.885, 0.885, 0.885, 0.885, 0.885, 0.885, 1.062, 1.062, 1.062, 2.714, 2.714, 2.714, 2.714, 2.714, 2.714, 2.714, 1.357, 1.357, 1.357, 1.357, 1.357, 1.357, 1.77, 1.77, 1.77, 1.77, 1.77, 1.77, 1.77, 1.77, 1.77, 1.77, 1.77, 0.885, 0.885, 0.885, 0.885, 2.124, 1.062, 1.062, 4.72, 3.54, 2.36, 4.72, 3.54, 2.36, 2.36, 3.54, 2.36, 1.18, 4.72, 3.54, 2.36, 4.72, 1.18, 4.72, 1.18, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 3.54, 2.36, 4.72, 4.72]
+                    ]
+                  },
+                  "legend": {
+                    "show": true
+                  },
+                  "size": {
+                    "height": 340
+                  }
+                },
+                "yformat": ".2s",
+                "table_c3": [
+                  ["High Call Volume with Low Average Call duration (in Minutes)", 39, 39, 39, 39, 39, 41, 41, 41, 41, 43, 46, 46, 47, 47, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 52, 52, 52, 53, 53, 54, 55, 55, 55, 55, 55, 56, 57, 57, 57, 57, 57, 57, 57, 58, 58, 58, 58, 58, 58, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 61, 61, 62, 62, 63, 63, 63, 64, 65, 65, 65, 66, 66, 66, 66, 69, 70, 70, 71, 71, 72, 72, 72, 72, 72, 74, 75, 77, 77, 77, 78, 78, 78, 78, 78, 78, 78],
+                  ["High Call Volume with Low Average Call duration (in Minutes)_x", 4.72, 3.54, 4.72, 4.72, 4.72, 4.72, 4.72, 3.54, 4.72, 3.54, 4.72, 2.36, 4.72, 2.36, 1.15, 2.3, 3.45, 1.15, 2.3, 2.3, 1.15, 2.3, 2.3, 2.3, 1.15, 1.15, 2.3, 1.15, 2.3, 1.15, 1.15, 1.15, 1.15, 2.1, 1.05, 2.1, 1.05, 3.15, 3.15, 3.15, 2.1, 3.15, 2.1, 3.15, 2.1, 2.1, 3.15, 1.05, 2.1, 3.15, 3.15, 1.05, 1.05, 1.05, 1.05, 2.1, 3.15, 3.15, 2.1, 1.05, 2.1, 2.1, 2.1, 3.15, 1.05, 3.15, 1.05, 2.1, 3.15, 1.05, 1.02, 2.04, 4.08, 3.06, 3.06, 2.04, 2.04, 3.06, 3.06, 3.06, 3.06, 3.06, 1.02, 2.04, 2.04, 1.02, 2.04, 3.06, 1.02, 2.04, 3.06, 2.04, 3.06, 5.05, 3.03, 2.02, 3.03, 4.08, 3.06, 3.06],
+                  ["High Call Volume with High Average Call duration (in Minutes)", 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 46, 46, 46, 46, 46, 46, 46, 46, 46, 46, 47, 47, 47, 47, 47, 47, 47, 47, 47, 47, 47, 47, 47, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 51, 51, 52, 55, 55, 55, 56, 57, 57, 57, 63, 74, 74, 77, 78, 78, 78, 78, 78],
+                  ["High Call Volume with High Average Call duration (in Minutes)_x", 5.9, 7.08, 5.9, 5.9, 5.9, 7.08, 7.08, 5.9, 7.08, 7.08, 7.08, 5.9, 5.9, 5.9, 5.9, 7.08, 7.08, 5.9, 5.9, 7.08, 7.08, 7.08, 5.9, 5.9, 7.08, 5.9, 5.9, 7.08, 5.9, 7.08, 7.08, 7.08, 7.08, 5.9, 7.08, 5.9, 7.08, 5.9, 5.9, 7.08, 5.9, 7.08, 5.9, 5.9, 5.9, 7.08, 7.08, 7.08, 7.08, 5.9, 5.9, 5.9, 7.08, 5.9, 7.08, 7.08, 7.08, 5.9, 5.75, 5.75, 6.9, 6.9, 6.9, 5.75, 6.9, 5.75, 5.75, 6.9, 5.75, 5.75, 5.75, 5.75, 6.9, 5.75, 6.9, 5.75, 6.9, 6.9, 6.9, 5.75, 6.9, 5.75, 8.05, 6.3, 7.35, 7.35, 6.3, 7.35, 7.35, 7.35, 6.3, 6.12, 8.16, 6.12, 6.06, 9.09, 7.07, 7.07, 7.07],
+                  ["Low Call Volume with High Average Call duration (in Minutes)", 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 19, 19, 19, 19, 19, 19, 19, 21, 21, 21, 21, 21, 21, 21, 21, 24, 24, 24, 24, 24, 24, 24, 24, 26, 26, 27, 29, 29, 32, 32, 32, 33, 35, 37, 37, 37],
+                  ["Low Call Volume with High Average Call duration (in Minutes)_x", 8.26, 8.26, 9.44, 10.62, 8.26, 8.26, 8.26, 9.44, 10.62, 9.44, 9.44, 10.62, 8.26, 10.62, 8.26, 9.44, 9.44, 8.26, 10.62, 9.44, 8.26, 8.26, 9.44, 8.26, 10.62, 9.44, 8.26, 9.44, 9.44, 10.62, 10.62, 9.44, 8.26, 9.44, 9.44, 10.62, 9.44, 10.62, 10.62, 8.26, 9.44, 10.62, 8.26, 10.62, 9.44, 8.26, 8.26, 8.26, 10.62, 8.26, 8.26, 10.62, 10.62, 8.26, 9.44, 8.26, 10.62, 10.62, 9.44, 8.26, 8.26, 8.26, 10.62, 9.44, 10.62, 8.26, 8.26, 10.62, 8.26, 9.44, 8.26, 10.62, 10.62, 10.62, 9.44, 10.62, 9.44, 10.62, 9.44, 10.62, 9.44, 9.44, 7.08, 7.08, 7.08, 9.44, 5.9, 7.08, 5.9, 7.08, 7.08, 7.08, 7.08, 7.08, 7.08],
+                  ["Low Call Volume with Low Average Call duration (in Minutes)", 6, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 12, 12, 12, 12, 13, 16, 16, 16, 16, 16, 16, 18, 18, 18, 18, 26, 26, 26, 26, 26, 26, 26, 27, 27, 27, 27, 29, 32, 32, 32, 32, 32, 32, 33, 33, 35, 37, 37, 37, 37],
+                  ["Low Call Volume with Low Average Call duration (in Minutes)_x", 0.885, 1.357, 1.357, 1.357, 1.357, 1.357, 3.776, 1.357, 1.357, 1.357, 1.357, 1.357, 1.357, 1.357, 0.885, 0.885, 0.885, 0.885, 0.885, 0.885, 0.885, 1.062, 1.062, 1.062, 2.714, 2.714, 2.714, 2.714, 2.714, 2.714, 2.714, 1.357, 1.357, 1.357, 1.357, 1.357, 1.357, 1.77, 1.77, 1.77, 1.77, 1.77, 1.77, 1.77, 1.77, 1.77, 1.77, 1.77, 0.885, 0.885, 0.885, 0.885, 2.124, 1.062, 1.062, 4.72, 3.54, 2.36, 4.72, 3.54, 2.36, 2.36, 3.54, 2.36, 1.18, 4.72, 3.54, 2.36, 4.72, 1.18, 4.72, 1.18, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 4.72, 3.54, 2.36, 4.72, 4.72]
+                ],
+                "download_url": "/api/download_data/m8xa9vkwzwzy5ekw"
+              },
+              "chartInfo": ["Test Type     : Regression", "Coefficient   : 0.69", "P-Value       : <= 0.05", "Intercept     : 29.28", "R Square      : 0.71", "Inference     : For every additional unit of increase in Average Call duration (in Minutes) there will be an increase of 0.69 units in Call Volume (target)."]
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": " <p class=\"txt-justify\"> <b>High Call Volume with High Average Call duration (in Minutes)</b>: The Call Volume observations from this quadrant are typically from Oracle (Top Organization),Docs for reimbursement (Call Type) and Central (Region). It accounts for about 9.0% of the total population. </p> "
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": " <p class=\"txt-justify\"> <b>Low Call Volume with Low Average Call duration (in Minutes)</b>: Mostly Call Volume from Docs for reimbursement (Call Type), Microsoft (Top Organization) and Central (Region) belong to this segment. They cover nearly 11.0% of the total population. </p> "
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": " <p class=\"txt-justify\"> <b>High Call Volume with Low Average Call duration (in Minutes)</b>: Nearly 41.0% of the total observations are from this group and they are generally coming from Docs for reimbursement (Call Type),Oracle (Top Organization) and Central (Region). </p> "
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": " <p class=\"txt-justify\"> <b>Low Call Volume with High Average Call duration (in Minutes)</b>: Nearly 36.0% of the total observations are from this group and they are generally coming from Docs for reimbursement (Call Type), Oracle (Top Organization) and Central (Region). </p>"
+            }],
+            "name": "Average Call duration (in Minutes): Impact on Call Volume",
+            "slug": "average-call-duration-in-minutes-impact-on-call-volume-6gq95gpp4c"
+          }],
+          "name": "Average Call duration (in Minutes)",
+          "slug": "average-call-duration-in-minutes-uamjsm17mb"
+        }
+      ],
+      "listOfCards": [
+          {
+            "cardWidth": 100,
+            "cardType": "normal",
+            "cardData": [
+                {
+                  "dataType": "html",
+                  "classTag": null,
+                  "data": "<h3>Key Measures that affect Call Volume</h3>"
+                },
+                {
+                  "dataType": "html",
+                  "classTag": null,
+                  "data": "<p class=\"txt-justify\"> There are <b>3 measures</b> in the dataset and <b>two of them</b> (First call resolution and Average Call duration (in Minutes)) have <b>significant influence</b> on Call Volume. It implies that these measures explain considerable amount of variation in Call Volume figures. The chart below displays the <b>impact of key Measures</b> on Call Volume, as measured by effect size. Let us take a deeper look at some of the most important Measures that explain remarkable amount of change in Call Volume. </p>"
+                },
+                {
+                  "dataType": "c3Chart",
+                  "widthPercent": 100,
+                  "data": {
+                    "chart_c3": {
+                      "bar": {
+                        "width": 40
+                      },
+                      "point": null,
+                      "color": {
+                        "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+                      },
+                      "tooltip": {
+                        "show": true,
+                        "format": {
+                          "title": ".2s"
+                        }
+                      },
+                      "padding": {
+                        "top": 40
+                      },
+                      "grid": {
+                        "y": {
+                          "lines": [{
+                            "text": "",
+                            "class": "zeroAxisGrid",
+                            "value": 0,
+                            "position": "start"
+                          }],
+                          "show": true
+                        },
+                        "x": {
+                          "show": false
+                        }
+                      },
+                      "subchart": null,
+                      "axis": {
+                        "y": {
+                          "tick": {
+                            "outer": false,
+                            "multiline": true,
+                            "format": ".2s"
+                          },
+                          "label": {
+                            "text": "Change in Call Volume per unit increase",
+                            "position": "outer-middle"
+                          }
+                        },
+                        "x": {
+                          "height": 95,
+                          "tick": {
+                            "rotate": -45,
+                            "multiline": false,
+                            "fit": false,
+                            "format": ".2s"
+                          },
+                          "type": "category",
+                          "label": {
+                            "text": "Influencing Factors",
+                            "position": "outer-center"
+                          }
+                        }
+                      },
+                      "data": {
+                        "x": "key",
+                        "axes": {
+                          "value": "y"
+                        },
+                        "type": "bar",
+                        "columns": [
+                          ["key", "First call resolution", "Average Call duration (in Minutes)"],
+                          ["value", -1.5351673352710102, 0.6870535044064173]
+                        ]
+                      },
+                      "legend": {
+                        "show": false
+                      },
+                      "size": {
+                        "height": 340
+                      }
+                    },
+                    "yformat": ".2f",
+                    "table_c3": [
+                      ["key", "First call resolution", "Average Call duration (in Minutes)"],
+                      ["value", -1.5351673352710102, 0.6870535044064173]
+                    ],
+                    "download_url": "/api/download_data/ufmvx7ldmr3d1mxo",
+                    "xdata": ["First call resolution", "Average Call duration (in Minutes)"]
+                  },
+                  "chartInfo": ["Test Type         : Regression", "Effect Size       : Coefficients", "Max Effect Size   : Average Call duration (in Minutes)", "Min Effect Size   : First call resolution", "Inference         : There are two variables (Average Call duration (in Minutes) and First call resolution) that have significant influence over Call Volume (Target) and the              Effect size ranges are 0.6871 and -1.5352 respectively"]
+                }
+            ],
+            "name": "Key Influencers",
+            "slug": "key-influencers-4z8ckebx3x"
+          }
+      ],
+      "name": "Influencers",
+      "slug": "influencers-vu2bcvtrkj"
+    },
+    {
+        "listOfNodes": [],
+        "listOfCards": [
+          {
+            "cardWidth": 100,
+            "cardType": "normal",
+            "cardData": [
+              {
+                "dataType": "html",
+                "classTag": null,
+                "data": "<h3>Predicting the Key Drivers of Call Volume</h3> "
+              }, {
+                "dataType": "html",
+                "classTag": null,
+                "data": " <p> mAdvisor has arrived at a set of prediction rules for the data set. Here is the summary of the prediction results along with the rules for prediction </p> "
+              }, {
+                "dataType": "html",
+                "classTag": null,
+                "data": " <div className='col-md-3 pred_disp_block cursor'> <a> <h1>4 <small> Strong Signals </small> </h1> </a> <p> Rules leading to a single outcome More than 75% of the time. </p> </div> "
+              }, {
+                "dataType": "html",
+                "classTag": null,
+                "data": " <div className='col-md-3 pred_disp_block cursor'> <a> <h1>3 <small>Mixed Signals </small> </h1> </a> <p> Rules leading to multiple outcomes therefore these signals must be considered all together </p> </div>"
+              }, {
+                "dataType": "c3Chart",
+                "widthPercent": 45,
+                "data": {
+                  "chart_c3": {
+                    "color": {
+                      "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+                    },
+                    "tooltip": {
+                      "format": {
+                        "value": ".2s",
+                        "title": ""
+                      }
+                    },
+                    "padding": {
+                      "top": 40
+                    },
+                    "donut": {
+                      "width": 20,
+                      "title": "",
+                      "label": {
+                        "show": false,
+                        "format": ".2s"
+                      }
+                    },
+                    "data": {
+                      "x": null,
+                      "type": "donut",
+                      "columns": [
+                        ["Medium : (34.0 to 56.0)", 571],
+                        ["High : (56.0 to 79.0)", 302],
+                        ["Low : (3.0 to 34.0)", 1212]
+                      ]
+                    },
+                    "legend": {
+                      "position": "right",
+                      "show": true
+                    },
+                    "size": {
+                      "height": 340
+                    }
+                  },
+                  "yformat": ".2s",
+                  "legend_data": [{
+                    "color": "#00AEB3",
+                    "name": "Medium : (34.0 to 56.0)"
+                  }, {
+                    "color": "#f47b16",
+                    "name": "High : (56.0 to 79.0)"
+                  }, {
+                    "color": "#7c5bbb",
+                    "name": "Low : (3.0 to 34.0)"
+                  }],
+                  "download_url": "/api/download_data/5peqb3djya2s0np7",
+                  "table_c3": [
+                    ["Medium : (34.0 to 56.0)", 571],
+                    ["High : (56.0 to 79.0)", 302],
+                    ["Low : (3.0 to 34.0)", 1212]
+                  ]
+                },
+                "chartInfo": []
+              },
+              {
+                "dataType": "dropdown",
+                "data": [
+                  {
+                    "searchTerm": "Medium",
+                    "selected": true,
+                    "displayName": "Medium : (34.0 to 56.0)",
+                    "name": "Medium",
+                    "id": 1
+                  }, {
+                    "searchTerm": "High",
+                    "selected": false,
+                    "displayName": "High : (56.0 to 79.0)",
+                    "name": "High",
+                    "id": 2
+                  }, {
+                    "searchTerm": "Low",
+                    "selected": false,
+                    "displayName": "Low : (3.0 to 34.0)",
+                    "name": "Low",
+                    "id": 3
+                  }
+                ],
+                "label": "Showing prediction rules for"
+              },
+              {
+                "dataType": "table",
+                "tableWidth": 100,
+                "data": {
+                  "tableData": [
+                    ["Prediction Rule", "Probability", "Prediction", "Freq", "group", "richRules"],
+                    ["value of First call resolution is between 12.0 to 45.0 and value of Average Call duration (in Minutes) is less than or equal to 7.08", "44%", "Medium", 158, "mixed", "If the value of First call resolution is between 12.0 to 45.0 and the value of Average Call duration (in Minutes) is less than or equal to 7.08 then there is a  <b>44%  <b>probability that the Call Volume is Medium : (34.0 to 56.0)."],
+                    ["value of First call resolution is between 45.0 to 52.0 and value of Average Call duration (in Minutes) is less than or equal to 4.6", "50%", "Medium", 355, "mixed", "When the value of First call resolution is between 45.0 to 52.0 and the value of Average Call duration (in Minutes) is less than or equal to 4.6 the probability of Medium : (34.0 to 56.0) is  <b>50 % <b>."],
+                    ["value of First call resolution is between 45.0 to 52.0 and value of Average Call duration (in Minutes) is greater than 4.6", "77%", "Medium", 58, "strong", "When the value of First call resolution is between 45.0 to 52.0 and the value of Average Call duration (in Minutes) is greater than 4.6 the probability of Medium : (34.0 to 56.0) is  <b>77 % <b>."],
+                    ["value of First call resolution is greater than 52.0", "100%", "High", 302, "strong", "If the value of First call resolution is greater than 52.0 then there is a  <b>100%  <b>probability that the Call Volume is High : (56.0 to 79.0)."],
+                    ["value of First call resolution is less than or equal to 12.0 and value of Average Call duration (in Minutes) is less than or equal to 7.08", "54%", "Low", 559, "mixed", "If the value of First call resolution is less than or equal to 12.0 and the value of Average Call duration (in Minutes) is less than or equal to 7.08 it is  <b>54%  <b>likely that the Call Volume is Low : (3.0 to 34.0)."],
+                    ["value of First call resolution is less than or equal to 45.0 and Agent Age falls among (36 to 45,Below 25,31 to 35)", "99%", "Low", 469, "strong", "If the value of First call resolution is less than or equal to 45.0 and the Agent Age falls among (36 to 45,Below 25,31 to 35) then there is a  <b>99%  <b>probability that the Call Volume is Low : (3.0 to 34.0)."],
+                    ["value of First call resolution is less than or equal to 45.0 and Agent Age does not fall in (36 to 45,Below 25,31 to 35)", "97%", "Low", 184, "strong", "When the value of First call resolution is less than or equal to 45.0 and the Agent Age does not fall in (36 to 45,Below 25,31 to 35) then there is  <b>97%  <b>chance that Call Volume would be Low : (3.0 to 34.0)."]
+                  ],
+                  "tableType": "popupDecisionTreeTable"
+                }
+              }
+            ],
+            "name": "Predicting Key Drivers of Call Volume",
+            "slug": "predicting-key-drivers-of-call-volume-i1wm0r0h1g"
+          }
+        ],
+        "name": "Prediction",
+        "slug": "prediction-m6ar5aq32b"
+    }
+  ],
+  "listOfCards": [
+    {
+    "slug": "summary-ppr6jcmr4r",
+    "cardType": "summary",
+    "cardData": {
+      "noOfMeasures": 3,
+      "quotesHtml": null,
+      "summaryHtml": [{
+        "dataType": "html",
+        "classTag": null,
+        "data": "<p class = \"lead txt-justify\"> mAdvisor has analyzed the dataset and it contains<b> 14</b> variables and <b>2,085</b> observations. Please click view summary to find the insights from our analysis of <b>call volume</b> factoring the other variables. </p>"
+      }],
+      "noOfTimeDimensions": 1,
+      "noOfDimensions": 10
+    },
+    "name": "Summary",
+    "cardWidth": 100
+  }],
+  "name": "calls",
+  "slug": "calls-pcxir2nwm9"
+}

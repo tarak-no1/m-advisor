@@ -1,0 +1,47 @@
+{
+  "credit_balance":{
+    "data_type" : "integer",
+    "values" : [],
+    "target_status" : false
+  },
+  "gender" : {
+    "data_type" : "string",
+    "values" : ["female", "male"],
+    "target_status" : false
+  },
+  "education":{
+    "data_type" : "string",
+    "values" : ["university", "high school", "graduate school"],
+    "target_status" : false
+  },
+  "marital_status": {
+    "data_type" : "string",
+    "values" : ["married", "single"],
+    "target_status" : false
+  },
+  "age_category" : {
+    "data_type" : "string",
+    "values" : ["21-30", "31-40", "41-50", "above 50"],
+    "target_status" : false
+  },
+  "state" : {
+    "data_type" : "string",
+    "values" : ["ohio", "new york", "florida", "virginia", "washington"],
+    "target_status" : false
+  },
+  "credit_rating" : {
+    "data_type" : "string",
+    "values" : ["prime", "deep prime", "near prime", "sub prime", "super prime"],
+    "target_status" : false
+  },
+  "average_spend" : {
+    "data_type" : "string",
+    "values" : ["$1,000 to $5,000", "$5,000 to $10,000", "$10,000 to $20,000", "less than $1,000", "more than $20,000"],
+    "target_status" : false
+  },
+  "status" : {
+    "data_status" : "string",
+    "values" : ["churn", "active"],
+    "target_status" : true
+  }
+}

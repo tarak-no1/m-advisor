@@ -1,0 +1,1763 @@
+{
+  "listOfNodes": [
+    {
+      "listOfNodes": [],
+      "listOfCards": [
+        {
+          "cardWidth": 100,
+          "cardType": "normal",
+          "cardData": [
+            {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<p class = \"txt-justify\"> The value for sales range from a <b>minimum</b> of 10 all the way upto a <b>maximum</b> of 2,754. The <b>sum of sales</b> amounts to 1.4 Million with the <b>average</b> sales per observation being 270. The dataset contains 5000 <b>observations</b> and there are 590 observations (outliers) that have <b>extremely high</b> value of sales </p>"
+            },
+            {
+              "dataType": "c3Chart",
+              "widthPercent": 100,
+              "data": {
+                "chart_c3": {
+                  "bar": {
+                    "width": {
+                      "ratio": 0.5
+                    }
+                  },
+                  "point": null,
+                  "color": {
+                    "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+                  },
+                  "tooltip": {
+                    "show": true,
+                    "format": {
+                      "title": ".2s"
+                    }
+                  },
+                  "padding": {
+                    "top": 40
+                  },
+                  "grid": {
+                    "y": {
+                      "show": true
+                    },
+                    "x": {
+                      "show": false
+                    }
+                  },
+                  "subchart": {
+                    "show": true
+                  },
+                  "axis": {
+                    "y": {
+                      "tick": {
+                        "outer": false,
+                        "multiline": true,
+                        "format": ".2s"
+                      },
+                      "label": {
+                        "text": "No. of Observations",
+                        "position": "outer-middle"
+                      }
+                    },
+                    "x": {
+                      "height": 95,
+                      "tick": {
+                        "rotate": -45,
+                        "multiline": false,
+                        "fit": false,
+                        "format": ".2s"
+                      },
+                      "type": "category",
+                      "extent": [0, 10],
+                      "label": {
+                        "text": "",
+                        "position": "outer-center"
+                      }
+                    }
+                  },
+                  "data": {
+                    "x": "bin_name",
+                    "axes": {
+                      "Count": "y"
+                    },
+                    "type": "bar",
+                    "columns": [
+                      ["Count", 530, 542, 518, 557, 481, 567, 456, 282, 222, 120, 105, 51, 67, 56, 59, 33, 47, 28, 22, 25, 14, 17, 21, 10, 6, 12, 13, 139],
+                      ["bin_name", "< 50.96", "< 91.93", "< 132.89", "< 173.85", "< 214.81", "< 255.78", "< 296.74", "< 337.7", "< 378.67", "< 419.63", "< 460.59", "< 501.56", "< 542.52", "< 583.48", "< 624.44", "< 665.41", "< 706.37", "< 747.33", "< 788.3", "< 829.26", "< 870.22", "< 911.19", "< 952.15", "< 993.11", "< 1,034.07", "< 1,075.04", "< 1,116.0", "< 2,755.0"]
+                    ]
+                  },
+                  "legend": {
+                    "show": false
+                  },
+                  "size": {
+                    "height": 495
+                  }
+                },
+                "yformat": ".2s",
+                "table_c3": [
+                  ["bin_name", "< 50.96", "< 91.93", "< 132.89", "< 173.85", "< 214.81", "< 255.78", "< 296.74", "< 337.7", "< 378.67", "< 419.63", "< 460.59", "< 501.56", "< 542.52", "< 583.48", "< 624.44", "< 665.41", "< 706.37", "< 747.33", "< 788.3", "< 829.26", "< 870.22", "< 911.19", "< 952.15", "< 993.11", "< 1,034.07", "< 1,075.04", "< 1,116.0", "< 2,755.0"],
+                  ["Count", 530, 542, 518, 557, 481, 567, 456, 282, 222, 120, 105, 51, 67, 56, 59, 33, 47, 28, 22, 25, 14, 17, 21, 10, 6, 12, 13, 139]
+                ],
+                "download_url": "/api/download_data/yss9dl9gsatuxfwb",
+                "xdata": ["< 50.96", "< 91.93", "< 132.89", "< 173.85", "< 214.81", "< 255.78", "< 296.74", "< 337.7", "< 378.67", "< 419.63", "< 460.59", "< 501.56", "< 542.52", "< 583.48", "< 624.44", "< 665.41", "< 706.37", "< 747.33", "< 788.3", "< 829.26", "< 870.22", "< 911.19", "< 952.15", "< 993.11", "< 1,034.07", "< 1,075.04", "< 1,116.0", "< 2,755.0"]
+              },
+              "chartInfo": []
+            },
+            {
+              "dataType": "table",
+              "tableWidth": 100,
+              "data": {
+                "tableType": "normal",
+                "tableData": [
+                  ["Minimum", "Quartile 1", "Median", "Quartile 3", "Maximum"],
+                  ["10", "120", "162", "264", "2,754"]
+                ]
+              }
+        }, {
+          "dataType": "html",
+          "classTag": null,
+          "data": " <p class = \"txt-justify\">The histogram shows distribution of sales divided into 28 categories.</p> <p class = \"txt-justify\">The plot indicates that the sales observations are <b>heavily concentrated</b> around a <b>few categories</b>, as more than <b>three quarters</b> (78.0%) of sales values are between <b>10 and 337</b>. The distribution is <b>positively skewed</b>, which implies that there is a significant chunk of <b>low-value</b> sales observations. </p> "
+        }, {
+          "dataType": "html",
+          "classTag": null,
+          "data": " <h2>Concentration of High & Low segments</h2> "
+        }, {
+          "dataType": "html",
+          "classTag": null,
+          "data": " <p class = \"txt-justify\"> The top 34% of the observations (High segment) account for about 67% of the total sales (1.4 Million), i.e. 909,758. </p> "
+        }, {
+          "dataType": "html",
+          "classTag": "highlight",
+          "data": " <ul> <li>The overall sales from the bottom quartile (28% of observations low sales) amounts to 91,734, which is just 6% of the total. </li> <li> The average sales per observations for the top performing segment is 522, which is 1.93 times that of the overall average sales per observation (270) and 7.0 times that of the mean value from Low segment. </li> </ul> "
+        }],
+        "name": "Distribution of Sales",
+        "slug": "distribution-of-sales-eoel2nyvah"
+      }],
+      "name": "Overview",
+      "slug": "overview-x80cyyqwer"
+    },
+    {
+      "listOfNodes": [
+        {
+          "listOfNodes": [],
+          "listOfCards": [
+            {
+            "cardWidth": 100,
+            "cardType": "normal",
+            "cardData": [
+              {
+                "dataType": "html",
+                "classTag": null,
+                "data": "<h3>Sales: Impact of Discount_Range on Sales</h3>"
+              },
+              {
+                "dataType": "c3Chart",
+                "widthPercent": 100,
+                "data": {
+                  "download_url": "/api/download_data/myao8fpe1d10pocq",
+                  "y2format": ".2s",
+                  "xdata": ["41 to 50 percent", "0 to 10 percent", "21 to 30 percent", "11 to 20 percent", "31 to 40 percent"],
+                  "chart_c3": {
+                    "bar": {
+                      "width": {
+                        "ratio": 0.5
+                      }
+                    },
+                    "point": null,
+                    "color": {
+                      "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+                    },
+                    "tooltip": {
+                      "show": true,
+                      "format": {
+                        "title": ".2s"
+                      }
+                    },
+                    "padding": {
+                      "top": 40
+                    },
+                    "grid": {
+                      "y": {
+                        "show": true
+                      },
+                      "x": {
+                        "show": false
+                      }
+                    },
+                    "subchart": null,
+                    "axis": {
+                      "y": {
+                        "tick": {
+                          "outer": false,
+                          "multiline": true,
+                          "format": ".2s"
+                        },
+                        "label": {
+                          "text": "Total Sales",
+                          "position": "outer-middle"
+                        }
+                      },
+                      "x": {
+                        "height": 95,
+                        "tick": {
+                          "rotate": -45,
+                          "multiline": false,
+                          "fit": false,
+                          "format": ".2s"
+                        },
+                        "type": "category",
+                        "label": {
+                          "text": "Discount_Range",
+                          "position": "outer-center"
+                        }
+                      },
+                      "y2": {
+                        "show": true,
+                        "tick": {
+                          "count": 7,
+                          "multiline": true,
+                          "format": ".2s"
+                        },
+                        "label": {
+                          "text": "Average Sales",
+                          "position": "outer-middle"
+                        }
+                      }
+                    },
+                    "data": {
+                      "x": "dimension",
+                      "axes": {
+                        "average": "y2"
+                      },
+                      "type": "bar",
+                      "columns": [
+                        ["average", 200.234375, 399.1661237785016, 293.5263157894737, 314.4281150159744, 242.76255707762556],
+                        ["total", 205040.0, 122544.0, 507507.0, 196831.99999999997, 318990.0],
+                        ["dimension", "41 to 50 percent", "0 to 10 percent", "21 to 30 percent", "11 to 20 percent", "31 to 40 percent"]
+                      ]
+                    },
+                    "legend": {
+                      "show": false
+                    },
+                    "size": {
+                      "height": 340
+                    }
+                  },
+                  "yformat": ".2s",
+                  "table_c3": [
+                    ["dimension", "41 to 50 percent", "0 to 10 percent", "21 to 30 percent", "11 to 20 percent", "31 to 40 percent"],
+                    ["total", 205040.0, 122544.0, 507507.0, 196831.99999999997, 318990.0],
+                    ["average", 200.234375, 399.1661237785016, 293.5263157894737, 314.4281150159744, 242.76255707762556]
+                  ]
+                },
+                "chartInfo": ["Test Type   : ANOVA", "P-Value     : 0.05", "F Value     : 0.08", "Inference   : There is a significant effect of Discount_Range on Sales (target)."]
+              },
+              {
+                "dataType": "html",
+                "classTag": null,
+                "data": "<p class = \"txt-justify\"> The <b>top two Discount_Ranges(21 to 30 percent and 31 to 40 percent)</b> account for about <b>61%</b> of the total Sales. Being the <b>largest contributor</b>, 21 to 30 percent amounts to 507,507 that accounts for about <b>37.57% of the total Sales</b>. However, 0 to 10 percent has the <b>highest average</b> Sales of 399, whereas the average for 21 to 30 percent is 293. On the other hand, 0 to 10 percent contributes to just 9% of the total Sales. </p>"
+              },
+              {
+                "dataType": "html",
+                "classTag": null,
+                "data": "<h4>Key Factors influencing Sales from 21 to 30 percent</h4>"
+              },
+              {
+                "dataType": "html",
+                "classTag": null,
+                "data": "<p class = \"txt-justify\"> High contribution of Sales from 21 to 30 percent is characterized by the influence of key dimensions, such as Deal_Type, Source, and Buyer_Age. Certain specific segment from those dimensions are more likely to explain 21 to 30 percent's significant Sales turnover. <!-- Also, the top 2 Buyer_Age contribute to 32.0% of Sales from 21 to 30 percent. --> </p> "
+              },
+              {
+                "dataType": "html",
+                "classTag": "highlight",
+                "data": " <ul> <li> Buyer_Age - The top 6 Buyer_Age account for 56.0% of the Sales from 21 to 30 percent. </li> <li> Source - Among the Source, top 4 Source account for 58.0% of the total Sales. </li> <li> Deal_Type - Among the Deal_Type, Gourmet has got the major chunk of Sales from 21 to 30 percent, accounting for 16.0%. </li> </ul> "
+              }
+            ],
+            "name": "Impact on Sales",
+            "slug": "impact-on-sales-0a10kfbt1i"
+          }],
+          "name": "Discount_Range",
+          "slug": "discount_range-jjaigrhq8b"
+        },
+        {
+          "listOfNodes": [],
+          "listOfCards": [
+              {
+              "cardWidth": 100,
+              "cardType": "normal",
+              "cardData": [
+                {
+                "dataType": "html",
+                "classTag": null,
+                "data": "<h3>Sales: Impact of Source on Sales</h3>"
+              }, {
+                "dataType": "c3Chart",
+                "widthPercent": 100,
+                "data": {
+                  "download_url": "/api/download_data/v5cgpdagoyl5payl",
+                  "y2format": ".2s",
+                  "xdata": ["Bing Search", "Facebook Ads", "Email Campaign", "Direct", "Facebook Page", "Google Search", "Google Ads"],
+                  "chart_c3": {
+                    "bar": {
+                      "width": {
+                        "ratio": 0.5
+                      }
+                    },
+                    "point": null,
+                    "color": {
+                      "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+                    },
+                    "tooltip": {
+                      "show": true,
+                      "format": {
+                        "title": ".2s"
+                      }
+                    },
+                    "padding": {
+                      "top": 40
+                    },
+                    "grid": {
+                      "y": {
+                        "show": true
+                      },
+                      "x": {
+                        "show": false
+                      }
+                    },
+                    "subchart": null,
+                    "axis": {
+                      "y": {
+                        "tick": {
+                          "outer": false,
+                          "multiline": true,
+                          "format": ".2s"
+                        },
+                        "label": {
+                          "text": "Total Sales",
+                          "position": "outer-middle"
+                        }
+                      },
+                      "x": {
+                        "height": 95,
+                        "tick": {
+                          "rotate": -45,
+                          "multiline": false,
+                          "fit": false,
+                          "format": ".2s"
+                        },
+                        "type": "category",
+                        "label": {
+                          "text": "Source",
+                          "position": "outer-center"
+                        }
+                      },
+                      "y2": {
+                        "show": true,
+                        "tick": {
+                          "count": 7,
+                          "multiline": true,
+                          "format": ".2s"
+                        },
+                        "label": {
+                          "text": "Average Sales",
+                          "position": "outer-middle"
+                        }
+                      }
+                    },
+                    "data": {
+                      "x": "dimension",
+                      "axes": {
+                        "average": "y2"
+                      },
+                      "type": "bar",
+                      "columns": [
+                        ["average", 259.78723404255317, 276.80546075085323, 272.83577235772356, 283.73388429752066, 288.87480190174324, 260.7032040472175, 263.16525423728814],
+                        ["total", 158729.99999999997, 81104.0, 167794.0, 171659.0, 182279.99999999997, 154597.0, 434749.0],
+                        ["dimension", "Bing Search", "Facebook Ads", "Email Campaign", "Direct", "Facebook Page", "Google Search", "Google Ads"]
+                      ]
+                    },
+                    "legend": {
+                      "show": false
+                    },
+                    "size": {
+                      "height": 340
+                    }
+                  },
+                  "yformat": ".2s",
+                  "table_c3": [
+                    ["dimension", "Bing Search", "Facebook Ads", "Email Campaign", "Direct", "Facebook Page", "Google Search", "Google Ads"],
+                    ["total", 158729.99999999997, 81104.0, 167794.0, 171659.0, 182279.99999999997, 154597.0, 434749.0],
+                    ["average", 259.78723404255317, 276.80546075085323, 272.83577235772356, 283.73388429752066, 288.87480190174324, 260.7032040472175, 263.16525423728814]
+                  ]
+                },
+                "chartInfo": ["Test Type   : ANOVA", "P-Value     : 0.05", "F Value     : 0.0", "Inference   : There is a significant effect of Source on Sales (target)."]
+              }, {
+                "dataType": "html",
+                "classTag": null,
+                "data": "<p class = \"txt-justify\"> The <b>top two Sources(Google Ads and Facebook Page)</b> account for about <b>45%</b> of the total Sales. Being the <b>largest contributor</b>, Google Ads amounts to 434,749 that accounts for about <b>32.18% of the total Sales</b>. However, Facebook Page has the <b>highest average</b> Sales of 288, whereas the average for Google Ads is 263. On the other hand, Facebook Ads contributes to just 6% of the total Sales. </p>"
+              }, {
+                "dataType": "html",
+                "classTag": null,
+                "data": "<h4>Key Factors influencing Sales from Google Ads</h4>"
+              }, {
+                "dataType": "html",
+                "classTag": null,
+                "data": "<p class = \"txt-justify\"> High contribution of Sales from Google Ads is characterized by the influence of key dimensions, such as Discount_Range, Deal_Type, and Buyer_Age. Certain specific segment from those dimensions are more likely to explain Google Ads's significant Sales turnover. <!-- Also, the top 4 Buyer_Age contribute to 75.0% of Sales from Google Ads. --> </p> "
+              }, {
+                "dataType": "html",
+                "classTag": "highlight",
+                "data": " <ul> <li> Buyer_Age - The top 3 Buyer_Age account for 55.0% of the Sales from Google Ads. </li> <li> Deal_Type - Among the Deal_Type, top 5 Deal_Type account for 48.0% of the total Sales. </li> <li> Discount_Range - Among the Discount_Range, 21 to 30 percent has got the major chunk of Sales from Google Ads, accounting for 35.0%. </li> </ul> "
+              }],
+              "name": "Impact on Sales",
+              "slug": "impact-on-sales-1r1w1slvem"
+            }],
+          "name": "Source",
+          "slug": "source-ug6lvaqltb"
+        },
+        {
+          "listOfNodes": [],
+          "listOfCards": [
+            {
+            "cardWidth": 100,
+            "cardType": "normal",
+            "cardData": [{
+              "dataType": "html",
+              "classTag": null,
+              "data": "<h3>Sales: Impact of Deal_Type on Sales</h3>"
+            }, {
+              "dataType": "c3Chart",
+              "widthPercent": 100,
+              "data": {
+                "download_url": "/api/download_data/x7sfejqcd1j4in2g",
+                "y2format": ".2s",
+                "xdata": ["Local Deals", "Families", "Escapes", "Gourmet", "National", "At Home", "Adventures"],
+                "chart_c3": {
+                  "bar": {
+                    "width": {
+                      "ratio": 0.5
+                    }
+                  },
+                  "point": null,
+                  "color": {
+                    "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+                  },
+                  "tooltip": {
+                    "show": true,
+                    "format": {
+                      "title": ".2s"
+                    }
+                  },
+                  "padding": {
+                    "top": 40
+                  },
+                  "grid": {
+                    "y": {
+                      "show": true
+                    },
+                    "x": {
+                      "show": false
+                    }
+                  },
+                  "subchart": null,
+                  "axis": {
+                    "y": {
+                      "tick": {
+                        "outer": false,
+                        "multiline": true,
+                        "format": ".2s"
+                      },
+                      "label": {
+                        "text": "Total Sales",
+                        "position": "outer-middle"
+                      }
+                    },
+                    "x": {
+                      "height": 95,
+                      "tick": {
+                        "rotate": -45,
+                        "multiline": false,
+                        "fit": false,
+                        "format": ".2s"
+                      },
+                      "type": "category",
+                      "label": {
+                        "text": "Deal_Type",
+                        "position": "outer-center"
+                      }
+                    },
+                    "y2": {
+                      "show": true,
+                      "tick": {
+                        "count": 7,
+                        "multiline": true,
+                        "format": ".2s"
+                      },
+                      "label": {
+                        "text": "Average Sales",
+                        "position": "outer-middle"
+                      }
+                    }
+                  },
+                  "data": {
+                    "x": "dimension",
+                    "axes": {
+                      "average": "y2"
+                    },
+                    "type": "bar",
+                    "columns": [
+                      ["average", 266.1183673469388, 270.54517133956386, 271.54558404558406, 270.69950738916253, 288.1041968162084, 275.94610778443115, 250.37466666666666],
+                      ["total", 195597.0, 173690.0, 190625.0, 219807.99999999997, 199080.0, 184332.0, 187781.0],
+                      ["dimension", "Local Deals", "Families", "Escapes", "Gourmet", "National", "At Home", "Adventures"]
+                    ]
+                  },
+                  "legend": {
+                    "show": false
+                  },
+                  "size": {
+                    "height": 340
+                  }
+                },
+                "yformat": ".2s",
+                "table_c3": [
+                  ["dimension", "Local Deals", "Families", "Escapes", "Gourmet", "National", "At Home", "Adventures"],
+                  ["total", 195597.0, 173690.0, 190625.0, 219807.99999999997, 199080.0, 184332.0, 187781.0],
+                  ["average", 266.1183673469388, 270.54517133956386, 271.54558404558406, 270.69950738916253, 288.1041968162084, 275.94610778443115, 250.37466666666666]
+                ]
+              },
+              "chartInfo": ["Test Type   : ANOVA", "P-Value     : 0.05", "F Value     : 0.0", "Inference   : There is a significant effect of Deal_Type on Sales (target)."]
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<p class = \"txt-justify\"> Sales contribution from each of the Deal_Types seems to be similar. Being the <b>largest contributor</b>, Gourmet amounts to 219,807 that accounts for about <b>16.27% of the total Sales</b>. However, National has the <b>highest average</b> Sales of 288, whereas the average for Gourmet is 270. </p>"
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<h4>Key Factors influencing Sales from Gourmet</h4>"
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<p class = \"txt-justify\"> High contribution of Sales from Gourmet is characterized by the influence of key dimensions, such as Discount_Range, Buyer_Age, and Source. Certain specific segment from those dimensions are more likely to explain Gourmet's significant Sales turnover. <!-- Also, the top 4 Source contribute to 77.0% of Sales from Gourmet. --> </p> "
+            }, {
+              "dataType": "html",
+              "classTag": "highlight",
+              "data": " <ul> <li> Source - The top 5 Source account for 60.0% of the Sales from Gourmet. </li> <li> Buyer_Age - Among the Buyer_Age, top 5 Buyer_Age account for 57.0% of the total Sales. </li> <li> Discount_Range - Among the Discount_Range, 21 to 30 percent has got the major chunk of Sales from Gourmet, accounting for 37.0%. </li> </ul> "
+            }],
+            "name": "Impact on Sales",
+            "slug": "impact-on-sales-6hlek6r5ay"
+          }],
+          "name": "Deal_Type",
+          "slug": "deal_type-qpj5ue6309"
+        },
+        {
+          "listOfNodes": [],
+          "listOfCards": [
+            {
+            "cardWidth": 100,
+            "cardType": "normal",
+            "cardData": [{
+              "dataType": "html",
+              "classTag": null,
+              "data": "<h3>Sales: Impact of Buyer_Age on Sales</h3>"
+            }, {
+              "dataType": "c3Chart",
+              "widthPercent": 100,
+              "data": {
+                "download_url": "/api/download_data/n5bxveif6ajgwnjk",
+                "y2format": ".2s",
+                "xdata": ["45 to 54", "18 to 24", "65+", "55 to 64", "35 to 44", "25 to 34"],
+                "chart_c3": {
+                  "bar": {
+                    "width": {
+                      "ratio": 0.5
+                    }
+                  },
+                  "point": null,
+                  "color": {
+                    "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+                  },
+                  "tooltip": {
+                    "show": true,
+                    "format": {
+                      "title": ".2s"
+                    }
+                  },
+                  "padding": {
+                    "top": 40
+                  },
+                  "grid": {
+                    "y": {
+                      "show": true
+                    },
+                    "x": {
+                      "show": false
+                    }
+                  },
+                  "subchart": null,
+                  "axis": {
+                    "y": {
+                      "tick": {
+                        "outer": false,
+                        "multiline": true,
+                        "format": ".2s"
+                      },
+                      "label": {
+                        "text": "Total Sales",
+                        "position": "outer-middle"
+                      }
+                    },
+                    "x": {
+                      "height": 95,
+                      "tick": {
+                        "rotate": -45,
+                        "multiline": false,
+                        "fit": false,
+                        "format": ".2s"
+                      },
+                      "type": "category",
+                      "label": {
+                        "text": "Buyer_Age",
+                        "position": "outer-center"
+                      }
+                    },
+                    "y2": {
+                      "show": true,
+                      "tick": {
+                        "count": 7,
+                        "multiline": true,
+                        "format": ".2s"
+                      },
+                      "label": {
+                        "text": "Average Sales",
+                        "position": "outer-middle"
+                      }
+                    }
+                  },
+                  "data": {
+                    "x": "dimension",
+                    "axes": {
+                      "average": "y2"
+                    },
+                    "type": "bar",
+                    "columns": [
+                      ["average", 256.7072879330944, 276.3838150289017, 272.956570155902, 263.85827814569535, 266.8472622478386, 281.23764458464774],
+                      ["total", 214864.0, 239072.0, 245115.0, 199213.0, 185192.0, 267457.0],
+                      ["dimension", "45 to 54", "18 to 24", "65+", "55 to 64", "35 to 44", "25 to 34"]
+                    ]
+                  },
+                  "legend": {
+                    "show": false
+                  },
+                  "size": {
+                    "height": 340
+                  }
+                },
+                "yformat": ".2s",
+                "table_c3": [
+                  ["dimension", "45 to 54", "18 to 24", "65+", "55 to 64", "35 to 44", "25 to 34"],
+                  ["total", 214864.0, 239072.0, 245115.0, 199213.0, 185192.0, 267457.0],
+                  ["average", 256.7072879330944, 276.3838150289017, 272.956570155902, 263.85827814569535, 266.8472622478386, 281.23764458464774]
+                ]
+              },
+              "chartInfo": ["Test Type   : ANOVA", "P-Value     : 0.05", "F Value     : 0.0", "Inference   : There is a significant effect of Buyer_Age on Sales (target)."]
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<p class = \"txt-justify\"> Sales contribution from each of the Buyer_Ages seems to be similar. Being the <b>largest contributor</b>, 25 to 34 amounts to 267,457 that accounts for about <b>19.8% of the total Sales</b> and the average Sales is 281. </p>"
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<h4>Key Factors influencing Sales from 25 to 34</h4>"
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<p class = \"txt-justify\"> High contribution of Sales from 25 to 34 is characterized by the influence of key dimensions, such as Discount_Range, Source, and Deal_Type. Certain specific segment from those dimensions are more likely to explain 25 to 34's significant Sales turnover. <!-- Also, the top 4 Deal_Type contribute to 76.0% of Sales from 25 to 34. --> </p> "
+            }, {
+              "dataType": "html",
+              "classTag": "highlight",
+              "data": " <ul> <li> Deal_Type - The top 4 Deal_Type account for 49.0% of the Sales from 25 to 34. </li> <li> Source - Among the Source, top 5 Source account for 59.0% of the total Sales. </li> <li> Discount_Range - Among the Discount_Range, 21 to 30 percent has got the major chunk of Sales from 25 to 34, accounting for 39.0%. </li> </ul> "
+            }],
+            "name": "Impact on Sales",
+            "slug": "impact-on-sales-1sjmntnx7f"
+          }],
+          "name": "Buyer_Age",
+          "slug": "buyer_age-kpbblab1vg"
+        },
+        {
+          "listOfNodes": [],
+          "listOfCards": [
+            {
+            "cardWidth": 100,
+            "cardType": "normal",
+            "cardData": [{
+              "dataType": "html",
+              "classTag": null,
+              "data": "<h3>Sales: Impact of Buyer_Gender on Sales</h3>"
+            }, {
+              "dataType": "c3Chart",
+              "widthPercent": 100,
+              "data": {
+                "download_url": "/api/download_data/w5v47w29m2a35z62",
+                "y2format": ".2s",
+                "xdata": ["Male", "Female"],
+                "chart_c3": {
+                  "bar": {
+                    "width": 40
+                  },
+                  "point": null,
+                  "color": {
+                    "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+                  },
+                  "tooltip": {
+                    "show": true,
+                    "format": {
+                      "title": ".2s"
+                    }
+                  },
+                  "padding": {
+                    "top": 40
+                  },
+                  "grid": {
+                    "y": {
+                      "show": true
+                    },
+                    "x": {
+                      "show": false
+                    }
+                  },
+                  "subchart": null,
+                  "axis": {
+                    "y": {
+                      "tick": {
+                        "outer": false,
+                        "multiline": true,
+                        "format": ".2s"
+                      },
+                      "label": {
+                        "text": "Total Sales",
+                        "position": "outer-middle"
+                      }
+                    },
+                    "x": {
+                      "height": 95,
+                      "tick": {
+                        "rotate": -45,
+                        "multiline": false,
+                        "fit": false,
+                        "format": ".2s"
+                      },
+                      "type": "category",
+                      "label": {
+                        "text": "Buyer_Gender",
+                        "position": "outer-center"
+                      }
+                    },
+                    "y2": {
+                      "show": true,
+                      "tick": {
+                        "count": 7,
+                        "multiline": true,
+                        "format": ".2s"
+                      },
+                      "label": {
+                        "text": "Average Sales",
+                        "position": "outer-middle"
+                      }
+                    }
+                  },
+                  "data": {
+                    "x": "dimension",
+                    "axes": {
+                      "average": "y2"
+                    },
+                    "type": "bar",
+                    "columns": [
+                      ["average", 276.875, 263.3385922330097],
+                      ["total", 699940.0, 650973.0],
+                      ["dimension", "Male", "Female"]
+                    ]
+                  },
+                  "legend": {
+                    "show": false
+                  },
+                  "size": {
+                    "height": 340
+                  }
+                },
+                "yformat": ".2s",
+                "table_c3": [
+                  ["dimension", "Male", "Female"],
+                  ["total", 699940.0, 650973.0],
+                  ["average", 276.875, 263.3385922330097]
+                ]
+              },
+              "chartInfo": ["Test Type   : ANOVA", "P-Value     : 0.05", "F Value     : 0.0", "Inference   : There is a significant effect of Buyer_Gender on Sales (target)."]
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<p class = \"txt-justify\"> Sales contribution from each of the Buyer_Genders seems to be similar. Being the <b>largest contributor</b>, Male amounts to 699,940 that accounts for about <b>51.81% of the total Sales</b> and the average Sales is 276. </p>"
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<h4>Key Factors influencing Sales from Male</h4>"
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<p class = \"txt-justify\"> High contribution of Sales from Male is characterized by the influence of key dimensions, such as Discount_Range, Source, and Buyer_Age. Certain specific segment from those dimensions are more likely to explain Male's significant Sales turnover. <!-- Also, the top 4 Buyer_Age contribute to 74.0% of Sales from Male. --> </p> "
+            }, {
+              "dataType": "html",
+              "classTag": "highlight",
+              "data": " <ul> <li> Buyer_Age - The top 5 Buyer_Age account for 54.0% of the Sales from Male. </li> <li> Source - Among the Source, top 3 Source account for 59.0% of the total Sales. </li> <li> Discount_Range - Among the Discount_Range, 21 to 30 percent has got the major chunk of Sales from Male, accounting for 36.0%. </li> </ul> "
+            }],
+            "name": "Impact on Sales",
+            "slug": "impact-on-sales-odvejkbeb5"
+          }],
+          "name": "Buyer_Gender",
+          "slug": "buyer_gender-xg9h317gk0"
+        },
+        {
+          "listOfNodes": [],
+          "listOfCards": [
+            {
+            "cardWidth": 100,
+            "cardType": "normal",
+            "cardData": [
+              {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<h3>Sales: Impact of Platform on Sales</h3>"
+            }, {
+              "dataType": "c3Chart",
+              "widthPercent": 100,
+              "data": {
+                "download_url": "/api/download_data/edugnqtdmwetxp9l",
+                "y2format": ".2s",
+                "xdata": ["Mobile", "Desktop"],
+                "chart_c3": {
+                  "bar": {
+                    "width": 40
+                  },
+                  "point": null,
+                  "color": {
+                    "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+                  },
+                  "tooltip": {
+                    "show": true,
+                    "format": {
+                      "title": ".2s"
+                    }
+                  },
+                  "padding": {
+                    "top": 40
+                  },
+                  "grid": {
+                    "y": {
+                      "show": true
+                    },
+                    "x": {
+                      "show": false
+                    }
+                  },
+                  "subchart": null,
+                  "axis": {
+                    "y": {
+                      "tick": {
+                        "outer": false,
+                        "multiline": true,
+                        "format": ".2s"
+                      },
+                      "label": {
+                        "text": "Total Sales",
+                        "position": "outer-middle"
+                      }
+                    },
+                    "x": {
+                      "height": 95,
+                      "tick": {
+                        "rotate": -45,
+                        "multiline": false,
+                        "fit": false,
+                        "format": ".2s"
+                      },
+                      "type": "category",
+                      "label": {
+                        "text": "Platform",
+                        "position": "outer-center"
+                      }
+                    },
+                    "y2": {
+                      "show": true,
+                      "tick": {
+                        "count": 7,
+                        "multiline": true,
+                        "format": ".2s"
+                      },
+                      "label": {
+                        "text": "Average Sales",
+                        "position": "outer-middle"
+                      }
+                    }
+                  },
+                  "data": {
+                    "x": "dimension",
+                    "axes": {
+                      "average": "y2"
+                    },
+                    "type": "bar",
+                    "columns": [
+                      ["average", 273.2411858974359, 269.16524520255865],
+                      ["total", 341005.0, 1009908.0000000001],
+                      ["dimension", "Mobile", "Desktop"]
+                    ]
+                  },
+                  "legend": {
+                    "show": false
+                  },
+                  "size": {
+                    "height": 340
+                  }
+                },
+                "yformat": ".2s",
+                "table_c3": [
+                  ["dimension", "Mobile", "Desktop"],
+                  ["total", 341005.0, 1009908.0000000001],
+                  ["average", 273.2411858974359, 269.16524520255865]
+                ]
+              },
+              "chartInfo": ["Test Type   : ANOVA", "P-Value     : 0.05", "F Value     : 0.0", "Inference   : There is a significant effect of Platform on Sales (target)."]
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<p class = \"txt-justify\"> The <b>top Platforms(Desktop)</b> account for about <b>74%</b> of the total Sales. Being the <b>largest contributor</b>, Desktop amounts to 1.0 Million that accounts for about <b>74.76% of the total Sales</b>. However, Mobile has the <b>highest average</b> Sales of 273, whereas the average for Desktop is 269. </p>"
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<h4>Key Factors influencing Sales from Desktop</h4>"
+            }, {
+              "dataType": "html",
+              "classTag": null,
+              "data": "<p class = \"txt-justify\"> High contribution of Sales from Desktop is characterized by the influence of key dimensions, such as Discount_Range, Source, and Deal_Type. Certain specific segment from those dimensions are more likely to explain Desktop's significant Sales turnover. <!-- Also, the top 4 Deal_Type contribute to 76.0% of Sales from Desktop. --> </p> "
+            }, {
+              "dataType": "html",
+              "classTag": "highlight",
+              "data": " <ul> <li> Deal_Type - The top 5 Deal_Type account for 46.0% of the Sales from Desktop. </li> <li> Source - Among the Source, top 5 Source account for 58.0% of the total Sales. </li> <li> Discount_Range - Among the Discount_Range, 21 to 30 percent has got the major chunk of Sales from Desktop, accounting for 38.0%. </li> </ul> "
+            }],
+            "name": "Impact on Sales",
+            "slug": "impact-on-sales-0ibrqt1pj4"
+          }],
+          "name": "Platform",
+          "slug": "platform-8si17w3u9g"
+        }],
+      "listOfCards": [{
+        "cardWidth": 100,
+        "cardType": "normal",
+        "cardData": [
+          {
+          "dataType": "html",
+          "classTag": null,
+          "data": "<p class = \"txt-justify\"> There are <b>7 dimensions</b> in the dataset and <b>6 of them</b>(including Discount_Range, Source, Deal_Type, etc.) have <b>significant influence</b> on Sales. It implies that specific categories within each of the dimensions show <b>considerable amount of variation</b> in Sales. However Price_Range don’t show significant difference in Sales values across categories. </p>"
+        }, {
+          "dataType": "c3Chart",
+          "widthPercent": 100,
+          "data": {
+            "chart_c3": {
+              "bar": {
+                "width": 40
+              },
+              "point": null,
+              "color": {
+                "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+              },
+              "tooltip": {
+                "show": true,
+                "format": {
+                  "title": ".2s"
+                }
+              },
+              "padding": {
+                "top": 40
+              },
+              "grid": {
+                "y": {
+                  "show": true
+                },
+                "x": {
+                  "show": false
+                }
+              },
+              "subchart": null,
+              "axis": {
+                "y": {
+                  "tick": {
+                    "outer": false,
+                    "multiline": true,
+                    "format": ".2s"
+                  },
+                  "label": {
+                    "text": "Effect Size",
+                    "position": "outer-middle"
+                  }
+                },
+                "x": {
+                  "height": 95,
+                  "tick": {
+                    "rotate": -45,
+                    "multiline": false,
+                    "fit": false,
+                    "format": ".2s"
+                  },
+                  "type": "category",
+                  "label": {
+                    "text": "",
+                    "position": "outer-center"
+                  }
+                }
+              },
+              "data": {
+                "x": "dimension",
+                "axes": {
+                  "effect_size": "y"
+                },
+                "type": "bar",
+                "columns": [
+                  ["effect_size", 6.052986946499882e-05, 2.0298033536950255e-06, 1.8696548560010361e-06, 9.795323422689032e-07, 2.2378471815719865e-07, 2.5375400309184442e-08],
+                  ["dimension", "Discount_Range", "Source", "Deal_Type", "Buyer_Age", "Buyer_Gender", "Platform"]
+                ]
+              },
+              "legend": {
+                "show": false
+              },
+              "size": {
+                "height": 340
+              }
+            },
+            "yformat": ".4f",
+            "table_c3": [
+              ["dimension", "Discount_Range", "Source", "Deal_Type", "Buyer_Age", "Buyer_Gender", "Platform"],
+              ["effect_size", 6.052986946499882e-05, 2.0298033536950255e-06, 1.8696548560010361e-06, 9.795323422689032e-07, 2.2378471815719865e-07, 2.5375400309184442e-08]
+            ],
+            "download_url": "/api/download_data/0sikgjmoookl1wfk",
+            "xdata": ["Discount_Range", "Source", "Deal_Type", "Buyer_Age", "Buyer_Gender", "Platform"]
+          },
+          "chartInfo": ["Test Type         : ANOVA", "Effect Size       : ETA squared", "Max Effect Size   : Discount_Range", "Min Effect Size   : Platform", "Inference         : There are 6 variables that have significant association with the Sales (Target) and the                      Effect size ranges from 0.0001 to 0.0"]
+        }, {
+          "dataType": "html",
+          "classTag": null,
+          "data": "<p class = \"txt-justify\"> The chart above displays the <b>impact of key dimensions</b> on Sales, as measured by effect size. Let us take a deeper look at some of the most important dimensions that show significant amount of difference in average Sales. </p>"
+        }],
+        "name": "Overview of Key Factors",
+        "slug": "overview-of-key-factors-h3v77730b5"
+      }],
+      "name": "Performance",
+      "slug": "performance-nkgskuvws8"
+    },
+    {
+      "listOfNodes": [
+        {
+        "listOfNodes": [],
+        "listOfCards": [
+          {
+          "cardWidth": 100,
+          "cardType": "normal",
+          "cardData": [
+            {
+            "dataType": "html",
+            "classTag": null,
+            "data": "<h3>Impact of Marketing_Cost on Sales</h3>"
+          }, {
+            "dataType": "html",
+            "classTag": null,
+            "data": "<h4>Overview</h4> "
+          }, {
+            "dataType": "html",
+            "classTag": null,
+            "data": " <p class=\"txt-justify\"> Marketing_Cost is one of the <b>significant influencer</b> of Sales and it explains a great magnitude of change in Sales. It is <b>positively & strongly correlated</b> with the Sales figures. As Marketing_Cost changes, Sales also tend to move in the same direction. An incremental unit change in Marketing_Cost corresponds to an average decrease in Sales by -28.18 units. </p>"
+          }, {
+            "dataType": "html",
+            "classTag": null,
+            "data": "<h4>Sensitivity Analysis</h4> "
+          }, {
+            "dataType": "html",
+            "classTag": null,
+            "data": " <p class=\"txt-justify\"> Marketing_Cost seems to have a remarkable impact on various segments of Sales observations. The chart above shows four quadrants based on the distribution of Sales (high vs. low) and Marketing_Cost (high vs. low). </p> "
+          }, {
+            "dataType": "c3Chart",
+            "widthPercent": 100,
+            "data": {
+              "chart_c3": {
+                "bar": {
+                  "width": {
+                    "ratio": 0.5
+                  }
+                },
+                "point": {
+                  "r": 4
+                },
+                "color": {
+                  "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+                },
+                "tooltip": {
+                  "show": true
+                },
+                "padding": {
+                  "top": 40
+                },
+                "grid": {
+                  "y": {
+                    "show": true
+                  },
+                  "x": {
+                    "show": true
+                  }
+                },
+                "subchart": null,
+                "axis": {
+                  "y": {
+                    "tick": {
+                      "outer": false,
+                      "multiline": true,
+                      "format": ".2s"
+                    },
+                    "label": {
+                      "text": "Sales",
+                      "position": "outer-middle"
+                    }
+                  },
+                  "x": {
+                    "height": 95,
+                    "tick": {
+                      "rotate": -45,
+                      "multiline": false,
+                      "fit": false
+                    },
+                    "type": "index",
+                    "extent": null,
+                    "label": {
+                      "text": "Marketing_Cost",
+                      "position": "outer-center"
+                    }
+                  }
+                },
+                "data": {
+                  "axes": {
+                    "Sales": "y"
+                  },
+                  "names": {
+                    "#EC640C": "High Sales with Low Marketing_Cost",
+                    "#00AEB3": "High Sales with High Marketing_Cost",
+                    "#DD2E1F": "Low Sales with Low Marketing_Cost",
+                    "#7C5BBB": "Low Sales with High Marketing_Cost"
+                  },
+                  "x": null,
+                  "xs": {
+                    "Low Sales with High Marketing_Cost": "Low Sales with High Marketing_Cost_x",
+                    "High Sales with High Marketing_Cost": "High Sales with High Marketing_Cost_x",
+                    "High Sales with Low Marketing_Cost": "High Sales with Low Marketing_Cost_x",
+                    "Low Sales with Low Marketing_Cost": "Low Sales with Low Marketing_Cost_x"
+                  },
+                  "type": "scatter",
+                  "columns": [
+                    ["Low Sales with High Marketing_Cost", 20, 20, 20, 21, 21, 24, 24, 24, 24, 24, 24, 24, 24, 24, 25, 25, 25, 28, 28, 28, 28, 28, 28, 28, 28, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 32, 32, 32, 35, 35, 35, 35, 35, 35, 35, 36, 36, 40, 40, 40, 40, 40, 40, 40, 40, 40, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 45, 45, 45, 45, 45, 45, 45, 45, 48, 48, 48, 48, 48, 48, 48, 48, 48, 49, 49, 49, 49, 49, 49, 50, 50, 56, 60, 72, 140, 154, 161, 182, 203],
+                    ["Low Sales with High Marketing_Cost_x", 5.1, 5.1, 5.1, 5.4, 5.4, 6.1, 6.1, 6.1, 6.1, 6.1, 6.1, 6.1, 6.1, 6.1, 6.4, 6.4, 6.4, 7.2, 7.2, 7.2, 7.2, 7.2, 7.2, 7.2, 7.2, 7.7, 7.7, 7.7, 7.7, 7.7, 7.7, 7.7, 7.7, 7.7, 7.7, 7.7, 8.2, 8.2, 8.2, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.2, 9.2, 10.2, 10.2, 10.2, 10.2, 10.2, 10.2, 10.2, 10.2, 10.2, 10.8, 10.8, 10.8, 10.8, 10.8, 10.8, 10.8, 10.8, 10.8, 10.8, 10.8, 11.5, 11.5, 11.5, 11.5, 11.5, 11.5, 11.5, 11.5, 12.3, 12.3, 12.3, 12.3, 12.3, 12.3, 12.3, 12.3, 12.3, 12.5, 12.5, 12.5, 12.5, 12.5, 12.5, 12.8, 12.8, 7.2, 6.3, 5.4, 12.8, 6.1, 5.4, 6.6, 5.0],
+                    ["High Sales with High Marketing_Cost", 280, 336, 336, 336, 336, 340, 340, 340, 343, 343, 350, 350, 350, 350, 350, 350, 351, 357, 360, 364, 376, 376, 376, 380, 380, 384, 384, 396, 400, 405, 420, 420, 420, 432, 441, 444, 450, 456, 456, 460, 460, 462, 476, 480, 490, 490, 492, 504, 504, 512, 518, 544, 546, 552, 588, 588, 588, 588, 588, 588, 612, 644, 660, 690, 690, 700, 704, 750, 774, 798, 800, 828, 850, 864, 880, 918, 980, 984, 1008, 1050, 1056, 1064, 1071, 1092, 1204, 1218, 1225, 1250, 1260, 1368, 1380, 1504, 1512, 1530, 1554, 1674],
+                    ["High Sales with High Marketing_Cost_x", 6.8, 5.0, 5.0, 5.0, 5.0, 5.1, 5.1, 5.1, 5.1, 5.1, 5.3, 11.5, 5.3, 5.3, 5.3, 5.3, 5.3, 5.4, 5.4, 5.5, 5.6, 5.6, 5.6, 5.7, 5.7, 5.8, 5.8, 5.9, 6.0, 6.1, 6.3, 6.3, 20.8, 6.5, 6.6, 6.7, 6.8, 6.8, 6.8, 6.9, 6.9, 6.9, 7.1, 7.2, 7.4, 7.4, 7.4, 7.6, 7.6, 7.7, 7.8, 8.2, 8.2, 8.3, 8.8, 8.8, 8.8, 8.8, 8.8, 8.8, 9.2, 9.7, 9.9, 10.4, 10.4, 10.5, 10.6, 11.3, 11.6, 12.0, 12.0, 12.4, 12.8, 13.0, 13.2, 13.8, 14.7, 14.8, 15.1, 15.8, 15.8, 16.0, 16.1, 16.4, 18.1, 18.3, 18.4, 18.8, 18.9, 20.5, 20.7, 22.6, 22.7, 23.0, 23.3, 25.1],
+                    ["High Sales with Low Marketing_Cost", 272, 273, 273, 275, 276, 276, 276, 276, 276, 276, 276, 276, 280, 280, 280, 280, 280, 282, 282, 282, 282, 282, 287, 287, 287, 287, 287, 287, 287, 287, 287, 287, 287, 288, 288, 288, 288, 288, 288, 288, 294, 294, 294, 294, 294, 294, 294, 294, 294, 294, 294, 294, 294, 294, 296, 296, 300, 301, 301, 301, 301, 301, 304, 306, 308, 308, 308, 308, 310, 310, 312, 315, 315, 315, 315, 315, 315, 315, 320, 320, 320, 322, 322, 322, 322, 322, 328, 328, 329, 329, 329, 329, 329, 330, 342, 444, 528, 704],
+                    ["High Sales with Low Marketing_Cost_x", 4.2, 4.1, 4.1, 4.1, 4.1, 4.1, 4.1, 4.1, 4.1, 4.1, 4.1, 4.1, 4.2, 4.2, 4.2, 4.2, 4.2, 4.2, 4.2, 4.2, 4.2, 4.2, 4.3, 4.3, 4.3, 4.3, 4.3, 4.3, 4.3, 4.3, 4.3, 4.3, 4.3, 4.3, 4.3, 4.3, 4.3, 4.3, 4.3, 4.3, 4.4, 4.4, 4.4, 4.4, 4.4, 4.4, 4.4, 4.4, 4.4, 4.4, 4.4, 4.4, 4.4, 4.4, 4.4, 4.4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 2.4, 4.6, 4.6, 4.6, 4.6, 4.6, 4.7, 4.7, 4.7, 4.7, 4.7, 4.7, 4.7, 4.7, 4.7, 4.7, 4.8, 4.8, 4.8, 4.8, 4.8, 4.8, 4.8, 4.8, 4.9, 4.9, 3.9, 4.9, 4.9, 4.9, 4.9, 2.8, 4.4, 3.6, 4.3, 4.7],
+                    ["Low Sales with Low Marketing_Cost", 10, 10, 12, 14, 18, 18, 56, 56, 60, 64, 70, 72, 72, 77, 78, 78, 80, 84, 84, 90, 90, 90, 95, 95, 98, 102, 108, 108, 108, 114, 120, 126, 126, 126, 126, 130, 133, 135, 138, 138, 140, 150, 150, 153, 153, 154, 155, 156, 160, 161, 162, 168, 168, 168, 170, 175, 175, 175, 175, 180, 180, 180, 182, 182, 186, 200, 210, 210, 216, 216, 217, 224, 224, 225, 225, 228, 230, 231, 234, 234, 234, 235, 238, 240, 240, 240, 246, 252, 252, 252, 252, 255, 259, 259, 261, 264, 266, 270],
+                    ["Low Sales with Low Marketing_Cost_x", 2.6, 2.6, 3.1, 3.6, 4.6, 4.6, 0.8, 0.8, 0.9, 1.0, 1.1, 1.1, 1.1, 1.2, 1.2, 1.2, 1.2, 1.3, 1.3, 1.4, 1.4, 1.4, 1.4, 1.4, 1.5, 1.5, 1.6, 1.6, 1.6, 1.7, 1.8, 1.9, 1.9, 1.9, 1.3, 2.0, 2.0, 2.0, 2.1, 2.1, 2.1, 2.3, 2.3, 2.3, 2.3, 2.3, 2.3, 2.3, 2.4, 2.4, 2.4, 2.5, 2.5, 2.5, 2.6, 2.6, 2.6, 2.6, 2.6, 2.7, 2.7, 2.7, 2.7, 2.7, 2.8, 3.0, 3.2, 3.2, 3.2, 3.2, 3.3, 3.4, 3.4, 3.4, 3.4, 3.4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.6, 3.6, 3.6, 3.6, 3.7, 3.8, 3.8, 2.2, 3.8, 3.3, 3.6, 3.9, 3.9, 4.0, 4.0, 3.7]
+                  ]
+                },
+                "legend": {
+                  "show": true
+                },
+                "size": {
+                  "height": 340
+                }
+              },
+              "yformat": ".2s",
+              "table_c3": [
+                ["Low Sales with High Marketing_Cost", 20, 20, 20, 21, 21, 24, 24, 24, 24, 24, 24, 24, 24, 24, 25, 25, 25, 28, 28, 28, 28, 28, 28, 28, 28, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 32, 32, 32, 35, 35, 35, 35, 35, 35, 35, 36, 36, 40, 40, 40, 40, 40, 40, 40, 40, 40, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 45, 45, 45, 45, 45, 45, 45, 45, 48, 48, 48, 48, 48, 48, 48, 48, 48, 49, 49, 49, 49, 49, 49, 50, 50, 56, 60, 72, 140, 154, 161, 182, 203],
+                ["Low Sales with High Marketing_Cost_x", 5.1, 5.1, 5.1, 5.4, 5.4, 6.1, 6.1, 6.1, 6.1, 6.1, 6.1, 6.1, 6.1, 6.1, 6.4, 6.4, 6.4, 7.2, 7.2, 7.2, 7.2, 7.2, 7.2, 7.2, 7.2, 7.7, 7.7, 7.7, 7.7, 7.7, 7.7, 7.7, 7.7, 7.7, 7.7, 7.7, 8.2, 8.2, 8.2, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.2, 9.2, 10.2, 10.2, 10.2, 10.2, 10.2, 10.2, 10.2, 10.2, 10.2, 10.8, 10.8, 10.8, 10.8, 10.8, 10.8, 10.8, 10.8, 10.8, 10.8, 10.8, 11.5, 11.5, 11.5, 11.5, 11.5, 11.5, 11.5, 11.5, 12.3, 12.3, 12.3, 12.3, 12.3, 12.3, 12.3, 12.3, 12.3, 12.5, 12.5, 12.5, 12.5, 12.5, 12.5, 12.8, 12.8, 7.2, 6.3, 5.4, 12.8, 6.1, 5.4, 6.6, 5.0],
+                ["High Sales with High Marketing_Cost", 280, 336, 336, 336, 336, 340, 340, 340, 343, 343, 350, 350, 350, 350, 350, 350, 351, 357, 360, 364, 376, 376, 376, 380, 380, 384, 384, 396, 400, 405, 420, 420, 420, 432, 441, 444, 450, 456, 456, 460, 460, 462, 476, 480, 490, 490, 492, 504, 504, 512, 518, 544, 546, 552, 588, 588, 588, 588, 588, 588, 612, 644, 660, 690, 690, 700, 704, 750, 774, 798, 800, 828, 850, 864, 880, 918, 980, 984, 1008, 1050, 1056, 1064, 1071, 1092, 1204, 1218, 1225, 1250, 1260, 1368, 1380, 1504, 1512, 1530, 1554, 1674],
+                ["High Sales with High Marketing_Cost_x", 6.8, 5.0, 5.0, 5.0, 5.0, 5.1, 5.1, 5.1, 5.1, 5.1, 5.3, 11.5, 5.3, 5.3, 5.3, 5.3, 5.3, 5.4, 5.4, 5.5, 5.6, 5.6, 5.6, 5.7, 5.7, 5.8, 5.8, 5.9, 6.0, 6.1, 6.3, 6.3, 20.8, 6.5, 6.6, 6.7, 6.8, 6.8, 6.8, 6.9, 6.9, 6.9, 7.1, 7.2, 7.4, 7.4, 7.4, 7.6, 7.6, 7.7, 7.8, 8.2, 8.2, 8.3, 8.8, 8.8, 8.8, 8.8, 8.8, 8.8, 9.2, 9.7, 9.9, 10.4, 10.4, 10.5, 10.6, 11.3, 11.6, 12.0, 12.0, 12.4, 12.8, 13.0, 13.2, 13.8, 14.7, 14.8, 15.1, 15.8, 15.8, 16.0, 16.1, 16.4, 18.1, 18.3, 18.4, 18.8, 18.9, 20.5, 20.7, 22.6, 22.7, 23.0, 23.3, 25.1],
+                ["High Sales with Low Marketing_Cost", 272, 273, 273, 275, 276, 276, 276, 276, 276, 276, 276, 276, 280, 280, 280, 280, 280, 282, 282, 282, 282, 282, 287, 287, 287, 287, 287, 287, 287, 287, 287, 287, 287, 288, 288, 288, 288, 288, 288, 288, 294, 294, 294, 294, 294, 294, 294, 294, 294, 294, 294, 294, 294, 294, 296, 296, 300, 301, 301, 301, 301, 301, 304, 306, 308, 308, 308, 308, 310, 310, 312, 315, 315, 315, 315, 315, 315, 315, 320, 320, 320, 322, 322, 322, 322, 322, 328, 328, 329, 329, 329, 329, 329, 330, 342, 444, 528, 704],
+                ["High Sales with Low Marketing_Cost_x", 4.2, 4.1, 4.1, 4.1, 4.1, 4.1, 4.1, 4.1, 4.1, 4.1, 4.1, 4.1, 4.2, 4.2, 4.2, 4.2, 4.2, 4.2, 4.2, 4.2, 4.2, 4.2, 4.3, 4.3, 4.3, 4.3, 4.3, 4.3, 4.3, 4.3, 4.3, 4.3, 4.3, 4.3, 4.3, 4.3, 4.3, 4.3, 4.3, 4.3, 4.4, 4.4, 4.4, 4.4, 4.4, 4.4, 4.4, 4.4, 4.4, 4.4, 4.4, 4.4, 4.4, 4.4, 4.4, 4.4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 2.4, 4.6, 4.6, 4.6, 4.6, 4.6, 4.7, 4.7, 4.7, 4.7, 4.7, 4.7, 4.7, 4.7, 4.7, 4.7, 4.8, 4.8, 4.8, 4.8, 4.8, 4.8, 4.8, 4.8, 4.9, 4.9, 3.9, 4.9, 4.9, 4.9, 4.9, 2.8, 4.4, 3.6, 4.3, 4.7],
+                ["Low Sales with Low Marketing_Cost", 10, 10, 12, 14, 18, 18, 56, 56, 60, 64, 70, 72, 72, 77, 78, 78, 80, 84, 84, 90, 90, 90, 95, 95, 98, 102, 108, 108, 108, 114, 120, 126, 126, 126, 126, 130, 133, 135, 138, 138, 140, 150, 150, 153, 153, 154, 155, 156, 160, 161, 162, 168, 168, 168, 170, 175, 175, 175, 175, 180, 180, 180, 182, 182, 186, 200, 210, 210, 216, 216, 217, 224, 224, 225, 225, 228, 230, 231, 234, 234, 234, 235, 238, 240, 240, 240, 246, 252, 252, 252, 252, 255, 259, 259, 261, 264, 266, 270],
+                ["Low Sales with Low Marketing_Cost_x", 2.6, 2.6, 3.1, 3.6, 4.6, 4.6, 0.8, 0.8, 0.9, 1.0, 1.1, 1.1, 1.1, 1.2, 1.2, 1.2, 1.2, 1.3, 1.3, 1.4, 1.4, 1.4, 1.4, 1.4, 1.5, 1.5, 1.6, 1.6, 1.6, 1.7, 1.8, 1.9, 1.9, 1.9, 1.3, 2.0, 2.0, 2.0, 2.1, 2.1, 2.1, 2.3, 2.3, 2.3, 2.3, 2.3, 2.3, 2.3, 2.4, 2.4, 2.4, 2.5, 2.5, 2.5, 2.6, 2.6, 2.6, 2.6, 2.6, 2.7, 2.7, 2.7, 2.7, 2.7, 2.8, 3.0, 3.2, 3.2, 3.2, 3.2, 3.3, 3.4, 3.4, 3.4, 3.4, 3.4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.6, 3.6, 3.6, 3.6, 3.7, 3.8, 3.8, 2.2, 3.8, 3.3, 3.6, 3.9, 3.9, 4.0, 4.0, 3.7]
+              ],
+              "download_url": "/api/download_data/13np6nrv4s1zaf3w"
+            },
+            "chartInfo": ["Test Type     : Regression", "Coefficient   : -28.18", "P-Value       : <= 0.05", "Intercept     : 12.12", "R Square      : 0.84", "Inference     : For every additional unit of decrease in Marketing_Cost there will be an decrease of -28.18 units in Sales (target)."]
+          }, {
+            "dataType": "html",
+            "classTag": null,
+            "data": " <p class=\"txt-justify\"> <b>High Sales with High Marketing_Cost</b>: The Sales observations from this quadrant are typically from Desktop (Platform),Male (Buyer_Gender) and 21 to 30 percent (Discount_Range). It accounts for about 21.0% of the total population. </p> "
+          }, {
+            "dataType": "html",
+            "classTag": null,
+            "data": " <p class=\"txt-justify\"> <b>Low Sales with Low Marketing_Cost</b>: Mostly Sales from Desktop (Platform), Male (Buyer_Gender) and Google Ads (Source) belong to this segment. They cover nearly 57.0% of the total population. </p> "
+          }, {
+            "dataType": "html",
+            "classTag": null,
+            "data": " <p class=\"txt-justify\"> <b>High Sales with Low Marketing_Cost</b>: Nearly 10.0% of the total observations are from this group and they are generally coming from Desktop (Platform),Female (Buyer_Gender) and 21 to 30 percent (Discount_Range). </p> "
+          }, {
+            "dataType": "html",
+            "classTag": null,
+            "data": " <p class=\"txt-justify\"> <b>Low Sales with High Marketing_Cost</b>: Nearly 9.0% of the total observations are from this group and they are generally coming from Desktop (Platform), Female (Buyer_Gender) and Google Ads (Source). </p>"
+          }],
+          "name": "Marketing_Cost: Impact on Sales",
+          "slug": "marketing_cost-impact-on-sales-1ass88k40t"
+        }],
+        "name": "Marketing_Cost",
+        "slug": "marketing_cost-8xaq128pw0"
+      },
+        {
+        "listOfNodes": [],
+        "listOfCards": [
+          {
+          "cardWidth": 100,
+          "cardType": "normal",
+          "cardData": [{
+            "dataType": "html",
+            "classTag": null,
+            "data": "<h3>Impact of Tenure_in_Days on Sales</h3>"
+          }, {
+            "dataType": "html",
+            "classTag": null,
+            "data": "<h4>Overview</h4> "
+          }, {
+            "dataType": "html",
+            "classTag": null,
+            "data": " <p class=\"txt-justify\"> Tenure_in_Days is one of the <b>significant influencer</b> of Sales and it explains a great magnitude of change in Sales. It is <b>positively correlated</b> with the Sales figures. An incremental unit change in Tenure_in_Days corresponds to an average increase in Sales by 12.94 units. </p>"
+          }, {
+            "dataType": "html",
+            "classTag": null,
+            "data": "<h4>Sensitivity Analysis</h4> "
+          }, {
+            "dataType": "html",
+            "classTag": null,
+            "data": " <p class=\"txt-justify\"> Tenure_in_Days seems to have a remarkable impact on various segments of Sales observations. The chart above shows four quadrants based on the distribution of Sales (high vs. low) and Tenure_in_Days (high vs. low). </p> "
+          }, {
+            "dataType": "c3Chart",
+            "widthPercent": 100,
+            "data": {
+              "chart_c3": {
+                "bar": {
+                  "width": {
+                    "ratio": 0.5
+                  }
+                },
+                "point": {
+                  "r": 4
+                },
+                "color": {
+                  "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+                },
+                "tooltip": {
+                  "show": true
+                },
+                "padding": {
+                  "top": 40
+                },
+                "grid": {
+                  "y": {
+                    "show": true
+                  },
+                  "x": {
+                    "show": true
+                  }
+                },
+                "subchart": null,
+                "axis": {
+                  "y": {
+                    "tick": {
+                      "outer": false,
+                      "multiline": true,
+                      "format": ".2s"
+                    },
+                    "label": {
+                      "text": "Sales",
+                      "position": "outer-middle"
+                    }
+                  },
+                  "x": {
+                    "height": 95,
+                    "tick": {
+                      "rotate": -45,
+                      "multiline": false,
+                      "fit": false
+                    },
+                    "type": "index",
+                    "extent": null,
+                    "label": {
+                      "text": "Tenure_in_Days",
+                      "position": "outer-center"
+                    }
+                  }
+                },
+                "data": {
+                  "axes": {
+                    "Sales": "y"
+                  },
+                  "names": {
+                    "#EC640C": "High Sales with Low Tenure_in_Days",
+                    "#00AEB3": "High Sales with High Tenure_in_Days",
+                    "#DD2E1F": "Low Sales with Low Tenure_in_Days",
+                    "#7C5BBB": "Low Sales with High Tenure_in_Days"
+                  },
+                  "x": null,
+                  "xs": {
+                    "Low Sales with Low Tenure_in_Days": "Low Sales with Low Tenure_in_Days_x",
+                    "Low Sales with High Tenure_in_Days": "Low Sales with High Tenure_in_Days_x",
+                    "High Sales with High Tenure_in_Days": "High Sales with High Tenure_in_Days_x",
+                    "High Sales with Low Tenure_in_Days": "High Sales with Low Tenure_in_Days_x"
+                  },
+                  "type": "scatter",
+                  "columns": [
+                    ["Low Sales with Low Tenure_in_Days_x", 31, 394, 118, 1, 214, 379, 455, 56, 459, 223, 207, 376, 14, 91, 106, 215, 433, 30, 454, 235, 258, 280, 63, 417, 114, 340, 326, 353, 164, 434, 42, 285, 29, 405, 426, 444, 85, 27, 429, 141, 168, 475, 121, 382, 111, 348, 204, 484, 102, 303, 2, 316, 233, 222, 420, 10, 400, 45, 461, 263, 455, 125, 119, 49, 423, 415, 47, 62, 321, 470, 14, 239, 220, 89, 395, 436, 313, 185, 167, 61, 213, 417, 463, 111, 49, 292, 453, 409, 431, 259, 25, 481, 286, 146, 32, 457],
+                    ["Low Sales with Low Tenure_in_Days", 21, 24, 30, 36, 36, 36, 40, 42, 42, 45, 48, 49, 54, 55, 56, 56, 60, 64, 66, 70, 72, 72, 72, 72, 80, 84, 88, 96, 105, 105, 105, 108, 108, 110, 114, 115, 120, 120, 125, 126, 126, 126, 126, 128, 130, 130, 130, 132, 133, 136, 138, 140, 140, 140, 144, 147, 150, 150, 150, 154, 154, 156, 168, 174, 175, 180, 182, 189, 200, 205, 208, 210, 210, 217, 220, 224, 225, 235, 238, 240, 240, 245, 245, 246, 248, 248, 252, 252, 252, 255, 256, 258, 264, 266, 266, 266],
+                    ["Low Sales with High Tenure_in_Days_x", 879, 982, 497, 734, 753, 566, 669, 612, 647, 809, 539, 872, 953, 584, 963, 497, 908, 920, 794, 763, 761, 581, 934, 785, 897, 876, 982, 509, 802, 753, 969, 516, 819, 510, 717, 541, 605, 892, 887, 620, 997, 667, 677, 858, 612, 711, 815, 651, 674, 917, 784, 699, 808, 819, 813, 919, 834, 556, 940, 722, 574, 843, 896, 780, 693, 569, 605, 913, 580, 553, 594, 924, 566, 516, 591, 758, 559, 890, 997, 862, 863, 740, 629, 654, 783, 956, 996, 915, 760, 958, 644, 987, 767, 593, 934, 945, 589, 543],
+                    ["Low Sales with High Tenure_in_Days", 18, 20, 20, 21, 24, 25, 25, 35, 35, 35, 36, 36, 36, 40, 42, 48, 49, 49, 50, 50, 54, 54, 54, 56, 60, 60, 63, 70, 70, 70, 72, 72, 77, 80, 84, 85, 90, 90, 90, 90, 90, 91, 91, 105, 108, 108, 112, 112, 112, 120, 120, 125, 126, 128, 133, 133, 133, 133, 138, 144, 147, 154, 162, 168, 180, 180, 182, 182, 190, 196, 200, 203, 204, 204, 210, 217, 222, 222, 225, 230, 231, 231, 234, 234, 238, 238, 240, 240, 240, 245, 250, 252, 258, 259, 259, 264, 264, 270],
+                    ["High Sales with High Tenure_in_Days_x", 918, 788, 570, 945, 714, 558, 706, 843, 641, 635, 764, 922, 771, 968, 609, 952, 792, 607, 688, 865, 843, 799, 662, 829, 779, 641, 791, 981, 880, 498, 607, 780, 972, 589, 553, 626, 726, 837, 842, 935, 794, 804, 519, 682, 793, 508, 847, 984, 837, 907, 627, 897, 910, 654, 825, 915, 584, 632, 620, 994, 912, 880, 548, 857, 588, 884, 615, 749, 572, 943, 709, 882, 621, 635, 606, 981, 900, 781, 634, 629, 696, 578, 527, 953, 658, 906, 541, 761, 794, 724, 819, 556, 939, 729, 761, 513],
+                    ["High Sales with High Tenure_in_Days", 272, 273, 276, 280, 280, 280, 282, 282, 288, 288, 288, 288, 288, 294, 294, 294, 294, 300, 300, 301, 304, 308, 310, 320, 320, 320, 320, 322, 322, 322, 329, 329, 330, 336, 336, 336, 336, 336, 336, 340, 342, 343, 344, 344, 352, 357, 360, 360, 360, 368, 369, 376, 378, 384, 385, 392, 400, 400, 408, 410, 430, 434, 441, 448, 460, 462, 468, 476, 492, 504, 504, 504, 504, 510, 532, 546, 567, 600, 672, 686, 700, 714, 735, 784, 792, 840, 882, 960, 1029, 1050, 1092, 1116, 1176, 1410, 1500, 1554],
+                    ["High Sales with Low Tenure_in_Days_x", 423, 420, 339, 116, 119, 331, 481, 6, 100, 168, 448, 52, 200, 334, 213, 13, 304, 325, 95, 207, 370, 109, 87, 86, 231, 228, 377, 135, 314, 332, 397, 47, 48, 138, 409, 432, 308, 128, 113, 438, 39, 306, 369, 118, 323, 254, 74, 148, 291, 26, 478, 405, 488, 103, 440, 213, 151, 126, 396, 284, 232, 245, 362, 237, 490, 74, 335, 129, 456, 1, 380, 356, 443, 242, 11, 384, 334, 150, 299, 256, 312, 17, 55, 278, 270, 59, 203, 130, 171, 12, 4, 286, 262, 320, 127, 334, 348],
+                    ["High Sales with Low Tenure_in_Days", 272, 273, 276, 276, 276, 280, 280, 282, 282, 287, 287, 288, 288, 294, 294, 294, 294, 294, 301, 301, 301, 301, 308, 315, 315, 322, 322, 322, 324, 324, 330, 336, 336, 336, 343, 350, 350, 352, 357, 357, 360, 360, 369, 369, 376, 378, 378, 384, 384, 384, 392, 392, 400, 400, 420, 432, 432, 441, 462, 476, 504, 504, 504, 518, 528, 550, 552, 552, 570, 588, 588, 588, 600, 602, 644, 648, 705, 714, 720, 738, 750, 756, 768, 924, 924, 984, 1050, 1050, 1200, 1230, 1350, 1365, 1376, 1505, 1728, 1760, 1920]
+                  ]
+                },
+                "legend": {
+                  "show": true
+                },
+                "size": {
+                  "height": 340
+                }
+              },
+              "yformat": ".2s",
+              "table_c3": [
+                ["Low Sales with Low Tenure_in_Days_x", 31, 394, 118, 1, 214, 379, 455, 56, 459, 223, 207, 376, 14, 91, 106, 215, 433, 30, 454, 235, 258, 280, 63, 417, 114, 340, 326, 353, 164, 434, 42, 285, 29, 405, 426, 444, 85, 27, 429, 141, 168, 475, 121, 382, 111, 348, 204, 484, 102, 303, 2, 316, 233, 222, 420, 10, 400, 45, 461, 263, 455, 125, 119, 49, 423, 415, 47, 62, 321, 470, 14, 239, 220, 89, 395, 436, 313, 185, 167, 61, 213, 417, 463, 111, 49, 292, 453, 409, 431, 259, 25, 481, 286, 146, 32, 457],
+                ["Low Sales with Low Tenure_in_Days", 21, 24, 30, 36, 36, 36, 40, 42, 42, 45, 48, 49, 54, 55, 56, 56, 60, 64, 66, 70, 72, 72, 72, 72, 80, 84, 88, 96, 105, 105, 105, 108, 108, 110, 114, 115, 120, 120, 125, 126, 126, 126, 126, 128, 130, 130, 130, 132, 133, 136, 138, 140, 140, 140, 144, 147, 150, 150, 150, 154, 154, 156, 168, 174, 175, 180, 182, 189, 200, 205, 208, 210, 210, 217, 220, 224, 225, 235, 238, 240, 240, 245, 245, 246, 248, 248, 252, 252, 252, 255, 256, 258, 264, 266, 266, 266],
+                ["Low Sales with High Tenure_in_Days_x", 879, 982, 497, 734, 753, 566, 669, 612, 647, 809, 539, 872, 953, 584, 963, 497, 908, 920, 794, 763, 761, 581, 934, 785, 897, 876, 982, 509, 802, 753, 969, 516, 819, 510, 717, 541, 605, 892, 887, 620, 997, 667, 677, 858, 612, 711, 815, 651, 674, 917, 784, 699, 808, 819, 813, 919, 834, 556, 940, 722, 574, 843, 896, 780, 693, 569, 605, 913, 580, 553, 594, 924, 566, 516, 591, 758, 559, 890, 997, 862, 863, 740, 629, 654, 783, 956, 996, 915, 760, 958, 644, 987, 767, 593, 934, 945, 589, 543],
+                ["Low Sales with High Tenure_in_Days", 18, 20, 20, 21, 24, 25, 25, 35, 35, 35, 36, 36, 36, 40, 42, 48, 49, 49, 50, 50, 54, 54, 54, 56, 60, 60, 63, 70, 70, 70, 72, 72, 77, 80, 84, 85, 90, 90, 90, 90, 90, 91, 91, 105, 108, 108, 112, 112, 112, 120, 120, 125, 126, 128, 133, 133, 133, 133, 138, 144, 147, 154, 162, 168, 180, 180, 182, 182, 190, 196, 200, 203, 204, 204, 210, 217, 222, 222, 225, 230, 231, 231, 234, 234, 238, 238, 240, 240, 240, 245, 250, 252, 258, 259, 259, 264, 264, 270],
+                ["High Sales with High Tenure_in_Days_x", 918, 788, 570, 945, 714, 558, 706, 843, 641, 635, 764, 922, 771, 968, 609, 952, 792, 607, 688, 865, 843, 799, 662, 829, 779, 641, 791, 981, 880, 498, 607, 780, 972, 589, 553, 626, 726, 837, 842, 935, 794, 804, 519, 682, 793, 508, 847, 984, 837, 907, 627, 897, 910, 654, 825, 915, 584, 632, 620, 994, 912, 880, 548, 857, 588, 884, 615, 749, 572, 943, 709, 882, 621, 635, 606, 981, 900, 781, 634, 629, 696, 578, 527, 953, 658, 906, 541, 761, 794, 724, 819, 556, 939, 729, 761, 513],
+                ["High Sales with High Tenure_in_Days", 272, 273, 276, 280, 280, 280, 282, 282, 288, 288, 288, 288, 288, 294, 294, 294, 294, 300, 300, 301, 304, 308, 310, 320, 320, 320, 320, 322, 322, 322, 329, 329, 330, 336, 336, 336, 336, 336, 336, 340, 342, 343, 344, 344, 352, 357, 360, 360, 360, 368, 369, 376, 378, 384, 385, 392, 400, 400, 408, 410, 430, 434, 441, 448, 460, 462, 468, 476, 492, 504, 504, 504, 504, 510, 532, 546, 567, 600, 672, 686, 700, 714, 735, 784, 792, 840, 882, 960, 1029, 1050, 1092, 1116, 1176, 1410, 1500, 1554],
+                ["High Sales with Low Tenure_in_Days_x", 423, 420, 339, 116, 119, 331, 481, 6, 100, 168, 448, 52, 200, 334, 213, 13, 304, 325, 95, 207, 370, 109, 87, 86, 231, 228, 377, 135, 314, 332, 397, 47, 48, 138, 409, 432, 308, 128, 113, 438, 39, 306, 369, 118, 323, 254, 74, 148, 291, 26, 478, 405, 488, 103, 440, 213, 151, 126, 396, 284, 232, 245, 362, 237, 490, 74, 335, 129, 456, 1, 380, 356, 443, 242, 11, 384, 334, 150, 299, 256, 312, 17, 55, 278, 270, 59, 203, 130, 171, 12, 4, 286, 262, 320, 127, 334, 348],
+                ["High Sales with Low Tenure_in_Days", 272, 273, 276, 276, 276, 280, 280, 282, 282, 287, 287, 288, 288, 294, 294, 294, 294, 294, 301, 301, 301, 301, 308, 315, 315, 322, 322, 322, 324, 324, 330, 336, 336, 336, 343, 350, 350, 352, 357, 357, 360, 360, 369, 369, 376, 378, 378, 384, 384, 384, 392, 392, 400, 400, 420, 432, 432, 441, 462, 476, 504, 504, 504, 518, 528, 550, 552, 552, 570, 588, 588, 588, 600, 602, 644, 648, 705, 714, 720, 738, 750, 756, 768, 924, 924, 984, 1050, 1050, 1200, 1230, 1350, 1365, 1376, 1505, 1728, 1760, 1920]
+              ],
+              "download_url": "/api/download_data/3hgduqxkca0ivp64"
+            },
+            "chartInfo": ["Test Type     : Regression", "Coefficient   : 12.94", "P-Value       : <= 0.05", "Intercept     : 12.12", "R Square      : 0.84", "Inference     : For every additional unit of increase in Tenure_in_Days there will be an increase of 12.94 units in Sales (target)."]
+          }, {
+            "dataType": "html",
+            "classTag": null,
+            "data": " <p class=\"txt-justify\"> <b>High Sales with High Tenure_in_Days</b>: The Sales observations from this quadrant are typically from Desktop (Platform),Male (Buyer_Gender) and 21 to 30 percent (Discount_Range). It accounts for about 16.0% of the total population. </p> "
+          }, {
+            "dataType": "html",
+            "classTag": null,
+            "data": " <p class=\"txt-justify\"> <b>Low Sales with Low Tenure_in_Days</b>: Mostly Sales from Desktop (Platform), Female (Buyer_Gender) and Google Ads (Source) belong to this segment. They cover nearly 34.0% of the total population. </p> "
+          }, {
+            "dataType": "html",
+            "classTag": null,
+            "data": " <p class=\"txt-justify\"> <b>High Sales with Low Tenure_in_Days</b>: Nearly 16.0% of the total observations are from this group and they are generally coming from Desktop (Platform),Male (Buyer_Gender) and 21 to 30 percent (Discount_Range). </p> "
+          }, {
+            "dataType": "html",
+            "classTag": null,
+            "data": " <p class=\"txt-justify\"> <b>Low Sales with High Tenure_in_Days</b>: Nearly 32.0% of the total observations are from this group and they are generally coming from Desktop (Platform), Male (Buyer_Gender) and Google Ads (Source). </p>"
+          }],
+          "name": "Tenure_in_Days: Impact on Sales",
+          "slug": "tenure_in_days-impact-on-sales-lno30sgayf"
+        }],
+        "name": "Tenure_in_Days",
+        "slug": "tenure_in_days-d45cexqsju"
+      },
+        {
+        "listOfNodes": [],
+        "listOfCards": [{
+          "cardWidth": 100,
+          "cardType": "normal",
+          "cardData": [{
+            "dataType": "html",
+            "classTag": null,
+            "data": "<h3>Impact of Last_Transaction on Sales</h3>"
+          }, {
+            "dataType": "html",
+            "classTag": null,
+            "data": "<h4>Overview</h4> "
+          }, {
+            "dataType": "html",
+            "classTag": null,
+            "data": " <p class=\"txt-justify\"> Last_Transaction is one of the <b>significant influencer</b> of Sales and it explains a great magnitude of change in Sales. It is <b>positively & strongly correlated</b> with the Sales figures. As Last_Transaction changes, Sales also tend to move in the same direction. An incremental unit change in Last_Transaction corresponds to an average increase in Sales by 0.71 units. </p>"
+          }, {
+            "dataType": "html",
+            "classTag": null,
+            "data": "<h4>Sensitivity Analysis</h4> "
+          }, {
+            "dataType": "html",
+            "classTag": null,
+            "data": " <p class=\"txt-justify\"> Last_Transaction seems to have a remarkable impact on various segments of Sales observations. The chart above shows four quadrants based on the distribution of Sales (high vs. low) and Last_Transaction (high vs. low). </p> "
+          }, {
+            "dataType": "c3Chart",
+            "widthPercent": 100,
+            "data": {
+              "chart_c3": {
+                "bar": {
+                  "width": {
+                    "ratio": 0.5
+                  }
+                },
+                "point": {
+                  "r": 4
+                },
+                "color": {
+                  "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+                },
+                "tooltip": {
+                  "show": true
+                },
+                "padding": {
+                  "top": 40
+                },
+                "grid": {
+                  "y": {
+                    "show": true
+                  },
+                  "x": {
+                    "show": true
+                  }
+                },
+                "subchart": null,
+                "axis": {
+                  "y": {
+                    "tick": {
+                      "outer": false,
+                      "multiline": true,
+                      "format": ".2s"
+                    },
+                    "label": {
+                      "text": "Sales",
+                      "position": "outer-middle"
+                    }
+                  },
+                  "x": {
+                    "height": 95,
+                    "tick": {
+                      "rotate": -45,
+                      "multiline": false,
+                      "fit": false
+                    },
+                    "type": "index",
+                    "extent": null,
+                    "label": {
+                      "text": "Last_Transaction",
+                      "position": "outer-center"
+                    }
+                  }
+                },
+                "data": {
+                  "axes": {
+                    "Sales": "y"
+                  },
+                  "names": {
+                    "#EC640C": "High Sales with Low Last_Transaction",
+                    "#00AEB3": "High Sales with High Last_Transaction",
+                    "#DD2E1F": "Low Sales with Low Last_Transaction",
+                    "#7C5BBB": "Low Sales with High Last_Transaction"
+                  },
+                  "x": null,
+                  "xs": {
+                    "Low Sales with High Last_Transaction": "Low Sales with High Last_Transaction_x",
+                    "High Sales with High Last_Transaction": "High Sales with High Last_Transaction_x",
+                    "Low Sales with Low Last_Transaction": "Low Sales with Low Last_Transaction_x",
+                    "High Sales with Low Last_Transaction": "High Sales with Low Last_Transaction_x"
+                  },
+                  "type": "scatter",
+                  "columns": [
+                    ["High Sales with Low Last_Transaction_x", 185.0, 185.0, 185.0, 185.0, 187.1, 187.1, 187.1, 187.1, 187.1, 187.1, 189.1, 189.1, 189.1, 189.8, 189.8, 189.8, 189.8, 189.8, 189.8, 191.1, 191.1, 191.1, 191.1, 191.1, 191.1, 119.0, 194.5, 194.5, 32.5, 194.5, 194.5, 194.5, 23.7, 195.2, 195.2, 195.2, 195.2, 195.2, 195.2, 195.2, 195.2, 195.2, 195.2, 196.6, 199.3, 199.3, 199.3, 199.3, 199.3, 199.3, 199.3, 199.3, 199.3, 199.3, 199.3, 200.6, 203.3, 203.3, 203.3, 203.3, 203.3, 203.3, 203.3, 203.3, 204.0, 204.0, 206.0, 210.0, 206.0, 207.4, 208.8, 208.8, 213.5, 213.5, 213.5, 216.9, 216.9, 218.2, 218.2, 218.2, 219.6, 220.3, 223.0, 223.0, 223.0, 223.0, 199.3, 166.1, 130.0, 115.2, 20.3, 178.0, 73.2, 94.9, 223.0, 169.4, -5.0, 50.8, 166.1, 56.9],
+                    ["High Sales with Low Last_Transaction", 273, 273, 273, 273, 276, 276, 276, 276, 276, 276, 279, 279, 279, 280, 280, 280, 280, 280, 280, 282, 282, 282, 282, 282, 282, 282, 287, 287, 287, 287, 287, 287, 287, 288, 288, 288, 288, 288, 288, 288, 288, 288, 288, 290, 294, 294, 294, 294, 294, 294, 294, 294, 294, 294, 294, 296, 300, 300, 300, 300, 300, 300, 300, 300, 301, 301, 304, 304, 304, 306, 308, 308, 315, 315, 315, 320, 320, 322, 322, 322, 324, 325, 329, 329, 329, 329, 342, 350, 360, 364, 387, 432, 448, 455, 504, 540, 588, 882, 1176, 2100],
+                    ["Low Sales with High Last_Transaction_x", 585.6, 230.0, 634.4, 235.0, 235.0, 240.0, 972.6, 242.0, 255.0, 292.8, 263.0, 270.0, 272.0, 291.0, 295.0, 305.0, 305.0, 308.0, 235.0, 235.0, 227.7, 326.0, 244.0, 330.0, 251.0, 303.0, 259.0, 259.0, 261.0, 344.0, 268.0, 347.0, 350.0, 356.0, 464.0, 368.0, 368.0, 371.0, 225.0, 1016.7, 250.0, 230.0, 230.0, 569.3, 382.0, 385.0, 240.0, 396.0, 398.0, 250.0, 302.0, 400.0, 400.0, 329.0, 329.0, 410.0, 415.0, 428.0, 280.0, 281.0, 1408.0, 227.7, 225.0, 288.0, 228.0, 438.0, 290.0, 361.0, 440.0, 440.0, 440.0, 295.0, 295.0, 445.0, 296.0, 296.0, 240.0, 242.0, 242.0, 242.0, 242.0, 227.0, 227.0, 227.0, 452.0, 230.0, 237.2, 234.0, 314.0, 254.0, 254.0, 239.0, 232.0, 256.0, 466.0, 234.0, 376.0, 260.0, 470.0, 238.0, 391.0, 238.0],
+                    ["Low Sales with High Last_Transaction", 20, 30, 35, 35, 35, 40, 42, 42, 55, 60, 63, 70, 72, 91, 95, 105, 105, 108, 114, 114, 120, 126, 126, 130, 130, 133, 138, 138, 140, 144, 147, 147, 150, 156, 162, 168, 168, 171, 175, 175, 175, 180, 180, 180, 182, 185, 190, 196, 198, 200, 200, 200, 200, 208, 208, 210, 215, 228, 230, 231, 231, 231, 235, 238, 238, 238, 240, 240, 240, 240, 240, 245, 245, 245, 246, 246, 250, 252, 252, 252, 252, 252, 252, 252, 252, 255, 255, 259, 264, 264, 264, 264, 264, 266, 266, 266, 266, 270, 270, 270, 270, 270],
+                    ["High Sales with High Last_Transaction_x", 323.0, 244.0, 247.0, 270.0, 480.0, 487.0, 487.0, 256.0, 494.0, 262.0, 269.0, 269.0, 365.0, 305.0, 312.0, 297.0, 299.0, 227.7, 326.0, 227.7, 227.7, 521.0, 304.0, 311.0, 232.5, 237.2, 237.2, 237.9, 237.9, 342.0, 238.6, 238.6, 238.6, 242.0, 337.0, 570.0, 254.2, 256.2, 256.2, 260.3, 455.0, 373.0, 276.5, 398.0, 422.0, 298.2, 298.2, 298.9, 470.0, 325.3, 333.5, 338.9, 341.6, 506.0, 360.6, 530.0, 508.0, 370.1, 667.0, 382.3, 384.3, 544.0, 398.5, 412.1, 427.0, 433.8, 433.8, 698.0, 787.0, 455.5, 465.0, 465.0, 474.4, 488.0, 936.0, 790.0, 512.4, 542.2, 542.2, 805.0, 1082.0, 824.0, 626.3, 942.0, 650.7, 735.4, 740.1, 772.7, 786.2, 793.0, 882.5, 889.2, 948.9, 1030.2, 1536.0, 1423.3, 1451.8],
+                    ["High Sales with High Last_Transaction", 273, 276, 279, 280, 280, 287, 287, 288, 294, 294, 301, 301, 315, 315, 322, 322, 324, 336, 336, 336, 336, 336, 336, 343, 343, 350, 350, 351, 351, 352, 352, 352, 352, 357, 369, 370, 375, 378, 378, 384, 405, 405, 408, 423, 432, 440, 440, 441, 480, 480, 492, 500, 504, 516, 532, 540, 540, 546, 546, 564, 567, 576, 588, 608, 630, 640, 640, 648, 666, 672, 686, 686, 700, 720, 736, 740, 756, 800, 800, 837, 882, 924, 924, 952, 960, 1085, 1092, 1140, 1160, 1170, 1302, 1312, 1400, 1520, 1568, 2100, 2142],
+                    ["Low Sales with Low Last_Transaction_x", 8.1, 8.1, -10.0, -16.0, 14.2, 74.0, 19.0, 21.7, 21.7, 23.7, 27.1, 90.0, 39.0, 33.2, 33.2, 25.0, 33.9, 38.0, 40.7, 40.7, 40.7, 44.7, 48.8, 62.0, 52.2, 52.2, 68.0, 68.0, 8.0, 54.9, 57.6, 75.0, 57.6, 61.0, 61.0, 61.7, 64.4, 65.1, 65.1, 65.1, 88.0, 66.4, 66.4, 71.2, 73.0, 73.0, 75.9, 77.3, 83.0, 77.9, 85.4, 94.0, 86.8, 103.0, 88.1, 93.5, 94.9, 94.9, 97.6, 97.6, 97.6, 104.4, 129.0, 130.0, 105.1, 105.1, 62.0, 113.9, 152.0, 160.0, 153.0, 161.0, 89.0, 128.8, 130.1, 132.2, 142.3, 192.0, 193.0, 218.0, 196.0, 205.0, 202.0, 162.7, 166.1, 213.0, 166.7, 152.0, 170.8, 170.8, 97.6, 220.0, 172.8, 147.1, 173.5, 173.5, 174.9, 175.5, 176.2, 183.0],
+                    ["Low Sales with Low Last_Transaction", 12, 12, 15, 16, 21, 24, 28, 32, 32, 35, 36, 40, 49, 49, 49, 50, 50, 56, 60, 60, 60, 66, 72, 72, 77, 77, 78, 78, 80, 81, 85, 85, 85, 90, 90, 91, 95, 96, 96, 96, 98, 98, 98, 105, 105, 105, 112, 114, 115, 115, 126, 126, 128, 128, 130, 138, 140, 140, 144, 144, 144, 154, 154, 155, 155, 155, 162, 168, 184, 185, 185, 186, 189, 190, 192, 195, 210, 224, 225, 228, 228, 230, 234, 240, 245, 245, 246, 252, 252, 252, 252, 252, 255, 255, 256, 256, 258, 259, 260, 270]
+                  ]
+                },
+                "legend": {
+                  "show": true
+                },
+                "size": {
+                  "height": 340
+                }
+              },
+              "yformat": ".2s",
+              "table_c3": [
+                ["High Sales with Low Last_Transaction_x", 185.0, 185.0, 185.0, 185.0, 187.1, 187.1, 187.1, 187.1, 187.1, 187.1, 189.1, 189.1, 189.1, 189.8, 189.8, 189.8, 189.8, 189.8, 189.8, 191.1, 191.1, 191.1, 191.1, 191.1, 191.1, 119.0, 194.5, 194.5, 32.5, 194.5, 194.5, 194.5, 23.7, 195.2, 195.2, 195.2, 195.2, 195.2, 195.2, 195.2, 195.2, 195.2, 195.2, 196.6, 199.3, 199.3, 199.3, 199.3, 199.3, 199.3, 199.3, 199.3, 199.3, 199.3, 199.3, 200.6, 203.3, 203.3, 203.3, 203.3, 203.3, 203.3, 203.3, 203.3, 204.0, 204.0, 206.0, 210.0, 206.0, 207.4, 208.8, 208.8, 213.5, 213.5, 213.5, 216.9, 216.9, 218.2, 218.2, 218.2, 219.6, 220.3, 223.0, 223.0, 223.0, 223.0, 199.3, 166.1, 130.0, 115.2, 20.3, 178.0, 73.2, 94.9, 223.0, 169.4, -5.0, 50.8, 166.1, 56.9],
+                ["High Sales with Low Last_Transaction", 273, 273, 273, 273, 276, 276, 276, 276, 276, 276, 279, 279, 279, 280, 280, 280, 280, 280, 280, 282, 282, 282, 282, 282, 282, 282, 287, 287, 287, 287, 287, 287, 287, 288, 288, 288, 288, 288, 288, 288, 288, 288, 288, 290, 294, 294, 294, 294, 294, 294, 294, 294, 294, 294, 294, 296, 300, 300, 300, 300, 300, 300, 300, 300, 301, 301, 304, 304, 304, 306, 308, 308, 315, 315, 315, 320, 320, 322, 322, 322, 324, 325, 329, 329, 329, 329, 342, 350, 360, 364, 387, 432, 448, 455, 504, 540, 588, 882, 1176, 2100],
+                ["Low Sales with High Last_Transaction_x", 585.6, 230.0, 634.4, 235.0, 235.0, 240.0, 972.6, 242.0, 255.0, 292.8, 263.0, 270.0, 272.0, 291.0, 295.0, 305.0, 305.0, 308.0, 235.0, 235.0, 227.7, 326.0, 244.0, 330.0, 251.0, 303.0, 259.0, 259.0, 261.0, 344.0, 268.0, 347.0, 350.0, 356.0, 464.0, 368.0, 368.0, 371.0, 225.0, 1016.7, 250.0, 230.0, 230.0, 569.3, 382.0, 385.0, 240.0, 396.0, 398.0, 250.0, 302.0, 400.0, 400.0, 329.0, 329.0, 410.0, 415.0, 428.0, 280.0, 281.0, 1408.0, 227.7, 225.0, 288.0, 228.0, 438.0, 290.0, 361.0, 440.0, 440.0, 440.0, 295.0, 295.0, 445.0, 296.0, 296.0, 240.0, 242.0, 242.0, 242.0, 242.0, 227.0, 227.0, 227.0, 452.0, 230.0, 237.2, 234.0, 314.0, 254.0, 254.0, 239.0, 232.0, 256.0, 466.0, 234.0, 376.0, 260.0, 470.0, 238.0, 391.0, 238.0],
+                ["Low Sales with High Last_Transaction", 20, 30, 35, 35, 35, 40, 42, 42, 55, 60, 63, 70, 72, 91, 95, 105, 105, 108, 114, 114, 120, 126, 126, 130, 130, 133, 138, 138, 140, 144, 147, 147, 150, 156, 162, 168, 168, 171, 175, 175, 175, 180, 180, 180, 182, 185, 190, 196, 198, 200, 200, 200, 200, 208, 208, 210, 215, 228, 230, 231, 231, 231, 235, 238, 238, 238, 240, 240, 240, 240, 240, 245, 245, 245, 246, 246, 250, 252, 252, 252, 252, 252, 252, 252, 252, 255, 255, 259, 264, 264, 264, 264, 264, 266, 266, 266, 266, 270, 270, 270, 270, 270],
+                ["High Sales with High Last_Transaction_x", 323.0, 244.0, 247.0, 270.0, 480.0, 487.0, 487.0, 256.0, 494.0, 262.0, 269.0, 269.0, 365.0, 305.0, 312.0, 297.0, 299.0, 227.7, 326.0, 227.7, 227.7, 521.0, 304.0, 311.0, 232.5, 237.2, 237.2, 237.9, 237.9, 342.0, 238.6, 238.6, 238.6, 242.0, 337.0, 570.0, 254.2, 256.2, 256.2, 260.3, 455.0, 373.0, 276.5, 398.0, 422.0, 298.2, 298.2, 298.9, 470.0, 325.3, 333.5, 338.9, 341.6, 506.0, 360.6, 530.0, 508.0, 370.1, 667.0, 382.3, 384.3, 544.0, 398.5, 412.1, 427.0, 433.8, 433.8, 698.0, 787.0, 455.5, 465.0, 465.0, 474.4, 488.0, 936.0, 790.0, 512.4, 542.2, 542.2, 805.0, 1082.0, 824.0, 626.3, 942.0, 650.7, 735.4, 740.1, 772.7, 786.2, 793.0, 882.5, 889.2, 948.9, 1030.2, 1536.0, 1423.3, 1451.8],
+                ["High Sales with High Last_Transaction", 273, 276, 279, 280, 280, 287, 287, 288, 294, 294, 301, 301, 315, 315, 322, 322, 324, 336, 336, 336, 336, 336, 336, 343, 343, 350, 350, 351, 351, 352, 352, 352, 352, 357, 369, 370, 375, 378, 378, 384, 405, 405, 408, 423, 432, 440, 440, 441, 480, 480, 492, 500, 504, 516, 532, 540, 540, 546, 546, 564, 567, 576, 588, 608, 630, 640, 640, 648, 666, 672, 686, 686, 700, 720, 736, 740, 756, 800, 800, 837, 882, 924, 924, 952, 960, 1085, 1092, 1140, 1160, 1170, 1302, 1312, 1400, 1520, 1568, 2100, 2142],
+                ["Low Sales with Low Last_Transaction_x", 8.1, 8.1, -10.0, -16.0, 14.2, 74.0, 19.0, 21.7, 21.7, 23.7, 27.1, 90.0, 39.0, 33.2, 33.2, 25.0, 33.9, 38.0, 40.7, 40.7, 40.7, 44.7, 48.8, 62.0, 52.2, 52.2, 68.0, 68.0, 8.0, 54.9, 57.6, 75.0, 57.6, 61.0, 61.0, 61.7, 64.4, 65.1, 65.1, 65.1, 88.0, 66.4, 66.4, 71.2, 73.0, 73.0, 75.9, 77.3, 83.0, 77.9, 85.4, 94.0, 86.8, 103.0, 88.1, 93.5, 94.9, 94.9, 97.6, 97.6, 97.6, 104.4, 129.0, 130.0, 105.1, 105.1, 62.0, 113.9, 152.0, 160.0, 153.0, 161.0, 89.0, 128.8, 130.1, 132.2, 142.3, 192.0, 193.0, 218.0, 196.0, 205.0, 202.0, 162.7, 166.1, 213.0, 166.7, 152.0, 170.8, 170.8, 97.6, 220.0, 172.8, 147.1, 173.5, 173.5, 174.9, 175.5, 176.2, 183.0],
+                ["Low Sales with Low Last_Transaction", 12, 12, 15, 16, 21, 24, 28, 32, 32, 35, 36, 40, 49, 49, 49, 50, 50, 56, 60, 60, 60, 66, 72, 72, 77, 77, 78, 78, 80, 81, 85, 85, 85, 90, 90, 91, 95, 96, 96, 96, 98, 98, 98, 105, 105, 105, 112, 114, 115, 115, 126, 126, 128, 128, 130, 138, 140, 140, 144, 144, 144, 154, 154, 155, 155, 155, 162, 168, 184, 185, 185, 186, 189, 190, 192, 195, 210, 224, 225, 228, 228, 230, 234, 240, 245, 245, 246, 252, 252, 252, 252, 252, 255, 255, 256, 256, 258, 259, 260, 270]
+              ],
+              "download_url": "/api/download_data/mj70y94u8bvbnneh"
+            },
+            "chartInfo": ["Test Type     : Regression", "Coefficient   : 0.71", "P-Value       : <= 0.05", "Intercept     : 12.12", "R Square      : 0.84", "Inference     : For every additional unit of increase in Last_Transaction there will be an increase of 0.71 units in Sales (target)."]
+          }, {
+            "dataType": "html",
+            "classTag": null,
+            "data": " <p class=\"txt-justify\"> <b>High Sales with High Last_Transaction</b>: The Sales observations from this quadrant are typically from Desktop (Platform),Male (Buyer_Gender) and 21 to 30 percent (Discount_Range). It accounts for about 26.0% of the total population. </p> "
+          }, {
+            "dataType": "html",
+            "classTag": null,
+            "data": " <p class=\"txt-justify\"> <b>Low Sales with Low Last_Transaction</b>: Mostly Sales from Desktop (Platform), Male (Buyer_Gender) and Google Ads (Source) belong to this segment. They cover nearly 60.0% of the total population. </p> "
+          }, {
+            "dataType": "html",
+            "classTag": null,
+            "data": " <p class=\"txt-justify\"> <b>High Sales with Low Last_Transaction</b>: Nearly 6.0% of the total observations are from this group and they are generally coming from Desktop (Platform),Female (Buyer_Gender) and 21 to 30 percent (Discount_Range). </p> "
+          }, {
+            "dataType": "html",
+            "classTag": null,
+            "data": " <p class=\"txt-justify\"> <b>Low Sales with High Last_Transaction</b>: Nearly 6.0% of the total observations are from this group and they are generally coming from Desktop (Platform), Female (Buyer_Gender) and 21 to 30 percent (Discount_Range). </p>"
+          }],
+          "name": "Last_Transaction: Impact on Sales",
+          "slug": "last_transaction-impact-on-sales-nacxc50ppy"
+        }],
+        "name": "Last_Transaction",
+        "slug": "last_transaction-lm6v2say66"
+      }],
+      "listOfCards": [
+        {
+        "cardWidth": 100,
+        "cardType": "normal",
+        "cardData": [
+          {
+            "dataType": "html",
+            "classTag": null,
+            "data": "<h3>Key Measures that affect Sales</h3>"
+          },
+          {
+            "dataType": "html",
+            "classTag": null,
+            "data": "<p class=\"txt-justify\"> There are <b>5 measures</b> in the dataset and <b>three of them</b> (Marketing_Cost, Tenure_in_Days and Last_Transaction) have <b>significant influence</b> on Sales. It implies that these measures explain considerable amount of variation in Sales figures. However Shipping_Cost don’t show significant difference in Sales values across categories. The chart below displays the <b>impact of key Measures</b> on Sales, as measured by effect size. Let us take a deeper look at some of the most important Measures that explain remarkable amount of change in Sales. </p>"
+          },
+          {
+          "dataType": "c3Chart",
+          "widthPercent": 100,
+          "data": {
+            "chart_c3": {
+              "bar": {
+                "width": 40
+              },
+              "point": null,
+              "color": {
+                "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+              },
+              "tooltip": {
+                "show": true,
+                "format": {
+                  "title": ".2s"
+                }
+              },
+              "padding": {
+                "top": 40
+              },
+              "grid": {
+                "y": {
+                  "lines": [{
+                    "text": "",
+                    "class": "zeroAxisGrid",
+                    "value": 0,
+                    "position": "start"
+                  }],
+                  "show": true
+                },
+                "x": {
+                  "show": false
+                }
+              },
+              "subchart": null,
+              "axis": {
+                "y": {
+                  "tick": {
+                    "outer": false,
+                    "multiline": true,
+                    "format": ".2s"
+                  },
+                  "label": {
+                    "text": "Change in Sales per unit increase",
+                    "position": "outer-middle"
+                  }
+                },
+                "x": {
+                  "height": 95,
+                  "tick": {
+                    "rotate": -45,
+                    "multiline": false,
+                    "fit": false,
+                    "format": ".2s"
+                  },
+                  "type": "category",
+                  "label": {
+                    "text": "Influencing Factors",
+                    "position": "outer-center"
+                  }
+                }
+              },
+              "data": {
+                "x": "key",
+                "axes": {
+                  "value": "y"
+                },
+                "type": "bar",
+                "columns": [
+                  ["key", "Marketing_Cost", "Tenure_in_Days", "Last_Transaction"],
+                  ["value", -28.177160466334296, 12.9403259867448, 0.7102424511782578]
+                ]
+              },
+              "legend": {
+                "show": false
+              },
+              "size": {
+                "height": 340
+              }
+            },
+            "yformat": ".2f",
+            "table_c3": [
+              ["key", "Marketing_Cost", "Tenure_in_Days", "Last_Transaction"],
+              ["value", -28.177160466334296, 12.9403259867448, 0.7102424511782578]
+            ],
+            "download_url": "/api/download_data/jcgvw3in1uxywpec",
+            "xdata": ["Marketing_Cost", "Tenure_in_Days", "Last_Transaction"]
+          },
+          "chartInfo": ["Test Type         : Regression", "Effect Size       : Coefficients", "Max Effect Size   : Tenure_in_Days", "Min Effect Size   : Marketing_Cost", "Inference         : There are 3 variables that have significant influence over Sales (Target) and the              Effect size ranges from 12.9403 to -28.1772"]
+        }],
+        "name": "Key Influencers",
+        "slug": "key-influencers-0h1v0olkie"
+      }],
+      "name": "Influencers",
+      "slug": "influencers-w8hjt33gb4"
+    },
+    {
+      "listOfNodes": [],
+      "listOfCards": [
+        {
+        "cardWidth": 100,
+        "cardType": "normal",
+        "cardData": [{
+          "dataType": "html",
+          "classTag": null,
+          "data": "<h3>Predicting the Key Drivers of Sales</h3> "
+        }, {
+          "dataType": "html",
+          "classTag": null,
+          "data": " <p> mAdvisor has arrived at a set of prediction rules for the data set. Here is the summary of the prediction results along with the rules for prediction </p> "
+        }, {
+          "dataType": "html",
+          "classTag": null,
+          "data": " <div className='col-md-3 pred_disp_block cursor'> <a> <h1>4 <small> Strong Signals </small> </h1> </a> <p> Rules leading to a single outcome More than 75% of the time. </p> </div> "
+        }, {
+          "dataType": "html",
+          "classTag": null,
+          "data": " <div className='col-md-3 pred_disp_block cursor'> <a> <h1>1 <small>Mixed Signals </small> </h1> </a> <p> Rules leading to multiple outcomes therefore these signals must be considered all together </p> </div>"
+        }, {
+          "dataType": "c3Chart",
+          "widthPercent": 45,
+          "data": {
+            "chart_c3": {
+              "color": {
+                "pattern": ["#0fc4b5", "#005662", "#148071", "#6cba86", "#bcf3a2"]
+              },
+              "tooltip": {
+                "format": {
+                  "value": ".2s",
+                  "title": ""
+                }
+              },
+              "padding": {
+                "top": 40
+              },
+              "donut": {
+                "width": 20,
+                "title": "",
+                "label": {
+                  "show": false,
+                  "format": ".2s"
+                }
+              },
+              "data": {
+                "x": null,
+                "type": "donut",
+                "columns": [
+                  ["Low : (9.0 to 1108.0)", 5000]
+                ]
+              },
+              "legend": {
+                "position": "right",
+                "show": true
+              },
+              "size": {
+                "height": 340
+              }
+            },
+            "yformat": ".2s",
+            "legend_data": [{
+              "color": "#00AEB3",
+              "name": "Low : (9.0 to 1108.0)"
+            }],
+            "download_url": "/api/download_data/1a4hvhh06tq174gm",
+            "table_c3": [
+              ["Low : (9.0 to 1108.0)", 5000]
+            ]
+          },
+          "chartInfo": []
+        }, {
+          "dataType": "dropdown",
+          "data": [{
+            "searchTerm": "Low",
+            "selected": true,
+            "displayName": "Low : (9.0 to 1108.0)",
+            "name": "Low",
+            "id": 1
+          }],
+          "label": "Showing prediction rules for"
+        }, {
+          "dataType": "table",
+          "tableWidth": 100,
+          "data": {
+            "tableData": [
+              ["Prediction Rule", "Probability", "Prediction", "Freq", "group", "richRules"],
+              ["value of Last_Transaction is less than or equal to 241.0 and value of Shipping_Cost is less than or equal to -2.2", "83%", "Low", 24, "strong", "When the value of Last_Transaction is less than or equal to 241.0 and the value of Shipping_Cost is less than or equal to -2.2 the probability of Low : (9.0 to 1108.0) is  <b>83 % <b>."],
+              ["value of Last_Transaction is greater than 241.0 and value of Shipping_Cost is less than or equal to -2.2", "100%", "Low", 269, "strong", "When the value of Last_Transaction is greater than 241.0 and the value of Shipping_Cost is less than or equal to -2.2 then there is  <b>100%  <b>chance that Sales would be Low : (9.0 to 1108.0)."],
+              ["value of Marketing_Cost is greater than 8.8 and Source falls among (Google Search,Bing Search,Facebook Ads)", "76%", "Low", 109, "strong", "When the value of Marketing_Cost is greater than 8.8 and the Source falls among (Google Search,Bing Search,Facebook Ads) then there is  <b>76%  <b>chance that Sales would be Low : (9.0 to 1108.0)."],
+              ["value of Marketing_Cost is greater than 8.8 and Source does not fall in (Google Search,Bing Search,Facebook Ads)", "63%", "Low", 300, "mixed", "When the value of Marketing_Cost is greater than 8.8 and the Source does not fall in (Google Search,Bing Search,Facebook Ads) then there is  <b>63%  <b>chance that Sales would be Low : (9.0 to 1108.0)."],
+              ["value of Shipping_Cost is greater than -2.2", "100%", "Low", 4298, "strong", "If the value of Shipping_Cost is greater than -2.2 it is  <b>100%  <b>likely that the Sales is Low : (9.0 to 1108.0)."]
+            ],
+            "tableType": "popupDecisionTreeTable"
+          }
+        }],
+        "name": "Predicting Key Drivers of Sales",
+        "slug": "predicting-key-drivers-of-sales-fhav0stp3z"
+      }],
+      "name": "Prediction",
+      "slug": "prediction-gg49jz97m6"
+    }
+  ],
+  "listOfCards": [
+    {
+      "slug": "summary-628rkwy9da",
+      "cardType": "summary",
+      "cardData": {
+        "noOfMeasures": 5,
+        "quotesHtml": null,
+        "summaryHtml": [{
+          "dataType": "html",
+          "classTag": null,
+          "data": "<p class = \"lead txt-justify\"> mAdvisor has analyzed the dataset and it contains<b> 12</b> variables and <b>5,000</b> observations. Please click view summary to find the insights from our analysis of <b>sales</b> factoring the other variables. </p>"
+        }],
+        "noOfTimeDimensions": 0,
+        "noOfDimensions": 7
+      },
+      "name": "Summary",
+      "cardWidth": 100
+    }
+  ],
+  "name": "sales",
+  "slug": "sales-vyuzl5xb15"
+}

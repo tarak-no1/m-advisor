@@ -1,0 +1,22 @@
+listofnodes
+    overview
+        distribution-of-status
+    listofcards
+        state
+            state-relationship-with-status
+            state-distribution-of-active
+            state-distribution-of-churn
+        average_spend
+            average_spend-relationship-with-status
+            average_spend-distribution-of-active
+            average_spend-distribution-of-churn
+
+    association
+        key-influencers
+
+    prediction
+        predicting-key-drivers-of-status
+
+listofcards
+    churn-analysis-json
+        overall-summary-card
